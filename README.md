@@ -5,7 +5,10 @@
 ![Flow DIagram](https://www.mermaidchart.com/raw/8a364e89-3e9d-4945-928f-f7cd5f5d6882?theme=light&version=v0.1&format=svg).
 
 
-
+---
+config:
+      theme: redux
+---
 flowchart TD
     A[🚀 Java Full Stack Developer] --> B[☕ Java]
     A --> C[🌱 Spring Boot]
