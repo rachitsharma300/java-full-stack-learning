@@ -11,7 +11,6 @@ flowchart TD
     A --> F[📐 System Design]
     A --> G[🐧 Linux]
     
-    %% Java Sub-Topics
     B --> B1[Core Java]
     B --> B2[OOPs Concepts]
     B --> B3[Collections]
@@ -19,7 +18,6 @@ flowchart TD
     B --> B5[JDBC]
     B --> B6[JVM Architecture]
     
-    %% Spring Boot Sub-Topics
     C --> C1[Spring MVC]
     C --> C2[Spring Security]
     C --> C3[REST APIs]
@@ -27,7 +25,6 @@ flowchart TD
     C --> C5[Microservices]
     C --> C6[Spring Data]
     
-    %% Frontend Sub-Topics
     D --> D1[HTML5]
     D --> D2[CSS3]
     D --> D3[JavaScript ES6+]
@@ -35,7 +32,6 @@ flowchart TD
     D --> D5[React/Angular]
     D --> D6[Responsive Design]
     
-    %% AWS Sub-Topics
     E --> E1[EC2]
     E --> E2[S3]
     E --> E3[RDS]
@@ -43,7 +39,6 @@ flowchart TD
     E --> E5[IAM]
     E --> E6[CloudFront]
     
-    %% System Design Sub-Topics
     F --> F1[Load Balancing]
     F --> F2[Caching]
     F --> F3[DB Scaling]
@@ -51,7 +46,6 @@ flowchart TD
     F --> F5[Distributed Systems]
     F --> F6[CAP Theorem]
     
-    %% Linux Sub-Topics
     G --> G1[File System]
     G --> G2[Shell Scripting]
     G --> G3[Process Management]
