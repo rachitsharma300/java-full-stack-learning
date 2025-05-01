@@ -1,0 +1,186 @@
+Assignments for this week:
+
+
+1. Parking Lot Slot Finder (break)
+Scenario: Ask the user to enter the status of 10 parking slots (1 for occupied, 0 for available). Reserve the first available slot and stop checking further.
+
+📥 Sample Input:
+Enter slot status (0 = available, 1 = occupied):
+1 1 0 1 0 1 1 1 1 1
+
+📤 Expected Output:
+Reserving slot #3
+
+2. Scan Product Prices – Skip Invalid (Use continue)
+Ask the user to input prices of 5 products. Some prices may be negative due to input error. Skip negative prices and display only valid ones.
+
+📥 Sample Input:
+Enter 5 product prices:
+12.99 -1.0 0.0 15.5 -3.75
+
+📤 Expected Output:
+Valid price: 12.99
+Valid price: 0.0
+Valid price: 15.5
+
+3. Sensor Monitoring – Stop on Critical Alert (Use break)
+
+Ask the user to enter temperature readings (up to 10). Stop immediately if any reading exceeds 100.
+
+📥 Sample Input:
+Enter 6 temperature readings:
+45 60 78 102 87 90
+
+📤 Expected Output:
+Reading: 45
+Reading: 60
+Reading: 78
+Critical temperature detected: 102°C – Stopping monitoring.
+
+4. Email Validation – Stop on Invalid Email (Use break)
+Ask the user to input 5 email addresses. If any email is invalid (missing "@"), stop processing.
+
+📥 Sample Input:
+Enter 5 emails:
+alice@example.com
+bob@domain.com
+charlie.domain.com
+dave@example.com
+eve@test.com
+
+📤 Expected Output:
+Valid: alice@example.com
+Valid: bob@domain.com
+Invalid email found: charlie.domain.com – Stopping batch.
+
+5. Process Student Scores – Skip Failures (Use continue)
+Ask the user to enter scores of 5 students. Skip scores less than 40 (fail).
+
+📥 Sample Input:
+Enter 5 scores:
+75 39 60 20 85
+
+📤 Expected Output:
+Passed: 75
+Failed – skipped
+Passed: 60
+Failed – skipped
+Passed: 85
+
+6. Sensor Reading Logger
+Take 10 temperature readings and store them as Double objects in a list. Find how many readings are above 37.5°C (fever cases).
+
+📥 Input:
+Enter 10 temperature readings:
+36.2 37.8 38.1 36.5 39.0 37.4 36.9 38.2 37.0 36.8
+
+📤 Output:
+Total fever cases: 4
+
+🧠 Concepts Used:
+•	Wrapper class Double
+•	Autoboxing from double to Double
+•	Unboxing during comparisons
+
+7. Voting Eligibility Checker
+
+Ask the user to input age values of people at an event. Store them as Integer. Count how many are eligible to vote (18+).
+
+📥 Input:
+Enter ages of 6 people:
+17 21 16 45 18 19
+
+📤 Output:
+Eligible voters: 4
+
+🧠 Concepts Used:
+•	Boxing int to Integer
+•	Unboxing for comparison (>= 18)
+
+8. ATM Cash Withdrawal Simulation
+Simulate an ATM machine. The user enters a PIN and can perform operations: check balance, deposit, withdraw, or exit. The loop continues until the user chooses to exit.
+
+📥 Input:
+
+Enter PIN: 1234
+Choose option:
+1. Check Balance
+2. Deposit
+3. Withdraw
+4. Exit
+
+Option: 2
+Enter deposit amount: 500
+Option: 1
+Balance: 500
+Option: 4
+
+📤 Output:
+Deposit successful.
+Balance: 500
+Thank you for using the ATM.
+
+9. Bus Fare Discount Calculator
+Take age and number of trips from user input. For each trip, apply the following fare rules:
+•	Age < 5 or > 60: 50% discount
+•	Else: full fare
+
+📥 Input:
+Enter age: 45
+Enter number of trips: 3
+Trip 1 fare: 20
+Trip 2 fare: 30
+Trip 3 fare: 25
+
+📤 Output:
+Total after discount: 75
+
+10. Online Shopping Cart – Bulk Discount
+
+A user adds multiple items to their cart. Each item has a price and quantity. If quantity > 5, apply a 10% discount on that item.
+
+📥 Input:
+Enter number of items: 2
+Item 1 price: 100
+Item 1 quantity: 6
+Item 2 price: 50
+Item 2 quantity: 3
+
+📤 Output:
+Item 1 total after discount: 540.0
+Item 2 total: 150.0
+Final bill: 690.0
+
+11. Pyramid Pattern
+Print a symmetrical pyramid of stars.
+
+📥 Input:
+
+Enter number of rows: 5
+📤 Output:
+        *
+      ***
+    *****
+  *******
+*********
+
+12. Hollow Square
+Print a square border with hollow inside.
+
+📥 Input:
+Enter size: 5
+
+📤 Output:
+*****
+*      *
+*      *
+*      *
+*****
+
+13. Write a program to print numbers from 1 to 10 using for, while & do while loop
+
+14. Write a program to print prime numbers from 1 to N
+📥 Input:
+Enter N: 10
+📤 Output:
+2,3,5,7
