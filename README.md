@@ -19,22 +19,16 @@ A comprehensive collection of resources, code examples, and projects for Java Fu
 - [Contributing](#-contributing)
 - [License](#-license)
 
-## 🛠 Technologies Covered
-- **Frontend**: HTML5, CSS3, JavaScript, React/Angular/Vue
-- **Backend**: Java, Spring Boot, Hibernate
-- **Database**: SQL (MySQL/PostgreSQL), NoSQL (MongoDB)
-- **DevOps**: Docker, CI/CD
-- **Other**: System Design, Algorithms, Data Structures
-
 ## 🛠️ Tech Stack
-| Layer        | Technologies                          |
-|--------------|---------------------------------------|
+|     Layer    |              Technologies            |
+|--------------|--------------------------------------|
 | **Frontend** | HTML5, CSS3, JavaScript, React       |
-| **Backend**  | Java 17, Spring Boot 3.x, Hibernate  |
+| **Backend**  | Java , Spring Boot , Hibernate       |
 | **Database** | MySQL, MongoDB                       |
-| **DevOps**   | Docker, GitHub Actions               |
+| **DevOps**   | Docker, GitHub Actions, AWS          |
 
 ## 📂 Repository Structure
+<pre>
 java-full-stack-learning/
 ├── 01-java-core/
 │ ├── basics/
@@ -50,12 +44,12 @@ java-full-stack-learning/
 │ ├── html-css/
 │ └── javascript/
 ├── 05-projects/
-│ ├── ecommerce/
-│ └── task-manager/
+│ ├── Coming Soon
+│ └── Coming Soon
 ├── 06-system-design/
 ├── resources/
 └── cheatsheets/
-
+</pre>
 
 ## 📖 Learning Resources
 ### Java
@@ -75,9 +69,7 @@ java-full-stack-learning/
 - [Grokking the System Design Interview](https://www.educative.io/courses/grokking-the-system-design-interview)
 
 ## � Projects
-1. **E-commerce Platform** - Full stack application with Spring Boot backend and React frontend
-2. **Task Management System** - REST API with Spring Boot and JPA
-3. **Personal Portfolio Website** - HTML/CSS/JavaScript
+1. **Coming Soon** - ?
 
 ## 💻 Code Examples
 - [Java 8+ Features](01-java-core/basics/)
