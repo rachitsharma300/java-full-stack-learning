@@ -11,9 +11,4 @@
 | **DevOps**   | Docker, GitHub Actions               |
 
 ## 📂 Repository Structure
-├── 01-java-core/ # Basics, OOP, Collections, Multithreading
-├── 02-spring-boot/ # REST APIs, Security, Microservices
-├── 03-frontend/ # HTML/CSS/JS projects
-├── 04-database/ # SQL scripts, JDBC, JPA
-├── 05-projects/ # Full-stack applications
-└── resources/ # Cheatsheets, interview prep
+
