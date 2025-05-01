@@ -11,8 +11,6 @@
 | **DevOps**   | Docker, GitHub Actions               |
 
 ## 📂 Repository Structure
-java-full-stack-learning
-
 ├── 01-java-core/ # Basics, OOP, Collections, Multithreading
 ├── 02-spring-boot/ # REST APIs, Security, Microservices
 ├── 03-frontend/ # HTML/CSS/JS projects
