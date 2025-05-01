@@ -1,80 +1,40 @@
-<!-- Banner Header -->
+<!-- Compact Banner Header -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" width="100%">
+  <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" width="60%">
 </div>
 
 # 💻 Java Full Stack Developer Hub
-[![Visits](https://komarev.com/ghpvc/?username=yourusername&label=Profile%20Views&color=0e75b6&style=flat)](https://github.com/yourusername)
+[![Visits](https://komarev.com/ghpvc/?username=yourusername&label=Repo%20Views&color=0e75b6&style=flat)](https://github.com/yourusername)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]()
+[![Java](https://img.shields.io/badge/Java-Full%20Stack-ED8B00?style=flat&logo=openjdk&logoColor=white)]()
 
-![Java Full Stack Diagram](resources/Architecture.svg)
+![Java Full Stack Architecture](resources/Architecture.svg)
 
-A comprehensive collection of resources, code examples, and projects for Java Full Stack Development.
-
-<!-- Tech Stack Banner -->
-<h2 align="center">🛠 Tech Stack</h2>
+## 🛠 Pure Java Tech Stack
 <p align="center">
   <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white"/>
   <img src="https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white"/>
-  <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
+  <img src="https://img.shields.io/badge/hibernate-%59666C.svg?style=for-the-badge&logo=hibernate&logoColor=white"/>
   <img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/aws-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white"/>
+  <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
 </p>
 
-<!-- Animated GIF -->
+<!-- Java-focused GIF -->
 <div align="center">
-  <img height="300" src="https://media.giphy.com/media/coxQHKASG60HrHtvkt/giphy.gif" alt="coding"/>
+  <img height="200" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDk3N3V1YzV5Y2VjZ2JtY3B0dW0xY2V6bnR2eGQ2eGJ6eWZ6eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o85xnwVH0SQYlJ6y4/giphy.gif" alt="java-coding">
 </div>
 
-## 📚 Table of Contents
-- [Tech Stack](#-tech-stack)
-- [Repository Structure](#-repository-structure)
-- [Learning Resources](#-learning-resources)
-- [Projects](#-projects)
-- [Code Examples](#-code-examples)
-- [Cheat Sheets](#-cheat-sheets)
-- [Roadmap](#-roadmap)
-- [License](#-license)
-
-## 🛠️ Detailed Tech Stack
-| Layer        | Technologies                          |
-|--------------|---------------------------------------|
-| **Frontend** | HTML5, CSS3, JavaScript, React       |
-| **Backend**  | Java 17, Spring Boot 3.x, Hibernate  |
-| **Database** | MySQL, MongoDB                       |
-| **DevOps**   | Docker, GitHub Actions, AWS          |
-
-## 📂 Repository Structure
+## 📂 Java-Centric Structure
 ```bash
-java-full-stack-learning/
-├── 01-java-core/
-│   ├── basics/           # Variables, Operators
-│   ├── oop/              # Inheritance, Polymorphism
-│   └── collections/      # ArrayList, HashMap
-├── 02-spring-boot/
-│   ├── rest-api/         # Controller, Service
-│   └── security/         # JWT, OAuth2
-├── 03-database/
-│   ├── sql/              # Queries, Joins
-│   └── jpa/              # Hibernate, Entity Mapping
-├── 04-frontend/
-│   ├── html-css/         # Flexbox, Grid
-│   └── javascript/       # ES6+, DOM
-├── 05-projects/
-│   ├── coming-soon/      # Future projects
-│   └── coming-soon/
-├── 06-system-design/     # Scalability patterns
-├── resources/            # Study materials
-└── cheatsheets/          # Quick references
-
-📖 Learning Resources
-<div align="center"> <a href="https://docs.oracle.com/en/java/"> <img src="https://img.shields.io/badge/Oracle_Java-Docs-F80000?style=flat-square&logo=oracle&logoColor=white"/> </a> <a href="https://spring.io/guides"> <img src="https://img.shields.io/badge/Spring-Guides-6DB33F?style=flat-square&logo=spring&logoColor=white"/> </a> <a href="https://developer.mozilla.org/en-US/"> <img src="https://img.shields.io/badge/MDN_Web_Docs-black?style=flat-square&logo=mdnwebdocs&logoColor=white"/> </a> </div>
-
-📜 License
-This project is licensed under the MIT License.
-
-<!-- Statistics Cards --><h2 align="center">📊 GitHub Stats</h2> <p align="center"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=radical"/> </p> ```
-
-
+java-stack/
+├── 01-java-core/         # Pure Java
+│   ├── jvm-architecture
+│   ├── concurrency
+│   └── streams-api
+├── 02-spring-ecosystem/  # Spring World
+│   ├── boot-rest-api
+│   ├── data-jpa
+│   └── cloud-config
+└── 03-java-frontend/     # Java + Web
+    ├── thymeleaf-demos
+    └── jsp-legacy
