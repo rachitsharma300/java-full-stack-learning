@@ -2,7 +2,7 @@
 
 ![Java Full Stack Architecture](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*5-aoK8IBmXve5whBQM90GA.png)
 
-```mermaid
+##mermaid
 flowchart TD
     A[🚀 Java Full Stack Developer] --> B[☕ Java]
     A --> C[🌱 Spring Boot]
