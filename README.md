@@ -68,3 +68,13 @@ java-full-stack-learning/
 ├── 06-system-design/     # Scalability patterns
 ├── resources/            # Study materials
 └── cheatsheets/          # Quick references
+
+📖 Learning Resources
+<div align="center"> <a href="https://docs.oracle.com/en/java/"> <img src="https://img.shields.io/badge/Oracle_Java-Docs-F80000?style=flat-square&logo=oracle&logoColor=white"/> </a> <a href="https://spring.io/guides"> <img src="https://img.shields.io/badge/Spring-Guides-6DB33F?style=flat-square&logo=spring&logoColor=white"/> </a> <a href="https://developer.mozilla.org/en-US/"> <img src="https://img.shields.io/badge/MDN_Web_Docs-black?style=flat-square&logo=mdnwebdocs&logoColor=white"/> </a> </div>
+
+📜 License
+This project is licensed under the MIT License.
+
+<!-- Statistics Cards --><h2 align="center">📊 GitHub Stats</h2> <p align="center"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=radical"/> </p> ```
+
+
