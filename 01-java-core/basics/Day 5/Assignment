@@ -1,0 +1,78 @@
+Assignments for this week:
+
+1] Student Marks Analyzer
+
+You are given the marks of a student in 5 subjects. Write a program to calculate and print the average,
+ highest, and lowest marks.
+
+Input:
+int[] marks = {78, 85, 62, 90, 71};
+
+Expected Output:
+Average Marks: 77.2
+Highest Marks: 90
+Lowest Marks: 62
+
+2] Reverse an Array (Useful in UI/UX Scrolling)
+
+Reverse the order of items in an array, such as reversing the order of images or recent activity logs.
+
+Input:
+int[] activityLog = {101, 102, 103, 104};
+
+Expected Output:
+Reversed Log: 104 103 102 101
+
+3] Website Visitor Tracker
+Track the number of visitors on a website for 7 days. Find on which days the traffic was below average.
+
+Input:
+int[] visitors = {300, 500, 400, 450, 600, 200, 350};
+
+Expected Output:
+Average Visitors: 400.0
+Days with below average traffic: Day 1, Day 6, Day 7
+
+
+
+4] Score Improvement Tracker
+Given a student's test scores over time, determine how many times their score increased compared to the previous test.
+
+Input:
+int[] scores = {70, 75, 73, 80, 85, 82};
+
+Expected Output:
+Number of Improvements: 3
+
+Explanation: Score improved from 70→75, 73→80, 80→85.
+
+5] Check if Array is Sorted in Ascending Order
+Write a method that checks whether the array is sorted in ascending order.
+
+Input:
+int[] arr = {3, 5, 8, 9, 12};
+
+Expected Output:
+Is Sorted: true
+
+6] Move All Zeros to End
+Move all 0s in an array to the end while maintaining the order of non-zero elements.
+
+Input:
+int[] arr = {0, 1, 0, 3, 12};
+
+// start=0, end= arr.length-1 arr[start]==0
+
+Expected Output:
+Output: [1, 3, 12, 0, 0]
+
+7] Remove Duplicates from a Sorted Array
+
+Remove duplicates from a sorted array. Return the new length and array (ignore extra space after).
+
+Input:
+int[] arr = {1, 1, 2, 2, 3, 4, 4};
+
+Expected Output:
+Unique Length: 4
+Modified Array: [1, 2, 3, 4]
