@@ -1,7 +1,6 @@
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/rachitsharma300/java-full-stack-learning
-/main/images/banner.gif" alt="Java Full Stack Development Course" width="100%">
+  <img src="https://raw.githubusercontent.com/rachitsharma300/java-full-stack-learning/resources/Architecture.svg" alt="Java Full Stack Development Course" width="100%">
 </p>
 
 # Java Full Stack Development Course Repository
@@ -12,8 +11,8 @@ Welcome to my repository for the **Java Full Stack Development Course**! 🚀 Th
 
 <p align="center">
   <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
-  <img src="https://visitor-badge.laobi.icu/badgeページ_id=YourUsername.YourRepo" alt="Visitor Count">
-  <img src="https://img.shields.io/github/stars/YourUsername/YourRepo?style=social" alt="GitHub Stars">
+  <img src="https://visitor-badge.laobi.icu/badgeページ_id=rachitsharma300.java-full-stack-learning" alt="Visitor Count">
+  <img src="https://img.shields.io/github/stars/rachitsharma300/java-full-stack-learning?style=social" alt="GitHub Stars">
 </p>
 
 ## About This Repository
