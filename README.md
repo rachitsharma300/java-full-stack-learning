@@ -9,16 +9,17 @@
 ---
 
 ## 📄 About the Project
+<p align="center">
 <img src="https://img.shields.io/badge/Project-Java%20Full%20Stack-orange" alt="Project Type">
 <img src="https://img.shields.io/badge/Version-1.0.0-blue" alt="Version">
 <img src="https://img.shields.io/badge/Maintained-Yes-brightgreen" alt="Maintained">
 <img src="https://img.shields.io/badge/Status-Active-brightgreen" alt="Project Status">
-
+</p>
 
 This is a dynamic web application designed to demonstrate CRUD operations, authentication, REST APIs, and AWS deployment. It features a responsive frontend and secure backend with full stack development practices.
 
 ---
-
+<p align="center">
 <h2>⚙️ Tech Stack</h2>
 
 <img src="https://img.shields.io/badge/Backend-Spring%20Boot-green" alt="Spring Boot">
@@ -35,9 +36,6 @@ This is a dynamic web application designed to demonstrate CRUD operations, authe
 <h2>⚙️ Testing</h2>
 <img src="https://img.shields.io/badge/Tested-With%20Postman-blue" alt="Tested With Postman">
 <img src="https://img.shields.io/badge/Build-Automated-green" alt="Build Status">
-
-
-
 
 <table>
   <tr>
@@ -61,7 +59,7 @@ This is a dynamic web application designed to demonstrate CRUD operations, authe
     <td>Postman, GitHub, VS Code, IntelliJ IDEA</td>
   </tr>
 </table>
-
+</p>
 ---
 
 ## 📁 Repository Tour
@@ -92,11 +90,11 @@ This is a dynamic web application designed to demonstrate CRUD operations, authe
 git clone https://github.com/yourusername/your-repo.git
 cd your-repo
  ```
-
+<p align="center">
 <img src="https://img.shields.io/badge/License-MIT-success" alt="License">
 <img src="https://img.shields.io/badge/PRs-Welcome-blueviolet" alt="PRs Welcome">
 <img src="https://img.shields.io/badge/Made%20With-Java-informational" alt="Made With Java">
 
 
 <h3 align="center">✨ Made with ❤️ by Rachit Sharma ✨</h3>
- 
+ </p>
