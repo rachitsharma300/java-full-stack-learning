@@ -1,77 +1,70 @@
+<h1 align="center">🚀 My Java Full Stack Project</h1>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/rachitsharma300/java-full-stack-learning/resources/Architecture.svg" alt="Java Full Stack Development Course" width="100%">
+  <strong>A complete full stack web application using Java, Spring Boot, HTML/CSS/JS, MySQL, and AWS.</strong><br>
+  <img src="https://img.shields.io/badge/Java-Full%20Stack-blue" alt="Java Full Stack Badge">
+  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License Badge">
 </p>
 
-# Java Full Stack Development Course Repository
+---
 
-Welcome to my repository for the **Java Full Stack Development Course**! 🚀 This repo contains all my **notes**, **assignments**, **code samples**, and **projects** from the course.
+## 📄 About the Project
 
-## Badges
+This is a dynamic web application designed to demonstrate CRUD operations, authentication, REST APIs, and AWS deployment. It features a responsive frontend and secure backend with full stack development practices.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
-  <img src="https://visitor-badge.laobi.icu/badgeページ_id=rachitsharma300.java-full-stack-learning" alt="Visitor Count">
-  <img src="https://img.shields.io/github/stars/rachitsharma300/java-full-stack-learning?style=social" alt="GitHub Stars">
-</p>
+---
 
-## About This Repository
+<h2>⚙️ Tech Stack</h2>
 
-This repo includes:
-- 📝 **Notes**: Java, Spring Boot, HTML, CSS, JavaScript.
-- 💻 **Code Samples**: Practical examples.
-- 📚 **Assignments**: Course solutions.
-- 🚀 **Projects**: Full-stack web apps.
+<table>
+  <tr>
+    <td><strong>Frontend</strong></td>
+    <td>HTML, CSS, JavaScript, Bootstrap</td>
+  </tr>
+  <tr>
+    <td><strong>Backend</strong></td>
+    <td>Java, Spring Boot</td>
+  </tr>
+  <tr>
+    <td><strong>Database</strong></td>
+    <td>MySQL</td>
+  </tr>
+  <tr>
+    <td><strong>DevOps / Cloud</strong></td>
+    <td>AWS EC2, AWS RDS</td>
+  </tr>
+  <tr>
+    <td><strong>Tools</strong></td>
+    <td>Postman, GitHub, VS Code, IntelliJ IDEA</td>
+  </tr>
+</table>
 
-## Table of Contents
+---
 
-- [Badges](#badges)
-- [About This Repository](#about-this-repository)
-- [Tech Stack](#tech-stack)
-- [Repository Structure](#repository-structure)
-- [How to Use](#how-to-use)
-- [Featured Projects](#featured-projects)
-- [GitHub Stats](#github-stats)
-- [Contributions](#contributions)
-- [Contact](#contact)
+## 📁 Repository Tour
 
-## Tech Stack
+<ul>
+  <li><strong>/frontend/</strong> – Contains static files (HTML, CSS, JS)</li>
+  <li><strong>/backend/</strong> – Spring Boot application files</li>
+  <li><strong>/sql/</strong> – SQL scripts for table creation and seeding</li>
+  <li><strong>/docs/</strong> – Diagrams, flowcharts, and architecture docs</li>
+  <li><strong>README.md</strong> – You're here!</li>
+</ul>
 
-## Tech Stack
+---
 
-<p align="center">
-  <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/java.svg" alt="Java" height="50">
-  <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/springio-icon.svg" alt="Spring Boot" height="50">
-  <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50">
-  <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50">
-  <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50">
-</p>
+## ✅ Features
 
-## Repository Structure
-<pre>
-  ├── notes/                 
-│   ├── java_basics.md
-│   ├── spring_boot.md
-│   └── frontend.md
-├── assignments/            
-│   ├── assignment1/
-│   └── assignment2/
-├── code/                  # Code samples
-│   ├── java_examples/
-│   └── web_apps/
-├── projects/              # Full-stack projects
-│   ├── todo_app/
-│   └── e-commerce/
-├── images/                # Images and GIFs for README
-└── README.md
-</pre>
+- [x] User Authentication
+- [x] RESTful APIs
+- [x] MySQL Integration
+- [x] CRUD Operations
+- [ ] Admin Panel (Coming Soon)
 
+---
 
+## 🔧 Installation
 
-
-
-
-
-<p align="center">
-  Made with ❤️ by [Rachit Sharma](https://github.com/rachitsharma300)
-</p>
+```bash
+git clone https://github.com/yourusername/your-repo.git
+cd your-repo
