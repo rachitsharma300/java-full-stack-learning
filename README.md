@@ -9,12 +9,35 @@
 ---
 
 ## 📄 About the Project
+<img src="https://img.shields.io/badge/Project-Java%20Full%20Stack-orange" alt="Project Type">
+<img src="https://img.shields.io/badge/Version-1.0.0-blue" alt="Version">
+<img src="https://img.shields.io/badge/Maintained-Yes-brightgreen" alt="Maintained">
+<img src="https://img.shields.io/badge/Status-Active-brightgreen" alt="Project Status">
+
 
 This is a dynamic web application designed to demonstrate CRUD operations, authentication, REST APIs, and AWS deployment. It features a responsive frontend and secure backend with full stack development practices.
 
 ---
 
 <h2>⚙️ Tech Stack</h2>
+
+<img src="https://img.shields.io/badge/Backend-Spring%20Boot-green" alt="Spring Boot">
+<img src="https://img.shields.io/badge/Frontend-HTML%2FCSS%2FJS-yellow" alt="Frontend Tech">
+<img src="https://img.shields.io/badge/Database-MySQL-lightgrey" alt="MySQL">
+<img src="https://img.shields.io/badge/Deployed%20on-AWS-blueviolet" alt="AWS">
+
+<h2>⚙️ Tools Stack</h2>
+<img src="https://img.shields.io/badge/IDE-VS%20Code-blue" alt="VS Code">
+<img src="https://img.shields.io/badge/IDE-IntelliJ%20IDEA-red" alt="IntelliJ">
+<img src="https://img.shields.io/badge/API%20Testing-Postman-orange" alt="Postman">
+<img src="https://img.shields.io/badge/Version%20Control-Git%2FGitHub-black" alt="GitHub">
+
+<h2>⚙️ Testing</h2>
+<img src="https://img.shields.io/badge/Tested-With%20Postman-blue" alt="Tested With Postman">
+<img src="https://img.shields.io/badge/Build-Automated-green" alt="Build Status">
+
+
+
 
 <table>
   <tr>
@@ -68,6 +91,12 @@ This is a dynamic web application designed to demonstrate CRUD operations, authe
 ```bash
 git clone https://github.com/yourusername/your-repo.git
 cd your-repo
-
-<h3 align="center">✨ Made with ❤️ by Rachit ✨</h3>
  ```
+
+<img src="https://img.shields.io/badge/License-MIT-success" alt="License">
+<img src="https://img.shields.io/badge/PRs-Welcome-blueviolet" alt="PRs Welcome">
+<img src="https://img.shields.io/badge/Made%20With-Java-informational" alt="Made With Java">
+
+
+<h3 align="center">✨ Made with ❤️ by Rachit Sharma ✨</h3>
+ 
