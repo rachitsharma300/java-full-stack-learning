@@ -68,3 +68,6 @@ This is a dynamic web application designed to demonstrate CRUD operations, authe
 ```bash
 git clone https://github.com/yourusername/your-repo.git
 cd your-repo
+
+<h3 align="center">✨ Made with ❤️ by Rachit ✨</h3>
+ ```
