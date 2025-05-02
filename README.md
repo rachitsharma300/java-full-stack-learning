@@ -37,10 +37,14 @@ This repo includes:
 
 ## Tech Stack
 
+## Tech Stack
+
 <p align="center">
   <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/java.svg" alt="Java" height="50">
   <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/springio-icon.svg" alt="Spring Boot" height="50">
   <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50">
+  <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50">
+  <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50">
 </p>
 
 ## Repository Structure
