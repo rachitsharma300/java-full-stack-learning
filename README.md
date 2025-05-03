@@ -7,6 +7,11 @@
   <img src="https://img.shields.io/badge/Status-Active-brightgreen" alt="Project Status">
 </p>
 
+<div align="center">
+  <img src="resources/Architecture.svg" alt="Architecture Diagram" width="600">
+</div>
+
+
  <h2 align="center"> 📖 Introduction </h2>
 <p align="center">
 Welcome to the Java Full Stack Learning repository. This is a structured learning path covering core and advanced topics in full stack development including backend, frontend, database, cloud and system design.
