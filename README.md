@@ -8,7 +8,7 @@
 </p>
 
 <div align="center">
-  <img src="resources/Architecture.svg" alt="Architecture Diagram" width="600">
+  <img src="resources/Architecture.svg" alt="Architecture Diagram" width="1000">
 </div>
 
 
