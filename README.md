@@ -6,16 +6,16 @@
   <img src="https://img.shields.io/badge/Maintained-Yes-brightgreen" alt="Maintained">
   <img src="https://img.shields.io/badge/Status-Active-brightgreen" alt="Project Status">
 </p>
----
 
-<h2> 📖 Introduction </h2>
+
 <p align="center">
+  <h2> 📖 Introduction </h2>
 Welcome to the **Java Full Stack Learning** repository. This is a structured learning path covering core and advanced topics in full stack development including backend, frontend, database, cloud and system design.
 </p>
----
 
-<h2> 🧰 Tech Stack </h2>
+
 <p align="center">
+  <h2> 🧰 Tech Stack </h2>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Boot" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" width="40" height="40"/>
