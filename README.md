@@ -3,6 +3,8 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Java-Full%20Stack-blue" alt="Java Full Stack Badge">
   <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License Badge">
+</p>
+<p align="centre">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Boot" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" width="40" height="40"/>
