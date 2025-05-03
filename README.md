@@ -24,14 +24,14 @@ Welcome to the **Java Full Stack Learning** repository. This is a structured lea
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" alt="IntelliJ IDEA" width="40" height="40"/>
   <img src="https://cdn-icons-png.flaticon.com/512/1234/1234609.png" alt="System Design" width="40" height="40"/>
 </p>
-
+<p align="center">
 * **Backend**: Java (Core + OOP + Multithreading), Spring Boot
 * **Frontend**: HTML, CSS, JavaScript
 * **Database**: MySQL, SQL basics
 * **Dev Tools**: IntelliJ IDEA, GitHub
 * **Cloud**: AWS (conceptual and practical)
 * **System Design**: Concepts and architecture
-
+</p>
 ---
 
 <h2> 📁 Repository Structure </h2>
@@ -99,7 +99,7 @@ java-full-stack-learning/
 ---
 
 <h2 align="center"> 🧪 Project Modules </h2>
-
+<p align="center">
 * 🔸 Core Java mini apps (e.g. Calculator, Banking App)
 * 🔸 HTML/CSS static pages
 * 🔸 JavaScript Form validation, Todo app
@@ -107,7 +107,7 @@ java-full-stack-learning/
 * 🔸 SQL queries and practice problems
 * 🔸 AWS deployment (S3, EC2)
 * 🔸 System Design examples (e.g. URL Shortener)
-
+</p>
 ---
 
 <p align="center">
