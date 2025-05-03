@@ -37,7 +37,6 @@ Welcome to the Java Full Stack Learning repository. This is a structured learnin
 </div>
 
 
----
 
 <h2> 📁 Repository Structure </h2>
 
@@ -107,10 +106,8 @@ java-full-stack-learning/
 │
 ├── LICENSE
 └── README.md
-
 ```
 
----
 <h2 align="center">🧪 Project Modules</h2>
 
 <div align="center">
@@ -118,10 +115,6 @@ java-full-stack-learning/
   <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ24yamJkZWd2N3p5NnYxdDE5MGE0b2pmeXBmbnJmOXptcmR4dWlidyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Z86Jp12uf8ZfZ6s3uk/giphy.gif" alt="Coming Soon" width="500">
   <p>Projects are currently in progress. Stay tuned for updates!</p>
 </div>
-
-
-
----
 
 <p align="center">
 <h3 align="center">✨ Made with ❤️ by Rachit Sharma ✨</h3>
