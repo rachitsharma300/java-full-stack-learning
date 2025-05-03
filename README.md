@@ -38,53 +38,61 @@ Welcome to the Java Full Stack Learning repository. This is a structured learnin
 ```bash
 java-full-stack-learning/
 │
-├── Java Core/
-│   ├── Basics/
-│   ├── OOPs/
-│   ├── Collections/
-│   ├── Multithreading/
-│   └── Exception Handling/
+├── 1-Java/
+│   ├── 1-Core/
+│   │   ├── Basics/
+│   │   ├── OOPs/
+│   │   ├── Collections/
+│   │   ├── Multithreading/
+│   │   └── Exception Handling/
+│   ├── 2-Spring-Boot/
+│   │   ├── Basics/
+│   │   ├── Rest APIs/
+│   │   ├── Security/
+│   │   └── Database Integration/
 │
-├── HTML/
-│   ├── Basics/
-│   ├── Forms/
-│   ├── Tables/
-│   ├── Semantic Tags/
-│   └── Projects/
+├── 2-Frontend/
+│   ├── 1-HTML/
+│   │   ├── Basics/
+│   │   ├── Forms/
+│   │   ├── Tables/
+│   │   ├── Semantic Tags/
+│   │   └── Projects/
+│   ├── 2-CSS/
+│   │   ├── Selectors/
+│   │   ├── Flexbox/
+│   │   ├── Grid/
+│   │   ├── Responsive Design/
+│   │   └── Animations/
+│   ├── 3-JavaScript/
+│   │   ├── Basics/
+│   │   ├── DOM Manipulation/
+│   │   ├── ES6+/
+│   │   ├── Async JS/
+│   │   └── Mini Projects/
 │
-├── CSS/
-│   ├── Selectors/
-│   ├── Flexbox/
-│   ├── Grid/
-│   ├── Responsive Design/
-│   └── Animations/
+├── 3-Database/
+│   ├── 1-SQL/
+│   │   ├── DDL Commands/
+│   │   ├── DML Commands/
+│   │   ├── Joins/
+│   │   ├── Subqueries/
+│   │   └── Normalization/
 │
-├── JavaScript/
-│   ├── Basics/
-│   ├── DOM Manipulation/
-│   ├── ES6+/
-│   ├── Async JS/
-│   └── Mini Projects/
+├── 4-Cloud/
+│   ├── 1-AWS/
+│   │   ├── EC2/
+│   │   ├── S3/
+│   │   ├── RDS/
+│   │   └── IAM/
 │
-├── SQL/
-│   ├── DDL Commands/
-│   ├── DML Commands/
-│   ├── Joins/
-│   ├── Subqueries/
-│   └── Normalization/
+├── 5-Design/
+│   ├── 1-System-Design/
+│   │   ├── Basics/
+│   │   ├── Low Level Design/
+│   │   └── High Level Design/
 │
-├── AWS/
-│   ├── EC2/
-│   ├── S3/
-│   ├── RDS/
-│   └── IAM/
-│
-├── System Design/
-│   ├── Basics/
-│   ├── Low Level Design/
-│   └── High Level Design/
-│
-├── Resources/
+├── 6-Resources/
 │   ├── Notes/
 │   ├── Assignments/
 │   ├── Cheat Sheets/
@@ -93,6 +101,7 @@ java-full-stack-learning/
 │
 ├── LICENSE
 └── README.md
+
 ```
 
 ---
