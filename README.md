@@ -6,7 +6,15 @@
   <img src="https://img.shields.io/badge/Maintained-Yes-brightgreen" alt="Maintained">
   <img src="https://img.shields.io/badge/Status-Active-brightgreen" alt="Project Status">
 </p>
+---
 
+<h2> 📖 Introduction </h2>
+<p align="center">
+Welcome to the **Java Full Stack Learning** repository. This is a structured learning path covering core and advanced topics in full stack development including backend, frontend, database, cloud and system design.
+</p>
+---
+
+<h2> 🧰 Tech Stack </h2>
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Boot" width="40" height="40"/>
@@ -19,37 +27,6 @@
   <img src="https://cdn-icons-png.flaticon.com/512/1234/1234609.png" alt="System Design" width="40" height="40"/>
 </p>
 
-# 🚀 Java Full Stack Learning
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Java-Full%20Stack-blue" alt="Java Full Stack Badge">
-  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License Badge">
-  <img src="https://img.shields.io/badge/Maintained-Yes-brightgreen" alt="Maintained">
-  <img src="https://img.shields.io/badge/Status-Active-success" alt="Status">
-</p>
-
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40"/>
-  <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" width="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" width="40"/>
-  <img src="https://cdn-icons-png.flaticon.com/512/1234/1234609.png" width="40" alt="System Design"/>
-</p>
-
----
-
-## 📖 Introduction
-
-Welcome to the **Java Full Stack Learning** repository. This is a structured learning path covering core and advanced topics in full stack development including backend, frontend, database, cloud and system design.
-
----
-
-## 🧰 Tech Stack
-
 * **Backend**: Java (Core + OOP + Multithreading), Spring Boot
 * **Frontend**: HTML, CSS, JavaScript
 * **Database**: MySQL, SQL basics
@@ -59,7 +36,7 @@ Welcome to the **Java Full Stack Learning** repository. This is a structured lea
 
 ---
 
-## 📁 Repository Structure
+<h2> 📁 Repository Structure </h2>
 
 ```bash
 java-full-stack-learning/
@@ -123,7 +100,7 @@ java-full-stack-learning/
 
 ---
 
-## 🧪 Project Modules
+<h2> 🧪 Project Modules </h2>
 
 * 🔸 Core Java mini apps (e.g. Calculator, Banking App)
 * 🔸 HTML/CSS static pages
