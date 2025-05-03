@@ -24,21 +24,16 @@ Welcome to the Java Full Stack Learning repository. This is a structured learnin
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" alt="IntelliJ IDEA" width="40" height="40"/>
   <img src="https://cdn-icons-png.flaticon.com/512/1234/1234609.png" alt="System Design" width="40" height="40"/>
 </p>
-<pre>
-flowchart LR
-    A[Backend: Java, Core + OOP + Multithreading, Spring Boot]
-    B[Frontend: HTML, CSS, JavaScript]
-    C[Database: MySQL, SQL basics]
-    D[Dev Tools: IntelliJ IDEA, GitHub]
-    E[Cloud: AWS, conceptual and practical]
-    F[System Design: Concepts and architecture]
 
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
-    </pre>
+<ul>
+  <li>🔧 <strong>Backend:</strong> Java Core, OOP, Multithreading, Spring Boot</li>
+  <li>🎨 <strong>Frontend:</strong> HTML, CSS, JavaScript</li>
+  <li>🗄️ <strong>Database:</strong> MySQL, SQL basics</li>
+  <li>🛠️ <strong>Dev Tools:</strong> IntelliJ IDEA, GitHub</li>
+  <li>☁️ <strong>Cloud:</strong> AWS (conceptual and practical)</li>
+  <li>🧠 <strong>System Design:</strong> Concepts and architecture</li>
+</ul>
+
 
 ---
 
