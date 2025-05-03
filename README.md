@@ -111,14 +111,14 @@ java-full-stack-learning/
 ```
 
 ---
-
-<h2 align="center"> 🧪 Project Modules </h2>
+<h2 align="center">🧪 Project Modules</h2>
 
 <div align="center">
   <h2>🚧 <strong>Coming Soon...</strong> 🚧</h2>
-  <img src="https://your-image-url.com/coming-soon-banner.png" alt="Coming Soon" width="500">
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ24yamJkZWd2N3p5NnYxdDE5MGE0b2pmeXBmbnJmOXptcmR4dWlidyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Z86Jp12uf8ZfZ6s3uk/giphy.gif" alt="Coming Soon" width="500">
   <p>Projects are currently in progress. Stay tuned for updates!</p>
 </div>
+
 
 
 ---
