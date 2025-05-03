@@ -19,24 +19,29 @@
 This is a dynamic web application designed to demonstrate CRUD operations, authentication, REST APIs, and AWS deployment. It features a responsive frontend and secure backend with full stack development practices.
 
 ---
-<p align="center">
 <h2>⚙️ Tech Stack</h2>
 
+<p align="center">
 <img src="https://img.shields.io/badge/Backend-Spring%20Boot-green" alt="Spring Boot">
 <img src="https://img.shields.io/badge/Frontend-HTML%2FCSS%2FJS-yellow" alt="Frontend Tech">
 <img src="https://img.shields.io/badge/Database-MySQL-lightgrey" alt="MySQL">
 <img src="https://img.shields.io/badge/Deployed%20on-AWS-blueviolet" alt="AWS">
+</p>
 
 <h2>⚙️ Tools Stack</h2>
+<p align="center">
 <img src="https://img.shields.io/badge/IDE-VS%20Code-blue" alt="VS Code">
 <img src="https://img.shields.io/badge/IDE-IntelliJ%20IDEA-red" alt="IntelliJ">
 <img src="https://img.shields.io/badge/API%20Testing-Postman-orange" alt="Postman">
 <img src="https://img.shields.io/badge/Version%20Control-Git%2FGitHub-black" alt="GitHub">
+</p>
 
 <h2>⚙️ Testing</h2>
+<p align="center">
 <img src="https://img.shields.io/badge/Tested-With%20Postman-blue" alt="Tested With Postman">
 <img src="https://img.shields.io/badge/Build-Automated-green" alt="Build Status">
-
+</p>
+<p align="center">
 <table>
   <tr>
     <td><strong>Frontend</strong></td>
@@ -63,7 +68,7 @@ This is a dynamic web application designed to demonstrate CRUD operations, authe
 ---
 
 ## 📁 Repository Tour
-
+<p align="center">
 <ul>
   <li><strong>/frontend/</strong> – Contains static files (HTML, CSS, JS)</li>
   <li><strong>/backend/</strong> – Spring Boot application files</li>
@@ -71,7 +76,7 @@ This is a dynamic web application designed to demonstrate CRUD operations, authe
   <li><strong>/docs/</strong> – Diagrams, flowcharts, and architecture docs</li>
   <li><strong>README.md</strong> – You're here!</li>
 </ul>
-
+</p>
 ---
 
 ## ✅ Features
