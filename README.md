@@ -114,13 +114,12 @@ java-full-stack-learning/
 
 <h2 align="center"> 🧪 Project Modules </h2>
 
-* 🔸 Core Java mini apps (e.g. Calculator, Banking App)
-* 🔸 HTML/CSS static pages
-* 🔸 JavaScript Form validation, Todo app
-* 🔸 Spring Boot REST APIs
-* 🔸 SQL queries and practice problems
-* 🔸 AWS deployment (S3, EC2)
-* 🔸 System Design examples (e.g. URL Shortener)
+<div align="center">
+  <h2>🚧 <strong>Coming Soon...</strong> 🚧</h2>
+  <img src="https://your-image-url.com/coming-soon-banner.png" alt="Coming Soon" width="500">
+  <p>Projects are currently in progress. Stay tuned for updates!</p>
+</div>
+
 
 ---
 
