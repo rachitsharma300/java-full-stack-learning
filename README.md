@@ -3,6 +3,8 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Java-Full%20Stack-blue" alt="Java Full Stack Badge">
   <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License Badge">
+  <img src="https://img.shields.io/badge/Maintained-Yes-brightgreen" alt="Maintained">
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen" alt="Project Status">
 </p>
 
 <p align="center">
@@ -24,8 +26,7 @@
 <p align="center">
 <img src="https://img.shields.io/badge/Project-Java%20Full%20Stack-orange" alt="Project Type">
 <img src="https://img.shields.io/badge/Version-1.0.0-blue" alt="Version">
-<img src="https://img.shields.io/badge/Maintained-Yes-brightgreen" alt="Maintained">
-<img src="https://img.shields.io/badge/Status-Active-brightgreen" alt="Project Status">
+
 </p>
 
 This is a dynamic web application designed to demonstrate CRUD operations, authentication, REST APIs, and AWS deployment. It features a responsive frontend and secure backend with full stack development practices.
