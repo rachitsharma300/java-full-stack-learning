@@ -25,12 +25,16 @@ Welcome to the Java Full Stack Learning repository. This is a structured learnin
   <img src="https://cdn-icons-png.flaticon.com/512/1234/1234609.png" alt="System Design" width="40" height="40"/>
 </p>
 
-* **Backend**: Java (Core + OOP + Multithreading), Spring Boot
-* **Frontend**: HTML, CSS, JavaScript
-* **Database**: MySQL, SQL basics
-* **Dev Tools**: IntelliJ IDEA, GitHub
-* **Cloud**: AWS (conceptual and practical)
-* **System Design**: Concepts and architecture
+<div style="border:1px solid #4CAF50; border-radius:8px; padding:16px; background:#f9f9f9;">
+  <h3>Full Stack Profile</h3>
+  <p><strong>Backend:</strong> Java (Core + OOP + Multithreading), Spring Boot</p>
+  <p><strong>Frontend:</strong> HTML, CSS, JavaScript</p>
+  <p><strong>Database:</strong> MySQL, SQL basics</p>
+  <p><strong>Dev Tools:</strong> IntelliJ IDEA, GitHub</p>
+  <p><strong>Cloud:</strong> AWS (conceptual and practical)</p>
+  <p><strong>System Design:</strong> Concepts and architecture</p>
+</div>
+
 ---
 
 <h2> 📁 Repository Structure </h2>
