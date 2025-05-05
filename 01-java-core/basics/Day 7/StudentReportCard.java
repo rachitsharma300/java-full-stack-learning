@@ -20,11 +20,34 @@ School: ABC International
 Name: Priya, Roll No: 102, Marks: 92
  */
 
-import java.util.Scanner;
-
-public class StudentReportCard
+class StudentReportCard
 {
+    String name;
+    int rollNo;
+    int marks;
+
+    static String schoolName = " GUVI National School";
+
+    StudentReportCard(String name, int rollNo, int marks)
+    {
+        this.name = name;
+        this.rollNo = rollNo;
+        this.marks = marks;
+    }
+
+    void displayDetails()
+    {
+        System.out.println("School" + schoolName);
+        System.out.println("Name - " + name + ", Roll No - " + rollNo + ", Marks - " + marks);
+        System.out.println();
+    }
+
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
+        StudentReportCard s1 = new StudentReportCard( "Rachit", 100, 90);
+        StudentReportCard s2 = new StudentReportCard( "Priya",  101, 85);
+
+        s1.displayDetails();
+        s2.displayDetails();
+
     }
 }
