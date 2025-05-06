@@ -7,6 +7,7 @@
   <img src="https://img.shields.io/badge/Status-Active-brightgreen" alt="Project Status">
 </p>
 
+<img src="https://raw.githubusercontent.com/rachitsharma300/java-full-stack-learning/main/resources/BANNER_JFSD.gif" alt="Java Full Stack Banner" width="100%">
 <div align="center">
   <img src="resources/Architecture.svg" alt="Architecture Diagram" width="1000">
 </div>
