@@ -1,0 +1,19 @@
+1. Print "Hello, World!"
+
+2. Take name input from the user and print "Hello, [Name]"
+
+3. Input two numbers and print their sum
+
+4. Input a number and print its square
+
+5. Take input of marks in 5 subjects and print total
+
+6. Input age and print if eligible to vote (use only System.out.print)
+
+7. Input temperature in Celsius and convert to Fahrenheit
+
+8. Take input of radius and calculate area of a circle
+
+9. Take two strings and print them combined
+
+10. Take a sentence input and print each word on a new line
