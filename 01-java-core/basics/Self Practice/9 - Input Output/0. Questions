@@ -1,0 +1,112 @@
+1. Write a code to get the input in the given format and print the output in the given format
+
+   Input Description:
+   First-line indicates two integers separated by space. Second-line indicates two integers separated by space. Third-line indicates two integers separated by space.
+
+   Output Description:
+   Print the input in the same format.
+
+   Sample Input :
+   2 4
+   2 4
+   2 4
+   Sample Output :
+   2 4
+   2 4
+   2 4
+
+2. Write a code to get the input in the given format and print the output in the given format
+
+   Input Description:
+   Three integers are given in line by line.
+
+   Output Description:
+   Print the integers in a single line separate by space.
+
+   Sample Input :
+   2
+   4
+   5
+   Sample Output :
+   2 4 5
+
+3. Write a code to get the input in the given format and print the output in the given format
+
+
+   Input Description:
+   First-line indicates two integers separated by space. Second-line indicates three integers separated by space. Third-line indicates three integers separated by space
+
+   Output Description:
+   Print the input in the same format.
+
+   Sample Input :
+   2 5
+   2 5 6
+   2 4 5
+   Sample Output :
+   2 5
+   2 5 6
+   2 4 5
+
+4. Write a code to get the input in the given format and print the output in the given format
+
+   Input Description:
+   A single line contains a string.
+
+   Output Description:
+   Print the characters in a string separated by space.
+
+   Sample Input :
+   guvi
+   Sample Output :
+   g u v i
+
+5. Write a code to get the input in the given format and print the output in the given format.
+
+   Input Description:
+   A single line contains three float values separated by space.
+
+   Output Description:
+   Print the float value separated by line.
+
+   Sample Input :
+   2.3 4.5 7.8
+   Sample Output :
+   2.3
+   4.5
+   7.8
+
+6. Write a code to get the input in the given format and print the output in the given format.
+
+
+   Input Description:
+   A single line contains a string.
+
+   Output Description:
+   Print the characters in a string separated by line.
+
+   Sample Input :
+   guvigeek
+   Sample Output :
+   g
+   u
+   v
+   i
+   g
+   e
+   e
+   k
+
+7. Write a code to get the input in the given format and print the output in the given format.
+
+
+   Input Description:
+   A single line contains a string.
+
+   Output Description:
+   Print the characters in a string separated by comma.
+
+   Sample Input :
+   guvi
+   Sample Output :
+   g,u,v,i
