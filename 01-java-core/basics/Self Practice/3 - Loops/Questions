@@ -18,3 +18,55 @@
 
 10. Check if a number is prime
 
+11. Write a code to get a integer n as input and calculate the smallest perfect power of 2 greater than n.
+
+    Input Description:
+    A single line containing an integer,n.
+
+    Output Description:
+    Print the smallest perfect power of 2 greater than n.
+
+    Sample Input:
+    48
+    Sample Output:
+    64
+
+12. Write a code to get 2 integers as input and add the integers without any carry.
+
+    Input Description:
+    A single line containing 2 integers.
+
+    Output Description:
+    Print sum of the 2 integers without carry
+
+    Sample Input :
+    44 66
+    Sample Output :
+    0
+
+13. Write a code get an integer number as input and print the sum of the digits.
+
+
+    Input Description:
+    A single line containing an integer.
+
+    Output Description:
+    Print the sum of the digits of the integer.
+
+    Sample Input :
+    124
+    Sample Output :
+    7
+
+14. Write a code to get 2 integers as input and find the HCF of the 2 integer without using recursion or Euclidean algorithm.
+
+    Input Description:
+    A single line containing 2 integers separated by space.
+
+    Output Description:
+    Print the HCF of the integers.
+
+    Sample Input :
+    2 3
+    Sample Output :
+    1
