@@ -70,3 +70,40 @@
     2 3
     Sample Output :
     1
+
+15. Write a code to get an integer N and print the values from N to 1.
+
+
+    Input Description:
+    A single line contains an integer N.
+
+    Output Description:
+    Print the values from N to 1 in a separate line.
+
+    Sample Input :
+    10
+    Sample Output :
+    10
+    9
+    8
+    7
+    6
+    5
+    4
+    3
+    2
+    1
+
+16 . Write a code get an integer number as input and print the odd and even digits of the number separately.
+
+     Input Description:
+     A single line containing an integer.
+
+     Output Description:
+     Print the even and odd integers of the integer in a separate line.
+
+     Sample Input:
+     1234
+     Sample Output:
+     2 4
+     1 3

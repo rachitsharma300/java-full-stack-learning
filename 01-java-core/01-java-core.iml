@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/basics/DAY 1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/basics/Day 2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/basics/Day 3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/basics/Day 4" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/basics/Day 5" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/basics" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/basics/Day 6" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/basics/Day 7" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/basics/Self Practice" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/basics/Self Practice/1 - Print Statements" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/basics/Self Practice/2 - If-Else" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/basics/Self Practice/3 - Loops" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/basics/Self Practice/4 - Patterns" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/basics/Self Practice/5 - Array" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/basics/Self Practice/6 - Strings" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/basics/Self Practice/7 - Function or Methods" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/basics/Self Practice/8 - OOPs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/basics/Self Practice/9 - Input Output" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
