@@ -30,7 +30,7 @@ public class OddEvenSeparatePrint
         for (int i = 0; i < numStr.length(); i++)
         {
             char ch = numStr.charAt(i);
-            int digit = ch - '0'; // Convert character to integer
+            int digit = ch - '0'; // Convert character to int
 
             if (digit % 2 == 0)
             {
