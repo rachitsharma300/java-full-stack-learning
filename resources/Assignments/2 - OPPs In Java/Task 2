@@ -1,0 +1,14 @@
+Ques 1. Write a java program on below questions[OOP's].
+1.1 Create a class Person with properties (name and age) with following features.
+a. Default age of person should be 18.
+b. A person object can be initialized with name and age.
+c. Method to display name and age of person.
+
+1.2). Create class Product(pid,Price,quantity) with parameterized constructor.
+Create a main function in different class (say ProductMain) and perform following task:
+
+a. Accept fine product inforamtion from user and store in an array.
+b. Find Pid of the product with the highest price.
+c. Create method(with array of product's object as argument) in ProductMain class
+to calculated and return the total amount spent on all products. (amount spent on
+single product=price * quantity of product.
