@@ -12,3 +12,15 @@ b. Find Pid of the product with the highest price.
 c. Create method(with array of product's object as argument) in ProductMain class
 to calculated and return the total amount spent on all products. (amount spent on
 single product=price * quantity of product.
+
+1.3) Create Class Account with data member as Balance. Create two constructors (no argument,
+and with argument) and perform following task.
+
+a. method to deposit the amount to the account.
+b. methond to withdraw the amount from the account.
+c. method to display the Balance.
+
+1.4 ) Define a base class Person with attributres name and age.
+Create a sbclass Employee that inherits from Person and adds attributes like employeeID
+and Salary.
+Use the super keyword to initialze the Person attributes in the Employess constructors.
