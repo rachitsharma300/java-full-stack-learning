@@ -61,13 +61,13 @@ public class ProductMain {
     }
 }
 
-// Expected Output (Example):
+// Expected Output:
 /*
 Enter details for Product 1
 Enter Product ID: 101
 Enter Price: 20.5
 Enter Quantity: 2
-...
+.................
 Enter details for Product 5
 Enter Product ID: 105
 Enter Price: 99.9
