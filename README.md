@@ -49,9 +49,8 @@ Welcome to the Java Full Stack Learning repository. This is a structured learnin
 ```bash
 java-full-stack-learning/
 │
-├── 1-Java/
-│   ├── 1-Core/
-│   │   ├── Basics/
+├── 1-Java/Core
+│   ├── ├── Basics/ 
 │   │   ├── OOPs/
 │   │   ├── Collections/
 │   │   ├── Multithreading/
