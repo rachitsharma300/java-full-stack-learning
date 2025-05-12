@@ -108,4 +108,30 @@
      2 4
      1 3
 
-17.
+17. Write a program to get a list of integers as input and find the LCM of the values without using GCD
+
+    Input Description:
+    First line contains an integer N, number of values. Second line contains N space separated values.
+
+    Output Description:
+    Print the LCM of the values.
+
+    Sample Input:
+    1 2 3 4 5
+    Sample Output:
+    60
+
+18. Write a code to get an integer N and print the even values from 1 till N in a separate line.
+
+    Input Description:
+    A single line contains an integer N.
+
+    Output Description:
+    Print the even values from 1 to N in a separate line.
+
+    Sample Input :
+    6
+    Sample Output :
+    2
+    6
+    4
