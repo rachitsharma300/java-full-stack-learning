@@ -1,0 +1,37 @@
+🧩 Assignment 1: Library Management - Access Modifiers
+🔹 Objective:
+Understand the usage of public, private, protected, and default access modifiers in real-world scenarios.
+📝 Task:
+Create a Book class with the following:
+•	title, author (private)
+•	id (protected)
+•	genre (default)
+•	getBookInfo() method (public) to display book details.
+Create another class Librarian that accesses book information.
+✅ Expected Output:
+Title: Clean Code
+Author: Robert C. Martin
+ID: 102
+Genre: Programming
+💡 Concepts:
+•	Use private to encapsulate fields.
+•	Use protected/default to test access from another class in the same package.
+•	Create getter/setter to access private members.
+
+
+
+🧩 Assignment 2: Bank System – Instance Variables, this Keyword
+🔹 Objective:
+Understand how to use this keyword to differentiate between local and instance variables.
+📝 Task:
+Create a class BankAccount with:
+•	Instance variables: accountHolder, balance
+•	Constructor with same parameter names
+•	Use this to assign values
+•	A method showDetails() to display values
+BankAccount(String accountHolder, double balance) {
+    this.accountHolder = accountHolder;
+    this.balance = balance;
+}
+✅ Expected Output:
+Account Holder: Alice
