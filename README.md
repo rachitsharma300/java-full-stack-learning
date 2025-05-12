@@ -48,66 +48,50 @@ Welcome to the Java Full Stack Learning repository. This is a structured learnin
 
 ```bash
 java-full-stack-learning/
+├── 01-java-core/
+│   ├── Basics/
+│   │   ├── Day 1 - Java Overview & Installation/
+│   │   ├── Day 2 - DataTypes & Operators/
+│   │   ├── Day 3 - Conditional Statements & Loops/
+│   │   ├── Day 4 - Loop Practice & Control Statements/
+│   │   └── Day 5 - Arrays/
 │
-├── 1-Java/Core
-│   ├── ├── Basics/ 
-│   │   ├── OOPs/
-│   │   ├── Collections/
-│   │   ├── Multithreading/
-│   │   └── Exception Handling/
+│   ├── OOPs/
+│   │   ├── Day 6 - Strings & OOP Introduction/
+│   │   ├── Day 7 - Classes, Objects & Constructors/
+│   │   ├── Day 8 - Access Modifiers & Inheritance/
+│   │   ├── Day 9 - Polymorphism & Encapsulation/
+│   │   └── Day 10 - Abstraction & Interfaces/
+│
+│   ├── Exception Handling/
+│   │   └── Day 11 - Try, Catch, Throw & Finally/
+│
+│   ├── Collections/
+│   │   ├── Day 12 - List & Set/
+│   │   └── Day 13 - Map/
+│
+│   └── Multithreading/
+│       └── Day 14 - Threads & Lifecycle/
+│
 │   ├── 2-Spring-Boot/
-│   │   ├── Basics/
-│   │   ├── Rest APIs/
-│   │   ├── Security/
-│   │   └── Database Integration/
 │
 ├── 2-Frontend/
 │   ├── 1-HTML/
-│   │   ├── Basics/
-│   │   ├── Forms/
-│   │   ├── Tables/
-│   │   ├── Semantic Tags/
-│   │   └── Projects/
 │   ├── 2-CSS/
-│   │   ├── Selectors/
-│   │   ├── Flexbox/
-│   │   ├── Grid/
-│   │   ├── Responsive Design/
-│   │   └── Animations/
 │   ├── 3-JavaScript/
-│   │   ├── Basics/
-│   │   ├── DOM Manipulation/
-│   │   ├── ES6+/
-│   │   ├── Async JS/
-│   │   └── Mini Projects/
 │
 ├── 3-Database/
-│   ├── 1-SQL/
-│   │   ├── DDL Commands/
-│   │   ├── DML Commands/
-│   │   ├── Joins/
-│   │   ├── Subqueries/
-│   │   └── Normalization/
 │
 ├── 4-Cloud/
 │   ├── 1-AWS/
-│   │   ├── EC2/
-│   │   ├── S3/
-│   │   ├── RDS/
-│   │   └── IAM/
 │
 ├── 5-Design/
 │   ├── 1-System-Design/
-│   │   ├── Basics/
-│   │   ├── Low Level Design/
-│   │   └── High Level Design/
 │
 ├── 6-Resources/
 │   ├── Notes/
 │   ├── Assignments/
-│   ├── Cheat Sheets/
 │   ├── Interview Prep/
-│   └── Roadmaps/
 │
 ├── LICENSE
 └── README.md
