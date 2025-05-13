@@ -23,14 +23,14 @@ Name: Priya, Roll No: 102, Marks: 92
 🔹 Objective:
 Use constructors, method types, and variable types.
 🔹 Requirements:
-•	Create a class BankAccount.
+•	Create a class BankAcc.
 •	Instance variables: accountHolder, balance.
 •	Static variable: bankName.
 •	Constructors: one no-arg constructor and one parameterized constructor.
 •	Method deposit(double amount) (void, with parameter).
 •	Method getBalance() (return type, no parameter).
 🔹 Input:
-BankAccount acc1 = new BankAccount("Riya", 5000);
+BankAcc acc1 = new BankAcc("Riya", 5000);
 acc1.deposit(2000);
 System.out.println("Balance: " + acc1.getBalance());
 🔹 Output:

@@ -24,12 +24,12 @@ Genre: Programming
 🔹 Objective:
 Understand how to use this keyword to differentiate between local and instance variables.
 📝 Task:
-Create a class BankAccount with:
+Create a class BankAcc with:
 •	Instance variables: accountHolder, balance
 •	Constructor with same parameter names
 •	Use this to assign values
 •	A method showDetails() to display values
-BankAccount(String accountHolder, double balance) {
+BankAcc(String accountHolder, double balance) {
     this.accountHolder = accountHolder;
     this.balance = balance;
 }
