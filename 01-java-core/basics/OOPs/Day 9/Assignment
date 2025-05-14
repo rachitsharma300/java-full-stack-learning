@@ -1,0 +1,94 @@
+🔐 Assignment 1: Student Marks Manager
+Problem Statement:
+Create a class Student with the following fields (as private):
+•	name
+•	rollNumber
+•	marks[] (array of 5 subjects)
+Add the following:
+•	A constructor to initialize name and rollNumber.
+•	A method setMarks(int[] marks) to store marks (only if all values are between 0–100).
+•	A method getAverage() to return the average of the marks.
+•	A method getGrade() that returns:
+o	"A" if avg ≥ 90
+o	"B" if avg ≥ 75
+o	"C" if avg ≥ 50
+o	"F" otherwise
+Input:
+Name: John
+Roll Number: 101
+Marks: [90, 85, 78, 88, 92]
+
+Output:
+Student: John (101)
+Average: 86.6
+Grade: B
+
+🏦 Assignment 2: Bank Account System
+Problem Statement:
+Create a class BankAccount with the following:
+•	private fields: accountNumber, accountHolder, balance
+•	Constructor to initialize the fields
+•	Public methods:
+o	deposit(double amount)
+o	withdraw(double amount)
+o	getBalance()
+Use validation to ensure:
+•	Balance can’t go negative
+•	Deposit/withdraw amount should be > 0
+
+Input/Output Example:
+Deposit: $500
+Withdraw: $200
+Balance: $300
+
+🖨️ Assignment 3: Print Utility (Method Overloading)
+Problem Statement:
+Create a class Printer with an overloaded print() method:
+•	print(String text)
+•	print(int number)
+•	print(double number)
+•	print(String text, int times) – prints text multiple times
+Test each method with appropriate inputs.
+Input:
+Printer p = new Printer();
+p.print("Hello");
+p.print(100);
+p.print(99.99);
+p.print("Java", 3);
+
+Output:
+Hello
+100
+99.99
+Java
+Java
+Java
+
+
+🚗 Assignment 4: Transport Fare Calculator
+🔹 Objective:
+Demonstrate method overriding by implementing different fare calculation logic for various transport types.
+________________________________________
+📝 Problem Statement:
+Create a base class Transport and derive classes Bus, Train, and Taxi.
+Each subclass should override the calculateFare(int distance) method with its own pricing logic.
+________________________________________
+🔧 Requirements:
+1.	Base Class: Transport
+o	Method: public double calculateFare(int distance)
+o	Default logic: fare = distance * 1.0
+2.	Derived Classes:
+o	Bus: fare = distance * 0.5
+o	Train: fare = distance * 0.8
+o	Taxi: fare = base fare 50 + distance * 2.0
+3.	Create a main() method to:
+o	Instantiate each type
+o	Call calculateFare() for a sample distance
+o	Print the output with transport type
+📥 Sample Input:
+int distance = 20;
+
+📤 Expected Output:
+Bus Fare for 20 km: ₹10.0
+Train Fare for 20 km: ₹16.0
+Taxi Fare for 20 km: ₹90.0
