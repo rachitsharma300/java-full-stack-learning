@@ -1,0 +1,37 @@
+Task Descriptions :
+1. Design a java program that uses OOP principle to model the Book.
+Create two classes: Book and Library. The Book class should have attributes such
+as bookID, title,author, and isAvailable. The Library class should include
+an array to store book objects.
+
+2 Provide methods to add books, remove book search books(using id) and display books.
+Write a java program that demonstrates the use of these classes and methods by allowing
+the user to interact with the library system.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+class Book {                                           | class Library {                                               | public class BookManagementSystem {          |
+// attributes                                          |private Book[] books;                                          | public static void main(String[] args) {     |
+// Constructors to initialize book attributes.         |                                                               | Library library = new Library();             |
+// Getter and setter methods for book attributes.      |public Library() {                                             | // Implement a menu- driven user interface to|
+                                                       |this.books = new Book[5];                                      | interact with the library system             |
+                                                       |  }                                                            | Allow users to add, replace and display books|
+                                                       | Methods to add a book to the Library                          | }                                           |
+                                                       | public void addBook(Book book) {                              | }                                              |
+                                                       | // Add the book to the books Array                                                                           |
+                                                       | }                                                                                                            |
+                                                       | Method to replace a book from the library                                                                    |
+                                                       | public void replaceBook(int bookID) {                                                                        |
+                                                       | // replace the book name and author of the given bookID                                                      |
+                                                       | from the books                                                                                               |
+                                                       | }                                                                                                            |
+                                                       | // Methods to display all books in the library                                                               |
+                                                       | public void displayBooks() {                                                                                 |
+                                                       | } }                                                                                                          |
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+2. Create Interface Taxable with members sales Tax=7% and income Tax=10.5%. create abstract method calcTax().
+
+a. Create class Employee(empId, name, salary) and implement Taxable to calculate income Tax on yearly salary.
+
+b. Create class Product(pid,price, quantity) and implement Taxable to calculate sales Tax on unit price of product.
+
+c. Create class for main method(Say DriverMain), accept employee information and a product information from user and
+print income tax and sales tax respectively
