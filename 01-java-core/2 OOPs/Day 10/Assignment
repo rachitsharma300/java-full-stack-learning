@@ -1,0 +1,69 @@
+Assignment 1: Banking System Design
+💡 Scenario:
+Design a system where different banks provide different interest rates on fixed deposits.
+🔧 Requirements:
+•	Create an abstract class Bank with:
+o	An abstract method getInterestRate()
+o	A method displayBankInfo() (common to all banks)
+•	Create subclasses:
+o	SBI, HDFC, and ICICI that override getInterestRate() with their specific rates.
+•	Create an interface OnlineBankingFeatures with:
+o	void transferMoney()
+o	void checkBalance()
+•	Implement the interface in the respective bank classes with dummy implementation
+📥 Sample Input:
+Bank bank = new HDFC();
+bank.getInterestRate(); // 6.5%
+bank.displayBankInfo();
+
+OnlineBankingFeatures ob = new HDFC();
+ob.transferMoney();
+
+📤 Expected Output:
+Bank Name: HDFC
+Interest Rate: 6.5%
+Transferring Money Online...
+
+🧪 Assignment 2: Vehicle Rental System
+💡 Scenario:
+A vehicle rental company rents various types of vehicles.
+🔧 Requirements:
+•	Create an abstract class Vehicle with:
+o	Properties: brand, fuelType
+o	Abstract method calculateRentalPrice(int days)
+o	Method displayInfo()
+•	Create subclasses:
+o	Car, Bike, Truck with different rental price logic
+•	Create interface Maintainable with method void serviceSchedule()
+•	Implement the interface in each subclass with custom logic
+📥 Sample Input:
+Vehicle v = new Car("Toyota", "Petrol");
+v.displayInfo();
+System.out.println("Rent: " + v.calculateRentalPrice(5));
+
+Maintainable m = (Maintainable) v;
+m.serviceSchedule();
+
+📤 Expected Output:
+Vehicle: Toyota | Fuel: Petrol
+Rent: 2500
+Car service every 5000 km or 6 months
+
+🧪 Assignment 3: E-Commerce System Interfaces
+💡 Scenario:
+You're designing an online shopping platform.
+🔧 Requirements:
+•	Create interface Product with methods:
+o	String getName()
+o	double getPrice()
+•	Create interface Discountable with method:
+o	double applyDiscount(double percentage)
+•	Create classes Electronics, Clothing, Grocery that implement both interfaces.
+•	Simulate applying discounts and displaying product details.
+📥 Sample Input:
+Product p = new Electronics("Laptop", 60000);
+Discountable d = (Discountable) p;
+System.out.println(p.getName() + ": " + d.applyDiscount(10));
+
+📤 Expected Output:
+Laptop: 54000.0

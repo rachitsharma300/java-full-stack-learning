@@ -1,0 +1,113 @@
+Assignments for this week:
+
+1] Electricity Bill Calculator
+📝 Assignment:
+Input units consumed.
+Calculate bill using slab:
+•	0–100 → ₹2/unit
+•	101–300 → ₹3/unit
+•	301–500 → ₹5/unit
+•	501+ → ₹7/unit
+Use switch for:
+•	Customer Type: Residential / Commercial
+•	Add 10% tax for commercial customers
+
+✅ Sample Input:
+Enter customer type (1 for Residential, 2 for Commercial): 1
+Enter units consumed: 350
+
+✅ Sample Output:
+Base Bill: ₹1050.0
+Final Bill (Residential): ₹1050.0
+
+ 2. Gym Workout Tracker
+Loop Used: for loop
+Concepts: Iteration, conditional logic
+📝 Assignment:
+Track the calories burned for 7 days of workouts.
+•	User enters daily workout time (in minutes).
+•	For each day, calculate calories burned (assume 5 calories per minute).
+•	At the end, show total and average calories burned.
+
+✅ Sample Input:
+Enter workout time for 7 days (in minutes):
+30
+45
+60
+0
+20
+50
+40
+✅ Sample Output:
+Total calories burned: 1225
+Average per day: 175.0
+
+3. Bank Loan EMI Tracker
+Loop Used: do-while
+Concepts: Loop control, arithmetic, condition checking
+📝 Assignment:
+•	Ask user for total loan amount and EMI per month.
+•	Simulate monthly payment until loan is repaid.
+•	Show month-wise balance and total months required.
+
+✅ Sample Input:
+Enter loan amount: 10000
+Enter EMI per month: 2000
+
+✅ Sample Output:
+Month 1: Remaining balance = 8000
+Month 2: Remaining balance = 6000
+Month 3: Remaining balance = 4000
+Month 4: Remaining balance = 2000
+Month 5: Remaining balance = 0
+Total months to repay loan: 5
+
+4. Fuel Consumption Log
+Loop Used: for loop
+Concepts: Input collection, average calculation
+📝 Assignment:
+Log fuel used each day for a vehicle over n days.
+•	Ask for number of days.
+•	Input fuel consumed each day.
+•	Output total and average fuel usage.
+
+✅ Sample Input:
+Enter number of days: 4
+Enter fuel consumed each day:
+5.0
+6.5
+4.2
+7.3
+
+✅ Sample Output:
+Total fuel consumed: 23.0 liters
+Average per day: 5.75 liters
+
+5. Print right-angled triangle pattern
+Assignment: Print a right-angled triangle pattern using asterisks (*).
+
+✅ Sample Input:
+How many rows to print: 5
+
+✅ Sample Output:
+*
+**
+***
+****
+*****
+
+6. Factorial of a number
+Assignment: Calculate the factorial of a given positive integer n.
+Explanation: The factorial of a number n is the product of all positive integers from 1 to n.
+
+✅ Sample Input:
+Input number to calculate factorial: 5
+
+✅ Sample Output:
+5! = 120
+
+Calculation:
+5!=5×4×3×2×15!=5×4×3×2×15!=1205!=120
+Explanation:
+•	Factorial of a non-negative integer n is the product of all positive integers from 1 to n.
+•	By definition, 0! = 1.
