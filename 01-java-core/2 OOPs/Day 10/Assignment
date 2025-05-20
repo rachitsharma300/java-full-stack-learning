@@ -2,7 +2,7 @@ Assignment 1: Banking System Design
 💡 Scenario:
 Design a system where different banks provide different interest rates on fixed deposits.
 🔧 Requirements:
-•	Create an abstract class Bank with:
+•	Create an abstract class Banks with:
 o	An abstract method getInterestRate()
 o	A method displayBankInfo() (common to all banks)
 •	Create subclasses:
@@ -12,7 +12,7 @@ o	void transferMoney()
 o	void checkBalance()
 •	Implement the interface in the respective bank classes with dummy implementation
 📥 Sample Input:
-Bank bank = new HDFC();
+Banks bank = new HDFC();
 bank.getInterestRate(); // 6.5%
 bank.displayBankInfo();
 
@@ -20,7 +20,7 @@ OnlineBankingFeatures ob = new HDFC();
 ob.transferMoney();
 
 📤 Expected Output:
-Bank Name: HDFC
+Banks Name: HDFC
 Interest Rate: 6.5%
 Transferring Money Online...
 

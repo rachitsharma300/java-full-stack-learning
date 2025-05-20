@@ -23,7 +23,7 @@ Student: John (101)
 Average: 86.6
 Grade: B
 
-🏦 Assignment 2: Bank Account System
+🏦 Assignment 2: Banks Account System
 Problem Statement:
 Create a class BankAccount with the following:
 •	private fields: accountNumber, accountHolder, balance

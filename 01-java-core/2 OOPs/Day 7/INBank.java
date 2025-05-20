@@ -17,19 +17,19 @@ System.out.println("Balance: " + acc1.getBalance());
 Balance: 7000.0
  */
 
-class Bank
+class INBank
 {
     String accountHolder;
     double balance;
 
     static String bankName = " SBI Bank";
 
-    Bank()
+    INBank()
     {
         accountHolder = "ANONYMOUS";
         balance = 0.0;
     }
-    Bank(String accountHolder, double balance)
+    INBank(String accountHolder, double balance)
     {
         this.accountHolder = accountHolder;
         this.balance = balance;
@@ -45,7 +45,7 @@ class Bank
 
     public static void main(String[] args)
     {
-        Bank account1 = new Bank("Rachit", 5000);
+        INBank account1 = new INBank("Rachit", 5000);
         account1.deposit(2000);
         System.out.println("Balance :" + account1.getBalance());
     }
