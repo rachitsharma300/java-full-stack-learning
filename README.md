@@ -63,17 +63,17 @@ java-full-stack-learning/
 │   │   ├── Day 9 - Polymorphism & Encapsulation/
 │   │   └── Day 10 - Abstraction & Interfaces/
 │
-│   ├── Exception Handling/
-│   │   └── Day 11 - Try, Catch, Throw & Finally/
+│   ├── Exception Handling & Collections/
+│   │   ├── Day 11 - Exception Handling & Collection Framework Intro/
+│   │   ├── Day 12 - Collection Framework Continued (practical working)/
+│   │   └── Day 13 - Multithreading, Java Streams API, Introduction to Java 8 Features/
 │
-│   ├── Collections/
-│   │   ├── Day 12 - List & Set/
-│   │   └── Day 13 - Map/
+│   ├── Advanced Java/
+│   │   ├── Day 14 - Java 8: Streams, Functional Prog & Build Tools (Maven, Gradle)./
+│   │   ├── Day 15 - Lambdas, Optionals, Futures & Method Refs/
+│   │   └── Day 16 - Java 9–14: Features & Enhancements/
 │
-│   └── Multithreading/
-│       └── Day 14 - Threads & Lifecycle/
-│
-│   ├── 2-Spring-Boot/
+├── 2-Spring-Boot/
 │
 ├── 2-Frontend/
 │   ├── 1-HTML/
@@ -106,5 +106,5 @@ java-full-stack-learning/
 </div>
 
 <p align="center">
-<h3 align="center">✨ Made with ❤️ by Rachit Sharma ✨</h3>
+<h3 align="center">✨ Made with by Rachit Sharma ✨</h3>
  </p>
