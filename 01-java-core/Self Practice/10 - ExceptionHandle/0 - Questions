@@ -1,0 +1,30 @@
+1. Division by Zero (ArithmeticException)
+Write a program to divide two numbers. Handle the case when the denominator is zero using try-catch.
+
+2. Array Index Out of Bounds
+Create an array and access an invalid index. Handle the exception properly.
+
+3. Null Pointer Exception
+Declare a string variable and try to find its length without initialization. Catch the exception.
+
+4. Multiple Catch Blocks
+Create a program that may throw both ArithmeticException and ArrayIndexOutOfBoundsException, and handle them using multiple catch blocks.
+
+5. Finally Block Demo
+Create a program with try-catch-finally where finally should always execute, whether exception occurs or not.
+
+6. Throw Keyword
+Write a method that checks if a number is negative. If it is, throw an exception manually using throw.
+
+7. Throws Keyword
+Write a method that uses throws to indicate it might throw an exception. Call that method from main and handle it.
+
+8. Custom Exception Class
+Create your own exception class InvalidAgeException and throw it if age < 18
+
+9. Nested try blocks
+Write a program using nested try blocks to show how inner and outer try-catch works.
+
+10. InputMismatchException
+Use Scanner to take an integer input. What happens if user types a string? Handle that using try-catch.
+

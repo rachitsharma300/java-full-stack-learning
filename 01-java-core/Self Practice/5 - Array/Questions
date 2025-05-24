@@ -17,3 +17,8 @@
 9. Merge two arrays
 
 10. Remove duplicate elements
+
+11. Write a program in Java that takes a size n from the user,
+    then takes n characters as input to form a character array.
+    Reverse the character array and print the reversed result
+    as a string.
