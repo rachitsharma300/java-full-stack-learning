@@ -1,6 +1,6 @@
 /*
 Q-4. Create a HashMap where keys are student names (strings) and values are their corresponding grades (integers).
-Create methods to add a new student, remove a student, and Display up a student's grade by nam
+Create methods to add a new student, remove a student, and Display up a student's grade by name.
 */
 
 import java.util.HashMap;
@@ -104,3 +104,32 @@ public class StudentGradeSystem
         sc.close();
     }
 }
+
+/*
+________________________________________________________________________________________________
+|                                    ~~~~ OUTPUT ~~~~                                          |
+|----------------------------------------------------------------------------------------------|
+|                                                                                              |
+|                          --- Student Grade Menu ---                                          |
+|                                1. Add Student                                                |
+|                                2. Remove Student                                             |
+|                                3. Display Student Grade                                      |
+|                                4. Exit                                                       |
+|                                Enter your choice: 1                                          |
+|                                Enter student name: Rachit                                    |
+|                                Enter grade: 85                                               |
+|                                Student added: Rachit with grade 85                           |
+|                                                                                              |
+|                                Enter your choice: 3                                          |
+|                                Enter student name to view grade: Rachit                      |
+|                                Rachit's grade: 85                                            |
+|                                                                                              |
+|                                Enter your choice: 2                                          |
+|                                Enter student name to remove: Rachit                          |
+|                                Student removed: Rachit                                       |
+|                                                                                              |
+|                                Enter your choice: 3                                          |
+|                                Enter student name to view grade: Rachit                      |
+|                                Student not found: Rachit                                     |
+|______________________________________________________________________________________________|
+ */
