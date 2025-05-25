@@ -1,0 +1,26 @@
+Exception& Collection
+
+Q1. Ramesh is developing a student management system for a university. In this system, you have a Student class to
+represent student information. You are asked to help Ramesh to handle exception which can be occurred into program
+according to following Scenarios:
+
+* class Student with attributes roll no, name, age and course. Initialize values through parameterized constructors.
+
+* If the age of the student is not between 15 and 21 then generate a user-defined exception "AgeNotWithinRangeException".
+
+* If a name contains numbers or special symbols, raise exception "NameNotValidException". Define the two exception classes.
+
+Q2. Create a class Voter(voterId, name, age) with parameterized constructor. The parameterized constructor should throw
+a checked/Unchecked exception if age is less than 18. The message of exception is "invalid age for voter "
+
+Q3. Store name of weekdays in an array (starting from "Sunday" at 0 index). Ask day position from user and print day name.
+Handle array index out of bound exception and give proper message if user enters day index outside range (0-6).
+
+Q4. Create a HashMap where keys are student names (strings) and values are their corresponding grades (integers).
+Create methods to add a new student, remove a student, and Display up a student's grade by name.
+
+Q5. Use Collection Classes to store Integers Create some methods for following functionalities
+
+a. Include functions for pushing elements onto the stack.
+
+b. popping elements from the stack.
