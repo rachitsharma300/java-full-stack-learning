@@ -1,0 +1,83 @@
+Assignments for this week
+
+1. Library Book Management System
+Objective:
+Implement a system to manage books in a library, using collections to store and retrieve book information efficiently.
+Requirements:
+•	Create a class Book with attributes like title, author, isbn, and yearPublished.
+•	Use a HashSet<Book> to store unique books (no duplicates).
+•	Implement methods to:
+o	Add a new book.
+o	Remove a book by ISBN.
+o	Search for a book by title or author using a HashMap<String, List<Book>> (key is title/author and value is a list of books).
+o	Display all books in the library.
+•	Implement an interface LibraryOperations that defines methods like addBook, removeBook, and searchBook.
+•	Use TreeSet for storing and sorting books by yearPublished.
+Sample Input:
+LibrarySystem library = new LibrarySystem();
+library.addBook(new Book("The Alchemist", "Paulo Coelho", "123456", 1988));
+library.addBook(new Book("Clean Code", "Robert C. Martin", "654321", 2008));
+library.searchBookByTitle("The Alchemist");
+library.removeBook("123456");
+Expected Output:
+Book added: The Alchemist
+Book added: Clean Code
+Search result for title 'The Alchemist': [The Alchemist, Paulo Coelho, 1988]
+Book removed: The Alchemist
+________________________________________
+2. Online Shopping Cart System
+Objective:
+Simulate an online shopping cart where customers can add products, apply discounts, and view cart details.
+Requirements:
+•	Create a Product class with attributes like name, price, and category.
+•	Use a HashMap<String, Product> to store products by name (key is the product name and value is the product).
+•	Create a ShoppingCart class that stores a list of products and uses a HashMap<Product, Integer> to store product quantities.
+•	Implement methods to:
+o	Add products to the cart.
+o	Remove products from the cart.
+o	Apply a discount on the entire cart (using a double to calculate total price after applying a percentage discount).
+o	View all products in the cart with quantities and total price.
+Sample Input:
+ShoppingCart cart = new ShoppingCart();
+cart.addProduct(new Product("Laptop", 60000, "Electronics"));
+cart.addProduct(new Product("Shirt", 1500, "Clothing"));
+cart.applyDiscount(10);
+cart.viewCart();
+Expected Output:
+Product added to cart: Laptop
+Product added to cart: Shirt
+Applying discount of 10%. Total price: 67,650
+Shopping Cart:
+Laptop: 1 x 60,000
+Shirt: 1 x 1,500
+Total: 67,650
+________________________________________
+3. Employee Database System
+Objective:
+Create an employee database system that allows you to store employee details and perform operations such as searching, adding, updating, and removing employees.
+Requirements:
+•	Create an Employee class with attributes like id, name, department, and salary.
+•	Use a HashMap<Integer, Employee> to store employees by their id.
+•	Implement methods to:
+o	Add a new employee.
+o	Update an employee’s details.
+o	Delete an employee by id.
+o	Search for an employee by id or name using a HashMap for efficient lookups.
+o	Display all employees in the database using a TreeSet sorted by name.
+o	Calculate the average salary of employees in each department using a Map<String, List<Employee>>.
+Sample Input:
+EmployeeDatabase db = new EmployeeDatabase();
+db.addEmployee(new Employee(101, "John", "HR", 50000));
+db.addEmployee(new Employee(102, "Alice", "Finance", 60000));
+db.updateEmployee(102, new Employee(102, "Alice", "Finance", 65000));
+db.deleteEmployee(101);
+db.displayAllEmployees();
+db.calculateAverageSalary("Finance");
+Expected Output:
+Employee added: John, HR, 50,000
+Employee added: Alice, Finance, 60,000
+Employee updated: Alice, Finance, 65,000
+Employee deleted: John
+All Employees:
+Alice, Finance, 65,000
+Average Salary in Finance: 65,000
