@@ -120,3 +120,18 @@ public class StudentManagement
         }
     }
 }
+
+/*
+|-----------------------------------------------------------|
+|                      OUTPUT                               |
+|-----------------------------------------------------------|
+|Student Details :                                          |
+|Roll No : 100                                              |
+|Name    : Rachit Sharma                                    |
+|Age     : 19                                               |
+|Course  : B.tech                                           |
+|Name Error ! Name must contain only Alphabets and spaces   |
+|                                                           |
+|Age Error ! Age must between 15 and 21.                    |
+|-----------------------------------------------------------|
+*/
