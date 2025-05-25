@@ -4,11 +4,11 @@ Q1. Ramesh is developing a student management system for a university. In this s
 represent student information. You are asked to help Ramesh to handle exception which can be occurred into program
 according to following Scenarios:
 
-* class Student with attributes roll no, name, age and course. Initialize values through parameterized constructors.
+a. class Student with attributes roll no, name, age and course. Initialize values through parameterized constructors.
 
-* If the age of the student is not between 15 and 21 then generate a user-defined exception "AgeNotWithinRangeException".
+b. If the age of the student is not between 15 and 21 then generate a user-defined exception "AgeNotWithinRangeException".
 
-* If a name contains numbers or special symbols, raise exception "NameNotValidException". Define the two exception classes.
+c. If a name contains numbers or special symbols, raise exception "NameNotValidException". Define the two exception classes.
 
 Q2. Create a class Voter(voterId, name, age) with parameterized constructor. The parameterized constructor should throw
 a checked/Unchecked exception if age is less than 18. The message of exception is "invalid age for voter "
