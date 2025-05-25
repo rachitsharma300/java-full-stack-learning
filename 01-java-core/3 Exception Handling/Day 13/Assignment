@@ -1,0 +1,41 @@
+🧑‍💻 Assignment Title: Simulate a Ticket Booking System Using Threads
+📝 Objective:
+Implement a multithreaded ticket booking system where multiple users try to book seats concurrently.
+Ensure that thread safety is maintained and no overbooking occurs.
+
+________________________________________
+🔧 Requirements:
+1. Scenario:
+A concert has a fixed number of seats (say, 10 seats). Multiple users (threads) are trying to book tickets
+at the same time. Each user requests a random number of tickets (1 to 4). The system should:
+•	Allow booking if enough seats are available
+•	Reject booking if not enough seats remain
+•	Show real-time booking and rejections
+________________________________________
+✅ Features to Implement:
+1. TicketCounter class
+•	Holds the number of available seats
+•	Has a synchronized method bookTicket(String userName, int numberOfTickets) that:
+o	Checks seat availability
+o	Books tickets if possible
+o	Rejects otherwise
+2. User Thread class
+•	Implements Runnable
+•	Takes userName and numberOfTickets
+•	Calls bookTicket() on TicketCounter
+3. Main class
+•	Creates multiple user threads with random ticket requests
+•	Starts all threads
+
+📦 Expected Output:
+[User-1] trying to book 3 ticket(s)...
+[User-1] successfully booked 3 ticket(s). Remaining: 7
+
+[User-2] trying to book 4 ticket(s)...
+[User-2] successfully booked 4 ticket(s). Remaining: 3
+
+[User-3] trying to book 4 ticket(s)...
+[User-3] failed to book. Not enough seats.
+
+[User-4] trying to book 2 ticket(s)...
+[User-4] successfully booked 2 ticket(s). Remaining: 1
