@@ -1,6 +1,5 @@
 // Find duplicate characters
 
-
 import java.util.Scanner;
 
 public class DuplicateCharacters
