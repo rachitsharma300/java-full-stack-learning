@@ -1,4 +1,7 @@
-<h1 align="center">🚀 Java Full Stack Development</h1>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&center=true&width=650&color=00BFFF&lines=Java+Full+Stack+Development" alt="Typing SVG" />
+</p>
+
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-Full%20Stack-blue" alt="Java Full Stack Badge">
@@ -106,5 +109,9 @@ java-full-stack-learning/
 </div>
 
 <p align="center">
-<h3 align="center">✨ Made with by Rachit Sharma ✨</h3>
+  <img src="https://profile-counter.glitch.me/rachitsharma300/count.svg" />
+</p>
+
+<p align="center">
+<h3 align="center"> Made with by Rachit Sharma </h3>
  </p>
