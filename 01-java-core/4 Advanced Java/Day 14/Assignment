@@ -1,0 +1,35 @@
+* Employee Analytics Using Java Streams
+🔍 Scenario:
+You are working in an HR tech startup. You’ve received a CSV file with thousands of employee records.
+Your task is to process this file and extract insights using Java Streams API.
+
+🗂️ Input File: employees.csv
+Each line in the CSV contains:
+id,name,department,salary,location,age
+📄 Example:
+101,John Smith,Engineering,95000,New York,29
+102,Alice Johnson,Marketing,75000,San Francisco,32
+103,Bob Davis,Engineering,110000,Austin,35
+104,Emma Watson,HR,60000,New York,26
+
+✅ Tasks to Implement Using Java Streams
+1.	Load the CSV file and convert it into a list of Employee objects.
+2.	Find the average salary across all departments.
+3.	List all employees in the 'Engineering' department, sorted by salary descending.
+4.	Group employees by location and count how many are in each city.
+5.	Find the highest paid employee in the company.
+6.	Calculate the average age of employees per department.
+7.	Partition employees into two groups: younger than 30 and 30 or older.
+8.	Find departments with employees having salary > 100000.
+9.	Create a Map: Department -> List of Names, sorted alphabetically.
+
+📦 Class Definition to Use
+public class Employee {
+    private int id;
+    private String name;
+    private String department;
+    private double salary;
+    private String location;
+    private int age;
+    // Constructors, Getters, Setters, toString
+}
