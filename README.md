@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&center=true&width=650&color=00BFFF&lines=Java+Full+Stack+Development" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&center=true&width=650&color=00BFFF&lines=Java+Full+Stack+Development;This+repo+is+for+Java+Full+Stack+learners" alt="Typing SVG" />
 </p>
 
 
