@@ -1,3 +1,4 @@
+// Function to find factorial
 import java.util.Scanner;
 
 public class FunctionFindFactorial
