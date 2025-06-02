@@ -16,7 +16,9 @@
 </div>
 
 
- <h2 align="center"> 📖 Introduction </h2>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&center=true&width=650&color=ffffff&lines=📖 Introduction" alt="Typing SVG" />
+</p>
 <p align="center">
 Welcome to the Java Full Stack Learning repository. This is a structured learning path covering core and advanced topics in full stack development including backend, frontend, database, cloud and system design.
 </p>
