@@ -1,0 +1,49 @@
+Asynchronous Travel Booking System
+🎯 Objective:
+Simulate an asynchronous travel booking system that queries different services
+(like Flights, Hotels, and Car Rentals)in parallel, processes their responses
+using Lambdas and CompletableFuture, and combines results using CompletionStage methods.
+________________________________________
+🛠️ Requirements:
+1.	Service Classes (Simulate external APIs):
+o	FlightService: Returns available flight based on source and destination.
+o	HotelService: Returns hotel options at the destination.
+o	CarRentalService: Returns car rental options at the destination.
+o	Each method should return a CompletableFuture<String> after a simulated delay using CompletableFuture.supplyAsync().
+2.	TravelBookingService:
+o	Asynchronously request all services using CompletableFuture.
+o	Use thenCombine() or thenCompose() to combine results.
+o	Use exceptionally() or handle() to manage service failures.
+o	Use thenAccept() to display the consolidated result.
+3.	Main Class:
+o	Accept user input (source and destination).
+o	Trigger booking process and print:
+Searching for Flights, Hotels, and Car Rentals to Paris...
+
+✓ Flight booked: Air France 445
+✓ Hotel booked: Hilton Paris
+✓ Car rented: Hertz Sedan
+
+Booking completed successfully!
+________________________________________
+✅ Concepts to Use:
+•	✅ Lambda expressions (for functional style with supplyAsync, thenApply, etc.)
+•	✅ CompletableFuture for asynchronous programming
+•	✅ CompletionStage methods like thenApply, thenCombine, thenAccept, handle
+________________________________________
+🔂 Sample Output:
+Booking trip from New York to Paris...
+[FlightService] Searching for flights...
+[HotelService] Searching for hotels...
+[CarRentalService] Searching for car rentals...
+
+[FlightService] Found: Delta Airlines DL123
+[HotelService] Found: Marriott Champs Elysees
+[CarRentalService] Found: Renault Scenic
+
+Trip Summary:
+Flight: Delta Airlines DL123
+Hotel: Marriott Champs Elysees
+Car Rental: Renault Scenic
+
+Booking completed successfully!
