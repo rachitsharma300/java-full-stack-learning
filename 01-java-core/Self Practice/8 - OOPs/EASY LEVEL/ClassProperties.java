@@ -32,5 +32,6 @@ class ClassProperties
         // Displaying Car Info
         car1.displayCarInfo();
         car2.displayCarInfo();
+        car3.displayCarInfo();
     }
 }
