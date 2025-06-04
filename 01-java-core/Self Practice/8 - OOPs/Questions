@@ -1,19 +1,67 @@
-1. Create a class with fields and display method
+--------------------------------------------------------------------|
+                             EASY LEVEL                             |
+--------------------------------------------------------------------|
+1. Create a class Car with properties like model, brand, and price. Create and print object data.
 
-2. Create constructor and print object details
+2. Write a program to demonstrate constructor overloading.
 
-3. Implement inheritance (e.g., Animal → Dog)
+3. Create a class Student with private fields. Use getters and setters to access them.
 
-4. Method overloading example
+4. Demonstrate use of this keyword in constructor and method.
 
-5. Method overriding example
+5. Create a simple inheritance example with class Person and Employee.
 
-6. Encapsulation using private fields and getters/setters
+6. Show method overloading in a Calculator class.
 
-7. Abstraction using abstract class
+7. Create a class with static variable and method. Access it without creating an object.
 
-8. Interface implementation
+8. Demonstrate final keyword usage with variable, method, and class.
 
-9. Use this keyword
+9. Override toString() method of Object class.
 
-10. Create an array of objects and print them
+10. Write a program that uses default and parameterized constructors.
+
+---------------------------------------------------------------------|
+                            MODERATE LEVEL                           |
+---------------------------------------------------------------------|
+11. Write a program that overrides a method in child class and accesses parent method using super.
+
+12. Implement an abstract class Shape with abstract method area(). Extend it in Circle and Square.
+
+13. Create an interface Vehicle and implement it in two classes Car and Bike.
+
+14. Demonstrate runtime polymorphism using method overriding.
+
+15. Create a program to implement multiple interfaces in a single class.
+
+16. Demonstrate Has-A relationship (Composition) using a Library and Book class.
+
+17. Create a class hierarchy for animals using inheritance and polymorphism.
+
+18. Write a program to demonstrate encapsulation in a BankAccount class.
+
+19. Create a program where you call superclass constructor using super() keyword.
+
+20. Compare abstract class and interface with an example.
+----------------------------------------------------------------------|
+                                HARD LEVEL                            |
+----------------------------------------------------------------------|
+21. Write a program with deep inheritance (3+ levels) and method overriding at each level.
+
+22. Create a project-like structure: Employee → Manager, Developer, each with their own logic for calculateBonus().
+
+23. Create a factory pattern using abstract class and interface to create objects of different shapes.
+
+24. Implement a real-world example using interfaces and multiple classes (e.g., Payment interface for UPI, Card, Wallet).
+
+25. Override equals() and hashCode() methods in a class and use HashSet.
+
+26. Create a class with method chaining using this keyword.
+
+27.Create a scenario with interface inheritance (interface extending another interface).
+
+28. Build a basic user authentication system with encapsulation, abstraction, and method overriding.
+
+29. Implement polymorphism and use instanceof to identify object types in runtime.
+
+30. Create a system where multiple interfaces and inheritance are combined to achieve loose coupling.
