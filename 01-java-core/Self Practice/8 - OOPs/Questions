@@ -1,6 +1,6 @@
---------------------------------------------------------------------|
-                             EASY LEVEL                             |
---------------------------------------------------------------------|
+|--------------------------------------------------------------------|
+|                             EASY LEVEL                             |
+|--------------------------------------------------------------------|
 1. Create a class Car with properties like model, brand, and price. Create and print object data.
 
 2. Write a program to demonstrate constructor overloading.
