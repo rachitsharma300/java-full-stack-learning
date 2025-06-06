@@ -28,7 +28,7 @@
 
 12. Implement an abstract class Shape with abstract method area(). Extend it in Circle and Square.
 
-13. Create an interface Vehicle and implement it in two classes Car and Bike.
+13. Create an interface Eatable and implement it in two classes Fruit and Vegetable.
 
 14. Demonstrate runtime polymorphism using method overriding.
 
