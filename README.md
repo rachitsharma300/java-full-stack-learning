@@ -108,7 +108,7 @@ java-full-stack-learning/
   <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ24yamJkZWd2N3p5NnYxdDE5MGE0b2pmeXBmbnJmOXptcmR4dWlidyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Z86Jp12uf8ZfZ6s3uk/giphy.gif" alt="Coming Soon" width="500">
   <p>Projects are currently in progress. Stay tuned for updates!</p>
 </div>
-[![ParsuRam's GitHub Activity Graph](https://github-readme-activity-graph.cyclic.app/graph?username=rachitsharma300&theme=rogue)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![ParsuRam's GitHub Activity Graph](https://github-readme-activity-graph.cyclic.app/graph?username=rachitsharma300&theme=rogue)](https://github.com/rachitsharma300/github-readme-activity-graph)
 
 <p align="center">
   <img src="https://profile-counter.glitch.me/rachitsharma300/count.svg" />
