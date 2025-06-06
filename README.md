@@ -114,11 +114,6 @@ java-full-stack-learning/
 </p>
 
 
-## 📊 GitHub Stats
-
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=rachitsharma300&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rachitsharma300&layout=compact&theme=radical)
-
 
  <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&center=true&width=650&color=ffffff&lines=Made+with+by+Rachit+Sharma" alt="Typing SVG" />
