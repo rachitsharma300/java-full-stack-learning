@@ -48,9 +48,10 @@
 ----------------------------------------------------------------------|
 21. Write a program with deep inheritance (3+ levels) and method overriding at each level.
 
-22. Create a project-like structure: Employee → Manager, Developer, each with their own logic for calculateBonus().
+22. Create a project-like class structure where UserAccount is the base class, and PremiumUser and AdminUser are subclasses.
+Each class should override the calculateBonus(
 
-23. Create a factory pattern using abstract class and interface to create objects of different shapes.
+23. Implement a Factory Pattern using an interface and an abstract class to create objects of different PaymentMethod types such as CreditCard, UPI, and NetBanking.
 
 24. Implement a real-world example using interfaces and multiple classes (e.g., Payment interface for UPI, Card, Wallet).
 
