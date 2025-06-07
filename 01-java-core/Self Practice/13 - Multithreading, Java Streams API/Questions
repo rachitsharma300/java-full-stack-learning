@@ -1,0 +1,19 @@
+1 - Write a simple Thread by extending Thread class and print numbers from 1 to 5.
+
+2 - Implement Runnable interface and print thread name 3 times.
+
+3 - Explain start() vs run() methods in Thread.
+
+4 - Write a program to demonstrate thread synchronization using synchronized keyword.
+
+5 - What is a deadlock? Write code example causing deadlock.
+
+6 - Write a Stream to filter even numbers from a list and print.
+
+7 - Use Stream API to map a list of strings to uppercase.
+
+8 - Explain Stream’s collect() method and collect stream elements to a list.
+
+9 - Write a parallel stream example and explain its use.
+
+10 - Explain Java 8 features: default and static methods in interfaces with example.

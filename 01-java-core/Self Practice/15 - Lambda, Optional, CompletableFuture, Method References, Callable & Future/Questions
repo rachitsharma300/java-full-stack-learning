@@ -1,0 +1,19 @@
+1 - Write a lambda expression to implement Runnable and start a thread.
+
+2 - Use Optional to avoid NullPointerException on a possibly null string.
+
+3 - Create a CompletableFuture to run a task asynchronously and print result.
+
+4 - Explain method reference for a static method and write code example.
+
+5 - Implement Callable to return sum of first N numbers and use Future to get result.
+
+6 - Write a program to chain multiple CompletableFuture tasks.
+
+7 - Use method reference to an instance method of a particular object.
+
+8 - Write a program that uses Optional.orElse() to provide default value.
+
+9 - Explain difference between Future and CompletableFuture.
+
+10 - Write a lambda expression for Comparator to sort objects by multiple fields.

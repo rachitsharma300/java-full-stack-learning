@@ -1,0 +1,19 @@
+1 - Write a lambda expression to print elements of a list.
+
+2 - Use method reference to print a list of names.
+
+3 - Explain Optional class and write code to check if a value is present.
+
+4 - Write a Maven POM file snippet to add dependency for JUnit.
+
+5 - Use Java Streams to group a list of objects by a property using Collectors.groupingBy().
+
+6 - Demonstrate a Supplier functional interface that returns current date/time.
+
+7 - Explain Function interface and write example to convert string to integer.
+
+8 - Write a Stream to flatten a list of lists using flatMap().
+
+9 - Explain build tools Gradle vs Maven (just concepts).
+
+10 - Write a stream to find the maximum value from a list of integers.

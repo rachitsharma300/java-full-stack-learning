@@ -1,0 +1,19 @@
+1 - Write a program to iterate over HashMap using entrySet().
+
+2 - How to sort a List of integers in descending order using Collections.sort()?
+
+3 - What is fail-fast iterator? Demonstrate with ConcurrentModificationException.
+
+4 - Use Iterator to remove all odd numbers from an ArrayList.
+
+5 - Write a program to convert a List to an Array and vice versa.
+
+6 - Explain difference between Iterator and ListIterator with examples.
+
+7 - Write a program to merge two ArrayLists.
+
+8 - Create a synchronized List using Collections.synchronizedList().
+
+9 - Explain Comparable and Comparator interfaces with example to sort objects by age.
+
+10 - Write a program demonstrating unmodifiable Collection using Collections.unmodifiableList().
