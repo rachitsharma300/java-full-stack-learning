@@ -36,9 +36,9 @@
 
 16. Demonstrate Has-A relationship (Composition) using a Library and Book class.
 
-17. Create a class hierarchy for animals using inheritance and polymorphism.
+17. Create a class hierarchy for Appliance using inheritance and polymorphism.
 
-18. Write a program to demonstrate encapsulation in a BankAccount class.
+18. Write a program to demonstrate encapsulation in a UserAccount class.
 
 19. Create a program where you call superclass constructor using super() keyword.
 
