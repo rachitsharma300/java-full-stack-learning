@@ -1,0 +1,20 @@
+ Collection Framework Intro + Types (Basic):
+1 - What is a Collection Framework in Java? Name some core interfaces.
+
+2 - Create an ArrayList and add 5 integers. Print them.
+
+3 - Create a LinkedList of Strings and add 3 names. Iterate and print.
+
+4 - Explain difference between List and Set with examples.
+
+5 - Write a program that stores unique integers in a HashSet and prints them.
+
+6 - Use a TreeSet to store 5 strings in sorted order.
+
+7 - What is the difference between ArrayList and Vector? Write simple code showing thread safety of Vector.
+
+8 - Explain Queue interface and demonstrate it using LinkedList.
+
+9 - Write a program to use PriorityQueue to insert elements and print in natural order.
+
+10 - Write a short note on Map interface and create a HashMap with 3 key-value pairs.
