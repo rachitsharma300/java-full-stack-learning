@@ -14,6 +14,7 @@
 8. [`ArithmeticException`](#-8-arithmeticexception)
 9. [`NumberFormatException`](#-9-numberformatexception)
 10. [`FileNotFoundException`](#-10-filenotfoundexception)
+11. [Custom Checked Exceptions](#custom-checked-exceptions)
 
 ---
 
@@ -224,7 +225,46 @@ try {
 } catch (FileNotFoundException e) {
     System.out.println("File not found!");
 }
+```
+## 🔹 **11. Custom Checked Exceptions**
 
+### 📌 **Definition**
+User-defined exceptions that must be handled or declared.
+
+### 🎯 **Why  Handle It?**
+- Represent domain-specific errors.
+- Enforce proper error handling.
+- Make code more maintainable.
+
+### 🌍 **Real-Life Example**
+Banking app throwing `InsufficientFundsException`.
+
+### 💻 **Code Example**
+```java
+// 1. Define custom exception
+class InsufficientFundsException extends Exception {
+    public InsufficientFundsException(String message) {
+        super(message);
+    }
+}
+
+// 2. Use in business logic
+void withdraw(double amount) throws InsufficientFundsException {
+    if (amount > balance) {
+        throw new InsufficientFundsException(
+            "Requested: " + amount + " | Available: " + balance
+        );
+    }
+    // Process withdrawal
+}
+
+// 3. Handle the exception
+try {
+    account.withdraw(1000);
+} catch (InsufficientFundsException e) {
+    System.out.println("Error: " + e.getMessage());
+}
+```
 
 
 
