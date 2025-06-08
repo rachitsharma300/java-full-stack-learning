@@ -1,5 +1,10 @@
 // Abstract class Vehicle to define common properties and behaviors
 
+// Interface
+interface Maintainable {
+    void serviceSchedule();
+}
+
 abstract class Vehicle {
     String brand;
     String fuelType;
