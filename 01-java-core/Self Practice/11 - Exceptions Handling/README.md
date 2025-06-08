@@ -14,7 +14,7 @@
 8. [`ArithmeticException`](#-8-arithmeticexception)
 9. [`NumberFormatException`](#-9-numberformatexception)
 10. [`FileNotFoundException`](#-10-filenotfoundexception)
-11. [Custom Checked Exceptions](#custom-checked-exceptions)
+11. [Custom `Checked` Exceptions](#-11-custom-checked-exceptions)
 
 ---
 
@@ -226,7 +226,7 @@ try {
     System.out.println("File not found!");
 }
 ```
-## 🔹 **11. Custom Checked Exceptions**
+## 🔹 **11. Custom `Checked` Exceptions**
 
 ### 📌 **Definition**
 User-defined exceptions that must be handled or declared.
