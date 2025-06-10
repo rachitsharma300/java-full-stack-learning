@@ -133,9 +133,6 @@ Here you will find topic-wise documentation to guide your Java Full Stack journe
 ### 🔹 Cloud (AWS)
 - [AWS Fundamentals](4-Cloud/1-AWS/README.md)
 
-### 🔹 System Design
-- [System Design Introduction](5-Design/1-System-Design/README.md)
-
 ### 🔹 Resources
 - [Notes](6-Resources/Notes/README.md)
 - [Assignments](6-Resources/Assignments/README.md)
