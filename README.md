@@ -106,25 +106,6 @@ java-full-stack-learning/
 
 ## 📚 Topic-wise READMEs
 
-Here you will find topic-wise documentation to guide your Java Full Stack journey:
-
-### 🔹 Java Core
-- [Day 1 - Java Overview & Installation](01-java-core/Basics/Day%201%20-%20Java%20Overview%20%26%20Installation/README.md)
-- [Day 2 - DataTypes & Operators](01-java-core/Basics/Day%202%20-%20DataTypes%20%26%20Operators/README.md)
-- [Day 3 - Conditional Statements & Loops](01-java-core/Basics/Day%203%20-%20Conditional%20Statements%20%26%20Loops/README.md)
-- ...
-
-### 🔹 OOPs Concepts
-- [Day 6 - Strings & OOP Introduction](01-java-core/OOPs/Day%206%20-%20Strings%20%26%20OOP%20Introduction/README.md)
-- [Day 7 - Classes, Objects & Constructors](01-java-core/OOPs/Day%207%20-%20Classes%2C%20Objects%20%26%20Constructors/README.md)
-- ...
-
-
-
-
-
-## 📚 Topic-wise READMEs
-
 - [Java Core](01-java-core/README.md)
 - [OOPs Concepts](01-java-core/OOPs/README.md)
 - [Exception Handling & Collections](01-java-core/Exception%20Handling%20%26%20Collections/README.md)
