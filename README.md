@@ -2,7 +2,6 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&center=true&width=650&color=00BFFF&lines=Java+Full+Stack+Development;This+repo+is+for+Java+Full+Stack+learners" alt="Typing SVG" />
 </p>
 
-
 <p align="center">
   <img src="https://img.shields.io/badge/Java-Full%20Stack-blue" alt="Java Full Stack Badge">
   <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License Badge">
@@ -17,7 +16,6 @@
   <img src="resources/Architecture.svg" alt="Architecture Diagram" width="1000">
 </div>
 --->
-
 
 <h2 align="center"> 📖 Introduction </h2>
 </p>
@@ -48,8 +46,6 @@ Welcome to the Java Full Stack Learning repository. This is a structured learnin
     <li>🧠 <strong>System Design:</strong> Concepts and architecture</li>
   </ul>
 </div>
-
-
 
 <h2> 📁 Repository Structure </h2>
 
@@ -116,8 +112,6 @@ java-full-stack-learning/
 - [Cloud (AWS)](4-Cloud/1-AWS/README.md)
 - [System Design](5-Design/1-System-Design/README.md)
 - [Resources](6-Resources/README.md)
-
-
 
 <h2 align="center">🧪 Project Modules</h2>
 
