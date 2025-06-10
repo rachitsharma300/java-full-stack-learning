@@ -122,10 +122,6 @@ Here you will find topic-wise documentation to guide your Java Full Stack journe
 ### 🔹 Spring Boot
 - [Spring Boot Basics](2-Spring-Boot/README.md) *(Add subtopics as README.md grows)*
 
-### 🔹 Frontend
-- [HTML Basics](2-Frontend/1-HTML/README.md)
-- [CSS Styling](2-Frontend/2-CSS/README.md)
-- [JavaScript Fundamentals](2-Frontend/3-JavaScript/README.md)
 
 ### 🔹 Resources
 - [Notes](6-Resources/Notes/README.md)
