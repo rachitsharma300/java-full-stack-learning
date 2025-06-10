@@ -130,9 +130,6 @@ Here you will find topic-wise documentation to guide your Java Full Stack journe
 ### 🔹 Database
 - [MySQL Concepts](3-Database/README.md)
 
-### 🔹 Cloud (AWS)
-- [AWS Fundamentals](4-Cloud/1-AWS/README.md)
-
 ### 🔹 Resources
 - [Notes](6-Resources/Notes/README.md)
 - [Assignments](6-Resources/Assignments/README.md)
