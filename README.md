@@ -121,10 +121,21 @@ Here you will find topic-wise documentation to guide your Java Full Stack journe
 
 
 
-### 🔹 Resources
-- [Notes](6-Resources/Notes/README.md)
-- [Assignments](6-Resources/Assignments/README.md)
-- [Interview Prep](6-Resources/Interview%20Prep/README.md)
+
+
+## 📚 Topic-wise READMEs
+
+- [Java Core](01-java-core/README.md)
+- [OOPs Concepts](01-java-core/OOPs/README.md)
+- [Exception Handling & Collections](01-java-core/Exception%20Handling%20%26%20Collections/README.md)
+- [Advanced Java](01-java-core/Advanced%20Java/README.md)
+- [Spring Boot](2-Spring-Boot/README.md)
+- [Frontend (HTML, CSS, JS)](2-Frontend/README.md)
+- [Database (MySQL)](3-Database/README.md)
+- [Cloud (AWS)](4-Cloud/1-AWS/README.md)
+- [System Design](5-Design/1-System-Design/README.md)
+- [Resources](6-Resources/README.md)
+
 
 
 <h2 align="center">🧪 Project Modules</h2>
