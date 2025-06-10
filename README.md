@@ -119,8 +119,6 @@ Here you will find topic-wise documentation to guide your Java Full Stack journe
 - [Day 7 - Classes, Objects & Constructors](01-java-core/OOPs/Day%207%20-%20Classes%2C%20Objects%20%26%20Constructors/README.md)
 - ...
 
-### 🔹 Spring Boot
-- [Spring Boot Basics](2-Spring-Boot/README.md) *(Add subtopics as README.md grows)*
 
 
 ### 🔹 Resources
