@@ -127,9 +127,6 @@ Here you will find topic-wise documentation to guide your Java Full Stack journe
 - [CSS Styling](2-Frontend/2-CSS/README.md)
 - [JavaScript Fundamentals](2-Frontend/3-JavaScript/README.md)
 
-### 🔹 Database
-- [MySQL Concepts](3-Database/README.md)
-
 ### 🔹 Resources
 - [Notes](6-Resources/Notes/README.md)
 - [Assignments](6-Resources/Assignments/README.md)
