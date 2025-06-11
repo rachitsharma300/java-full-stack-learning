@@ -1,2 +1,38 @@
-public class Driver {
+/*  ================================================================================================ */
+/*          Author: Rachit Sharma  |  Project: Cab Booking System | Date: 2025-06-12                */
+/*  ================================================================================================*/
+public class Driver
+{
+    private String driverId;
+    private String name;
+    private String  phoneNumber;
+    private String licenseNumber;
+
+    public Driver(String driverId, String name, String phoneNumber, String licenseNumber)
+    {
+        this.driverId = driverId;
+        this.name = name;
+        this.phoneNumber = phoneNumber;
+        this.licenseNumber = licenseNumber;
+    }
+
+    // Getter
+    public String getDriverId() { return driverId; }
+    public String getName() { return  name; }
+    public String getPhoneNumber() { return phoneNumber; }
+    public String getLicenseNumber() { return licenseNumber; }
+
+    // Setter
+    public void setPhoneNumber(String phoneNumber) { this.phoneNumber = phoneNumber; }
+
+    @Override
+    public String toString()
+    {
+        return "Driver{" +
+                "driverId='" + driverId + '\'' +
+                ", name='" + name + '\'' +
+                ", phoneNumber='" + phoneNumber + '\'' +
+                ", licenseNumber='" + licenseNumber + '\'' +
+                '}';
+    }
 }
