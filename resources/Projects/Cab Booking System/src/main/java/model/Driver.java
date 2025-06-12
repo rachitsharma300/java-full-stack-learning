@@ -9,13 +9,14 @@ public class Driver
     private String licenseNumber;
     private boolean available;
 
-    public Driver(String driverId, String name, String phoneNumber, String licenseNumber)
+    public Driver(String driverId, String name, String phoneNumber, String licenseNumber, boolean available)
 
     {
         this.driverId = driverId;
         this.name = name;
         this.phoneNumber = phoneNumber;
         this.licenseNumber = licenseNumber;
+        this.available = available;
     }
 
     // Getter
@@ -37,7 +38,7 @@ public class Driver
                 ", name='" + name + '\'' +
                 ", phoneNumber='" + phoneNumber + '\'' +
                 ", licenseNumber='" + licenseNumber + '\'' +
-                ", available='" + available + '\'' +
+                ", available=" + available +
                 '}';
     }
 }
