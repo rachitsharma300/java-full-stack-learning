@@ -7,8 +7,10 @@ public class Driver
     private String name;
     private String  phoneNumber;
     private String licenseNumber;
+    private boolean available;
 
     public Driver(String driverId, String name, String phoneNumber, String licenseNumber)
+
     {
         this.driverId = driverId;
         this.name = name;
@@ -21,9 +23,11 @@ public class Driver
     public String getName() { return  name; }
     public String getPhoneNumber() { return phoneNumber; }
     public String getLicenseNumber() { return licenseNumber; }
+    public boolean isAvailable() { return available; }
 
     // Setter
     public void setPhoneNumber(String phoneNumber) { this.phoneNumber = phoneNumber; }
+    public void setAvailable(boolean available) { this.available = available; }
 
     @Override
     public String toString()
@@ -33,6 +37,7 @@ public class Driver
                 ", name='" + name + '\'' +
                 ", phoneNumber='" + phoneNumber + '\'' +
                 ", licenseNumber='" + licenseNumber + '\'' +
+                ", available='" + available + '\'' +
                 '}';
     }
 }
