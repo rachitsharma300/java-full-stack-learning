@@ -38,7 +38,7 @@ public class Driver
                 ", name='" + name + '\'' +
                 ", phoneNumber='" + phoneNumber + '\'' +
                 ", licenseNumber='" + licenseNumber + '\'' +
-                ", available=" + available +
+                ", available" + available +
                 '}';
     }
 }
