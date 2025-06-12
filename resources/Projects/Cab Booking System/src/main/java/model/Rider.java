@@ -2,14 +2,14 @@
 /*          Author: Rachit Sharma  |  Project: Cab Booking System | Date: 2025-06-12                */
 /*  ================================================================================================*/
 
-public class Ride
+public class Rider
 {
     private String userId;
     private String name;
     private String phoneNumber;
     private String email;
 
-    public Ride(String userId, String name, String phoneNumber, String email)
+    public Rider(String userId, String name, String phoneNumber, String email)
     {
         this.userId = userId;
         this.name = name;
