@@ -18,7 +18,7 @@ public class DriverService
         System.out.println("Driver added: " + driver);
     }
 
-    // List all driver
+    // List all drivers
     public void listDrivers()
     {
         drivers.forEach(System.out::println); // Lambda use here
@@ -30,5 +30,25 @@ public class DriverService
         return drivers.stream()
                 .filter(d -> d.getDriverId().equals(driverId)) // Lambda
                 .findFirst();
+    }
+
+    // Optional Feature for adding some extra features -->
+
+    // Update driver's availability
+    public void updateDriverAvailability(String driverId, boolean isAvailable)
+    {
+        findDriverById(driverId).ifPresentOrElse(driver -> {
+            driver.setAvailable(isAvailable);
+            System.out.println("Driver " + driver.getName() + " availability updated to " + isAvailable);
+
+        }, () -> System.out.println("Driver not found By ID: " + driverId));
+    }
+
+    // Get list of available drivers
+    public List<Driver> getAvailableDrivers()
+    {
+        return drivers.stream()
+                .filter(Driver::isAvailable)  // method Reference
+                .toList(); // Java 17
     }
 }
