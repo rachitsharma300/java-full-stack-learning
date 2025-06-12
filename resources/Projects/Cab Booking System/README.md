@@ -8,17 +8,55 @@
 
 ##  3. Project Structure
 ```
-Cab Booking System
+CabBookingService/
+│
+├── README.md
 └── src/
     └── main/
-    └── java/
-    ├── model/      -> POJOs like User, Driver, Cab
-    ├── service/    -> Business logic like BookingService, FareService
-    ├── util/       -> Utility/helper classes
-    └── app/        -> Main class to run the application
-    
+        └── java/
+            └── com/
+                └── cabbooking/
+                    ├── model/
+                    │   ├── Cab.java
+                    │   ├── Driver.java
+                    │   └── Rider.java
+                    │
+                    ├── service/
+                    │   ├── BookingService.java
+                    │   ├── DriverService.java
+                    │   └── PaymentService.java
+                    │
+                    ├── util/
+                    │   ├── DistanceCalculator.java
+                    │   └── TimeUtils.java
+                    │
+                    └── app/
+                        └── MainApp.java
 ```
-## 4. Technologies
+## 4. Folder Breakdown
+### model/
+- Contains POJOs (Plain Old Java Objects).
+- Cab.java – Cab details (type, number, status)
+- Driver.java – Driver details (name, license number, assigned cab)
+- Rider.java – Rider/user details (name, userId, location)
+
+### service/
+- Contains business logic.
+- BookingService.java – Handles cab booking logic.
+- PaymentService.java – Manages fare calculation and payments.
+- DriverService.java – Driver onboarding, availability, assignment.
+
+### util/
+- Utility classes to support core logic.
+- DistanceCalculator.java – Calculate distance between two locations.
+- TimeUtils.java – Time-related helpers (e.g., current time, ETA calculation).
+
+### app/
+- MainApp.java – Entry point of the application.
+- Runs the whole flow: creates sample data, simulates booking, etc.
+
+
+## 5. Technologies
 - Java 17+
 
 - IntelliJ IDEA
@@ -28,18 +66,18 @@ Cab Booking System
 
 - OOPs Concepts
 
-## 5. How To Run
+## 6. How To Run
 
 1. Clone the repo or open in IntelliJ.
 2. Navigate to app/Main.java.
 3. Run Main to start the console app.
 
-## 6. Learning Goals
+## 7. Learning Goals
 - Deepen understanding of OOP: Inheritance, Encapsulation, Polymorphism, Abstraction
 - Hands-on with Java Collections like List, Map
 - Use Lambda expressions for filtering and sorting
 
-## 7. Future Scope
+## 8. Future Scope
 - Add database integration
 - REST API using Spring Boot
 - Frontend UI using JavaFX or web tech

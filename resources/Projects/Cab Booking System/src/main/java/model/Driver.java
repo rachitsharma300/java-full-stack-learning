@@ -16,7 +16,7 @@ public class Driver
         this.name = name;
         this.phoneNumber = phoneNumber;
         this.licenseNumber = licenseNumber;
-        this.available = available;
+        this.available = true; // Default Value
     }
 
     // Getter
@@ -38,7 +38,7 @@ public class Driver
                 ", name='" + name + '\'' +
                 ", phoneNumber='" + phoneNumber + '\'' +
                 ", licenseNumber='" + licenseNumber + '\'' +
-                ", available" + available +
+                ", available=" + available +
                 '}';
     }
 }
