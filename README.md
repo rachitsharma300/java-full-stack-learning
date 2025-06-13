@@ -92,9 +92,10 @@ java-full-stack-learning/
 │   ├── 1-System-Design/
 │
 ├── 6-Resources/
-│   ├── Notes/
+│   ├── Projects/
+│       ├── Cab Booking System
 │   ├── Assignments/
-│   ├── Interview Prep/
+│   ├── Interview/
 │
 ├── LICENSE
 └── README.md
