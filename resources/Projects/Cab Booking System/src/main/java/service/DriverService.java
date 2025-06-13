@@ -9,32 +9,39 @@ import java.util.Optional;
 
 public class DriverService
 {
+    // ===================== Encapsulation =====================
+    // Maintains internal list of all drivers
     private List<Driver> drivers = new ArrayList<>();
 
-    // Add a new Driver
+    // ===================== Add a New Driver =====================
+    // Adds driver to the list and prints confirmation
+
     public void addDriver(Driver driver)
     {
-        drivers.add(driver);
+        drivers.add(driver);  // OOP: Encapsulation (modifying internal list)
         System.out.println("Driver added: " + driver);
     }
 
-    // List all drivers
+    // ===================== List All Drivers =====================
+    // Prints all driver info using forEach and lambda expression
     public void listDrivers()
     {
-        drivers.forEach(System.out::println); // Lambda use here
+        drivers.forEach(System.out::println); // Java 8+ Lambda (Method Reference)
     }
 
-    // Find a Driver by ID
+    // ===================== Search Driver by ID =====================
+    // Returns Optional containing driver with matching ID
+    // OOP: Abstraction (client code doesn’t need to know how driver is searched)
     public Optional<Driver> findDriverById(String driverId)
     {
         return drivers.stream()
-                .filter(d -> d.getDriverId().equals(driverId)) // Lambda
-                .findFirst();
+                .filter(d -> d.getDriverId().equals(driverId)) // Lambda Ex..
+                .findFirst();  // Optional to safely handle nulls
     }
 
     // Optional Feature for adding some extra features -->
-
-    // Update driver's availability
+    // ===================== Update Driver's Availability =====================
+    // Updates driver's availability using Optional.ifPresentOrElse (Java 9+)
     public void updateDriverAvailability(String driverId, boolean isAvailable)
     {
         findDriverById(driverId).ifPresentOrElse(driver -> {
@@ -44,11 +51,12 @@ public class DriverService
         }, () -> System.out.println("Driver not found By ID: " + driverId));
     }
 
-    // Get list of available drivers
+    // ===================== Get Available Drivers =====================
+    // Returns list of all drivers whose availability is true
     public List<Driver> getAvailableDrivers()
     {
         return drivers.stream()
-                .filter(Driver::isAvailable)  // method Reference
-                .toList(); // Java 17
+                .filter(Driver::isAvailable)  // method Reference java 8+
+                .toList(); // Java 17 : collects stream into list
     }
 }
