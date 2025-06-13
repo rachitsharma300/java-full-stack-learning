@@ -25,7 +25,7 @@ public class MainApp
 
         // Simulate payment
         paymentService.processPayment(rider, 250.0, "UPI");
-
+ 
         // Show remaining available drivers
         System.out.println("\nAvailable drivers after booking:");
         driverService.getAvailableDrivers().forEach(System.out::println);
