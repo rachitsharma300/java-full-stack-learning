@@ -1,7 +1,7 @@
 import java.time.LocalDate;
     public record Emp
             (String id,
-             String nane,
+             String name,
              String department,
              double salary,
              LocalDate joiningDate)
