@@ -1,0 +1,133 @@
+Java Real-World Assignment: Employee Management System
+Objective ---
+Create an Employee Management System that allows users to manage employee records, generate reports,
+and perform various operations using modern Java features. The system should leverage the following concepts:
+•	Private methods in interfaces
+•	Collectors API & Immutable Collections
+•	var keyword
+•	Switch expressions
+•	Text blocks
+•	Records
+________________________________________
+Requirements
+1. Define Employee Data Using Records
+Create an Employee record with the following fields:
+•	id (String)
+•	name (String)
+•	department (String)
+•	salary (double)
+•	joiningDate (LocalDate)
+public record Employee(String id, String name, String department, double salary, LocalDate joiningDate) {}
+________________________________________
+2. Implement an Interface with Private Methods
+Create an interface EmployeeOperations with:
+•	A default method getFormattedEmployeeInfo(Employee emp) that formats employee details using a text block.
+•	A private helper method formatDate(LocalDate date) to format the joining date.
+public interface EmployeeOperations {
+    default String getFormattedEmployeeInfo(Employee emp) {
+        return """
+               Employee ID: %s
+               Name: %s
+               Department: %s
+               Salary: $%.2f
+               Joined On: %s
+               """.formatted(emp.id(), emp.name(), emp.department(), emp.salary(), formatDate(emp.joiningDate()));
+    }
+
+    private String formatDate(LocalDate date) {
+        return date.format(DateTimeFormatter.ofPattern("MMM dd, yyyy"));
+    }
+}
+________________________________________
+3. Use Collectors API & Immutable Collections
+Create a class EmployeeManager that:
+•	Maintains a list of employees.
+•	Provides methods to:
+o	Filter employees by department (using Collectors.groupingBy).
+o	Get the top 3 highest-paid employees (using Collectors.toList with sorting).
+o	Return an immutable list of all employees.
+import java.util.*;
+import java.util.stream.Collectors;
+
+public class EmployeeManager implements EmployeeOperations {
+    private final List<Employee> employees;
+
+    public EmployeeManager(List<Employee> employees) {
+        this.employees = new ArrayList<>(employees);
+    }
+
+    public Map<String, List<Employee>> groupByDepartment() {
+        return employees.stream()
+                .collect(Collectors.groupingBy(Employee::department));
+    }
+
+    public List<Employee> getTop3HighestPaid() {
+        return employees.stream()
+                .sorted(Comparator.comparingDouble(Employee::salary).reversed())
+                .limit(3)
+                .collect(Collectors.toUnmodifiableList()); // Immutable list
+    }
+
+    public List<Employee> getAllEmployees() {
+        return Collections.unmodifiableList(employees); // Immutable list
+    }
+}
+________________________________________
+4. Use var Keyword for Local Variables
+In the main method, demonstrate the use of var for cleaner variable declarations.
+public class Main {
+    public static void main(String[] args) {
+        var employees = List.of(
+            new Employee("E101", "Alice", "HR", 65000, LocalDate.of(2020, 5, 15)),
+            new Employee("E102", "Bob", "IT", 85000, LocalDate.of(2019, 8, 20)),
+            new Employee("E103", "Charlie", "Finance", 75000, LocalDate.of(2021, 3, 10)),
+            new Employee("E104", "Diana", "IT", 90000, LocalDate.of(2018, 11, 5))
+        );
+
+        var manager = new EmployeeManager(employees);
+        var topEmployees = manager.getTop3HighestPaid();
+        var hrEmployees = manager.groupByDepartment().get("HR");
+
+        System.out.println("Top 3 Employees:");
+        topEmployees.forEach(e -> System.out.println(manager.getFormattedEmployeeInfo(e)));
+    }
+}
+________________________________________
+5. Use Switch Expressions for Department-Based Bonuses
+Add a method in EmployeeManager that calculates a bonus based on the department using switch expressions:
+•	IT: 15% bonus
+•	Finance: 10% bonus
+•	HR: 5% bonus
+•	Others: 3% bonus
+public double calculateBonus(Employee emp) {
+    return switch (emp.department()) {
+        case "IT" -> emp.salary() * 0.15;
+        case "Finance" -> emp.salary() * 0.10;
+        case "HR" -> emp.salary() * 0.05;
+        default -> emp.salary() * 0.03;
+    };
+}
+________________________________________
+Expected Output
+When running the Main class, the output should display:
+1.	Top 3 highest-paid employees in a formatted text block.
+2.	Department-wise grouping (optional: print HR employees).
+3.	Bonus calculation for a sample employee using switch expressions.
+Top 3 Employees:
+Employee ID: E104
+Name: Diana
+Department: IT
+Salary: $90000.00
+Joined On: Nov 05, 2018
+
+Employee ID: E102
+Name: Bob
+Department: IT
+Salary: $85000.00
+Joined On: Aug 20, 2019
+
+Employee ID: E103
+Name: Charlie
+Department: Finance
+Salary: $75000.00
+Joined On: Mar 10, 2021
