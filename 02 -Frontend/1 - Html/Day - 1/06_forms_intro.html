@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms Intro</title>
+</head>
+<body>
+
+    <h1>HTML Forms Introduction</h1>
+
+    <form action="/submit" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="username" placeholder="Enter your name">
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="useremail" placeholder="Enter your email">
+        <br><br>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password">
+        <br><br>
+        <label for="gender">Gender</label>
+        <input type="radio" id="male" name="gender" value="male"> Male
+        <input type="radio" id="female" name="female" value="female">female
+        <br><br>
+
+        <label for="hobbies">Hobbies:</label>
+        <input type="checkbox" name="hobby" value="coding">Coding
+        <input type="checkbox" name="hobby" value="music">Music
+        <input type="checkbox" name="hobby" value="sports">Sports
+        <br><br>
+
+        <label for="country">Select Country</label>
+        <select name="country" id="country">
+            <option value="">--Select--</option>
+            <option value="in">INDIA</option>
+            <option value="us">USA</option>
+            <option value="uk">UK</option>
+        </select>
+        <br><br>
+
+        <label for="msg">Message:</label><br>
+        <textarea id="msg" name="message" rows="4" cols="30" placeholder="Write your message"></textarea>
+        <br><br>
+
+        <input type="submit" value="Submit Form">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
