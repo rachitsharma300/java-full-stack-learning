@@ -19,15 +19,7 @@ Commit #18: Added div with custom data attributes and inline style
 Commit #19: Added hidden paragraph element
 Commit #20: Added draggable paragraph
 Commit #21: Added paragraph with spellcheck attribute
-Commit #22: Added close button with aria-label and onclick event
-Commit #23: Added multiple heading elements with class and inline style
-Commit #24: Added paragraph with inline styling for bold text
-Commit #25: Added abbreviation tag with title attribute
-Commit #26: Added address and email link
-Commit #27: Added unordered list with two list items
-Commit #28: Added ordered list with two list items
-Commit #29: Added description list with term and description
-Commit #30: Added table with headers and rows
+Com
 Commit #31: Added section tag with background style
 Commit #32: Added footer with copyright
 Commit #33: Closed body tag of HTML
