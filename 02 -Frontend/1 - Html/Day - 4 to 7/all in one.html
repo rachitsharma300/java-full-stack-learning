@@ -35,3 +35,54 @@
     </form>
 
     <br>
+
+    <!-- ===================== Day 5: HTML5 APIs ===================== -->
+
+    <h1>HTML5 APIs</h1>
+
+  <h2>Geolocation API</h2>
+  <button onclick="getLocation()">Get Location</button>
+  <p id="location"></p>
+  <script>
+    function getLocation() {
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(
+          (pos) => {
+            document.getElementById("location").innerText =
+              "Latitude: " + pos.coords.latitude + ", Longitude: " + pos.coords.longitude;
+          },
+          () => alert("Permission denied or not supported")
+        );
+      } else {
+        alert("Geolocation is not supported by this browser.");
+      }
+    }
+  </script>
+
+  <h2>Drag and Drop API</h2>
+  <div id="drag" draggable="true" ondragstart="drag(event)" style="width:100px;height:100px;background:red;margin-bottom:10px;"></div>
+  <div id="drop" ondrop="drop(event)" ondragover="allowDrop(event)" style="width:200px;height:100px;background:lightgrey;"></div>
+  <script>
+    function allowDrop(ev) { ev.preventDefault(); }
+    function drag(ev) { ev.dataTransfer.setData("text", ev.target.id); }
+    function drop(ev) {
+      ev.preventDefault();
+      const data = ev.dataTransfer.getData("text");
+      ev.target.appendChild(document.getElementById(data));
+    }
+  </script>
+
+  <h2>Web Storage</h2>
+  <button onclick="saveName()">Save Name</button>
+  <button onclick="showName()">Show Name</button>
+  <script>
+    function saveName() {
+        localStorage.setItem("username", "Rachit Sharma");
+        alert("Name saved to localStorage. ");
+    }
+    function showName() {
+        alert("Saved name: " + localStorage.getItem("username"));
+    }
+  </script>
+
+  <hr>
