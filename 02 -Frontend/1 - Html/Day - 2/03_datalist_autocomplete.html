@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datalist Autocomplete Example</title>
+</head>
+<body>
+    
+
+    <h1>Search for a Programming Language</h1>
+
+    <form>
+        <label for="language">Choose a language</label>
+        <input list="languages" id="language" name="language" placeholder="Type here...">
+
+        <datalist id="languages">
+                <option value="JavaScript">
+                <option value="Python">
+                <option value="Java">
+                <option value="C++">
+                <option value="C#">
+                <option value="Ruby">
+                <option value="Go">
+                <option value="Rust">
+        </datalist>
+
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+
+
+</body>
+</html>
