@@ -1,0 +1,105 @@
+Assignment: Build a "DevCon 2025" Conference Landing Page
+
+Objective:
+Design and code a single HTML page for the fictional "DevCon 2025" tech conference.
+The page must demonstrate use of the following HTML elements:
+
+Required HTML Elements:
+
+1. Text formatting tags:
+   - <h1> to <h6>, <p>, <strong>, <em>
+
+2. Semantic structure tags:
+   - <header>, <nav>, <main>, <section>, <article>, <aside>, <footer>
+
+3. Hyperlinks:
+   - <a>
+
+4. Tables:
+   - <table>, <caption>, <thead>, <tbody>, <th>, <td>
+
+5. Lists:
+   - <ul>, <ol>, <li>, or <dl>, <dt>, <dd>
+
+6. Layout containers:
+   - <div>, <span> with simple CSS class hooks
+
+7. Forms:
+   - <form>, <label>, <input>, <select>, <option>, <textarea>, <button>
+
+-----------------------------------------------------
+
+Input Data to Use:
+
+Conference Name:
+DevCon 2025
+
+Tagline:
+Exploring the Future of Development
+
+Navigation Menu (href should link to these section IDs):
+- Home (#home)
+- Speakers (#speakers)
+- Schedule (#schedule)
+- Register (#register)
+- Contact (#contact)
+
+Introduction Paragraph (in <article id="home">):
+DevCon 2025 brings together developers, engineers, and tech leaders 
+for two days of hands-on workshops and visionary keynotes.
+
+Speakers (in <section id="speakers">):
+- Alice Johnson: https://alice.example.com
+- Bob Smith: https://bob.example.com
+- Carol Lee: https://carol.example.com
+
+Schedule (in <section id="schedule">):
+Table with caption: DevCon 2025 Schedule
+Columns: Time | Session | Speaker(s)
+Rows:
+1. 09:00–10:00 | Keynote: The Next Big Thing | Alice Johnson, Bob Smith, Carol Lee
+2. 10:15–11:00 | Panel: AI in 2025
+
+Ticket Types (used in both <aside> and form <select>):
+- Regular: $199
+- Student: $99
+- VIP: $399
+
+-----------------------------------------------------
+
+Expected Output Structure:
+
+1. Header (<header>)
+   - <h1> with "DevCon 2025"
+   - Tagline in <p> with <strong> or <em>
+   - <nav> with links to all sections
+
+2. Main Content (<main>)
+   - <article id="home">: Introduction paragraph
+   - <section id="speakers">:
+     - <h2>Speakers</h2>
+     - <ul> with clickable speaker names linking to URLs
+   - <section id="schedule">:
+     - <h2>Schedule</h2>
+     - <table> with a caption and 2 session rows
+   - <section id="register">:
+     - <h2>Register</h2>
+     - <form>:
+       - Text inputs: Name, Email
+       - <select> for Ticket Type
+       - <input type="checkbox"> for session attendance
+       - <button>Submit</button>
+
+3. Sidebar (<aside> or <div class="sidebar">)
+   - <dl> showing ticket types and prices
+
+4. Footer (<footer id="contact">)
+   - Contact instructions: "Email us at ..."
+   - Link: social media or "Back to top"
+
+5. Layout Wrapping:
+   - Use <div> containers to group:
+     - Header
+     - Main + Aside
+     - Footer
+   - Prefer semantic tags over <div> where possible
