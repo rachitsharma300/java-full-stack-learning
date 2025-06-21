@@ -1,0 +1,49 @@
+<!-- 
+Question 2: Try the below one
+
+<html lang="en">
+    <head>
+        <title>Document
+            <body>                 
+                guvi
+    </head>                        
+    <div>                          
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>                   
+</html>                           
+ --------------------------------------------------------------------------
+Issues:
+1. <body> tag is placed inside <title> — invalid nesting.
+2. <title> tag is not properly closed.
+3. <head> is closed after <body> begins — incorrect order.
+4. <div> tags are placed outside the <body> — invalid structure.
+5. Multiple <div> tags are not closed properly.
+6. Missing <!DOCTYPE html> declaration at the top.
+7. Overall document structure is not well-formed and violates HTML syntax rules.
+-----------------------------------------------------------------------------
+-->
+
+<!-- Corrected Code -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    guvi
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </div>
+    </div>
+</body>
+</html>

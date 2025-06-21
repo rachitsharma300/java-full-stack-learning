@@ -1,0 +1,47 @@
+<!--
+Question 1: Fix the bugs in below snippets
+
+<html lang="en">
+    <head>
+        <title>Document
+            <body>
+                guvi
+        </title>
+    </head>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html> 
+
+Issues:
+- Missing <!DOCTYPE html>
+- <title> not properly closed
+- <body> inside <title> → Invalid
+- <div> outside <body>
+- Improper tag nesting
+-->
+
+<!-- Corrected Code -->
+
+<!DOCTYPE html> <!--  Added missing DOCTYPE declaration -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title> <!--  Properly closed title tag -->
+</head>
+<body> <!-- Body is now in the correct place -->
+    guvi
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </div>
+    </div>
+</body>
+</html>
