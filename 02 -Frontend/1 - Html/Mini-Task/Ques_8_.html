@@ -1,0 +1,80 @@
+<!--
+Use the <table> tag to design the given image. (Click here)
+! The image link provided in the question was not working !
+ https://www.bapugraphics.com/assets/img/port_upload_dir/table-4.jpg
+
+So, I was unable to view the design. Therefore, I could not create the exact table layout.
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Credit Card Form</title>
+  </head>
+  <body>
+    <h2 align="center">Credit Card Payment</h2>
+
+    <table border="1" align="center" cellpadding="10">
+      <tr>
+        <td>Card Type:</td>
+        <td>
+          <input type="radio" name="card" id="visa" />
+          <label for="visa">RUPAY</label>
+          <input type="radio" name="card" id="mastercard" />
+          <label for="mastercard">MasterCard</label>
+          <input type="radio" name="card" id="amex" />
+          <label for="amex">Visa</label>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Card Number:</td>
+        <td><input type="text" placeholder="XXXX-XXXX-XXXX-XXXX" /></td>
+      </tr>
+
+      <tr>
+        <td>Expiration Date:</td>
+        <td>
+          <select>
+            <option>Month</option>
+            <option>01</option>
+            <option>02</option>
+            <option>03</option>
+            <option>04</option>
+            <option>05</option>
+            <option>06</option>
+            <option>07</option>
+            <option>08</option>
+            <option>09</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+          </select>
+
+          <select>
+            <option>Year</option>
+            <option>2025</option>
+            <option>2026</option>
+            <option>2027</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Cardholder Name:</td>
+        <td><input type="text" placeholder="Full Name" /></td>
+      </tr>
+
+      <tr>
+        <td>CVV:</td>
+        <td><input type="password" placeholder="XXX" maxlength="4" /></td>
+      </tr>
+
+      <tr>
+        <td colspan="2" align="center">
+          <input type="submit" value="Submit Payment" />
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
