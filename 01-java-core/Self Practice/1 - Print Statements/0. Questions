@@ -17,3 +17,28 @@
 9. Take two strings and print them combined
 
 10. Take a sentence input and print each word on a new line
+
+11. Input a character and print its ASCII value.
+(Example: Input: A → Output: 65)
+
+12. Take input of a number and print whether it is even or odd.
+
+13. Input your first name and last name separately, and print the full name in the format "Last, First".
+
+
+14. Take input of 3 numbers and print the greatest among them.
+
+15. Input a number and print whether it's positive, negative, or zero.
+
+16. Input a string and print its length.
+
+17. Take two numbers as input and swap their values. Then print the swapped numbers.
+
+18. Take a number input and print the reverse of that number.
+(Example: Input: 1234 → Output: 4321)
+
+19. Input a sentence and count how many words it has.
+
+20. Take a list of comma-separated integers as input and print the average.
+(Example: Input: 10,20,30 → Output: Average is 20.0)
+
