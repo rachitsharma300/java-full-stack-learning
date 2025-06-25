@@ -17,3 +17,43 @@
 9. Input age and gender, print eligible job type
 
 10. Write a menu-driven calculator (add, sub, mul, div)
+
+11. Check if a character is uppercase or lowercase.
+Input: A character
+Output: "Uppercase" or "Lowercase"
+
+12. Check if a number is a multiple of 3 or 7.
+Input: A number
+Output: "Multiple of 3", "Multiple of 7", "Multiple of both", or "Not a multiple"
+
+13. Check whether a person is eligible to vote (age ≥ 18).
+Input: Age
+Output: "Eligible" or "Not eligible"
+
+14. Check whether a triangle is valid or not using angles.
+Condition: Sum of all 3 angles should be 180°
+Output: "Valid triangle" or "Invalid triangle"
+
+15. Check if the input number is a three-digit number.
+Input: An integer
+Output: "Three-digit number" or "Not a three-digit number"
+
+16. Check if a given year is a century year.
+Condition: Century years are divisible by 100
+Output: "Century year" or "Not a century year"
+
+17. Check if a person can drive (age ≥ 18) and has a license (Y/N).
+Inputs: Age and license status
+Output: "Can drive" or "Cannot drive"
+
+18. Check the roots of a quadratic equation (real and equal, real and distinct, or imaginary).
+Inputs: Coefficients a, b, c
+Output: "Real and Equal", "Real and Distinct", "Imaginary"
+
+19. Check eligibility for scholarship: Age < 25, GPA > 3.5, Income < 5L.
+Input: Age, GPA, Income
+Output: "Eligible" or "Not eligible"
+
+20. Check if a number is a palindrome (reverse is same as original).
+Input: A number
+Output: "Palindrome" or "Not a palindrome"
