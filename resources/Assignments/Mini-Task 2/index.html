@@ -1,74 +1,335 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Brian Dudey - Resume</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
     <style type="text/css">
-        body {
-            font-family: 'Open Sans', sans-serif;
-            line-height: 1.5;
-        }
-        .progress-bar {
-            height: 6px;
-            background-color: #e2e8f0;
-            border-radius: 3px;
-            margin-top: 2px;
-        }
-        .progress-fill {
-            height: 100%;
-            background-color: #4a5568;
-            border-radius: 3px;
-        }
-        .section-icon {
-            margin-right: 8px;
-            color: #4a5568;
-        }
+      body {
+        font-family: "Open Sans", sans-serif;
+        line-height: 1.5;
+      }
+      .progress-bar {
+        height: 6px;
+        background-color: #a2a1a1;
+        border-radius: 3px;
+        margin-top: 2px;
+      }
+      .progress-fill {
+        height: 100%;
+        background-color: 	#FFFF00;
+        border-radius: 3px;
+      }
+      .section-icon {
+        margin-right: 8px;
+        color: #4a5568;
+      }
     </style>
-</head>
-<body class="bg-white text-gray-800 max-w-4x1 mx-auto p-6 md:p-8">
+  </head>
+  <body class="bg-white text-gray-800 max-w-4xl mx-auto p-6 md:p-8">
+    <!-- Centered Profile Photo and Header -->
+    <div class="flex flex-col items-center mb-8 text-center">
+      <div class="w-32 h-32 bg-gray-300 rounded-full mb-4 overflow-hidden">
+        <!-- Placeholder for profile photo -->
+        <div
+          class="w-full h-full bg-gray-400 flex items-center justify-center text-white"
+        >
+          <i class="fas fa-user text-4xl"></i>
+        </div>
+      </div>
+      <h1 class="text-3xl uppercase bg-yellow-300 px-2">Brian Dudey</h1>
+      <div class="flex flex-wrap justify-center gap-x-2 text-sm mt-2">
+        <span>N. Damen Avenue, Chicago 99999</span>
+        <span>|</span>
+        <span>999-999-9999</span>
+        <span>|</span>
+        <span>hello@kickresume.com</span>
+        <span>|</span>
+        <span>www.kickresume.com</span>
+      </div>
+    </div>
 
-    <!-- Center Profile photo and header -->
-     <div class="flex flex-col items-center mb-8 text-center">
-        <div class="w-32 h-32 bg-gray-300 rounded-full mb-4 overflow-hidden">
-            <!--Placeholder for CV Photo-->
-            <div class="w-full h-full bg-gray-400 flex items-center justify-center text-white">
+    <!-- Two Column Layout with Equal Width -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <!-- Left Column -->
+      <div>
+        <!-- Profile -->
+        <section class="mb-6">
+          <h2
+            class="text-xl font-bold uppercase border-b border-gray-300 pb-1 mb-3 flex items-center"
+          >
+            <i class="fas fa-user section-icon"></i> Profile
+          </h2>
+          <p class="text-sm">
+            Innovative optimized solution seeker. Excited to be at the
+            deployment phase of my new career as a web developer. I am
+            ambitious, adventurous, assiduous, animated, and an alliteration
+            advocate.
+          </p>
+        </section>
 
-                <i class="fas fa-user text-4x1"></i>
+        <!-- Skills -->
+        <section class="mb-6">
+          <h2
+            class="text-xl font-bold uppercase border-b border-gray-300 pb-1 mb-3 flex items-center"
+          >
+            <i class="fas fa-cogs section-icon"></i> Skills
+          </h2>
+
+          <div class="mb-4">
+            <h3 class="font-bold text-sm mb-2">Technical Skills</h3>
+            <div class="space-y-3">
+              <div>
+                <div class="flex justify-between text-xs mb-1">
+                  <span>JavaScript</span>
+                  <span>90%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 90%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between text-xs mb-1">
+                  <span>CSS</span>
+                  <span>85%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 85%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between text-xs mb-1">
+                  <span>HTML</span>
+                  <span>95%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 95%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between text-xs mb-1">
+                  <span>React</span>
+                  <span>80%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 80%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between text-xs mb-1">
+                  <span>Redux</span>
+                  <span>75%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 75%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between text-xs mb-1">
+                  <span>Mongo</span>
+                  <span>70%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 70%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between text-xs mb-1">
+                  <span>Deployment</span>
+                  <span>65%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 65%"></div>
+                </div>
+              </div>
             </div>
-        </div>
-        <h1 class="text-3x1 font-bold uppercase">Rachit Sharma</h1>
-        <div class="flex flex-wrap justify-center gap-x-2 text-sm mt-2">
-            <span>N. Damen Avenue, Chicago 99999</span>
-            <span>|</span>
-            <span>999-999-9999</span>
-            <span>|</span>
-            <span>hello@kickresume.com</span>
-            <span>|</span>
-            <span>www.rachitsharma300.com</span>
-        </div>
-     </div>
+          </div>
 
-     <!--Two column Layout-->
-     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <!--Lrft Column-->
-        <div>
-            <!--Profile-->
-            <section class="mb-6">
-                <h2 class="text-x1 font-bold uppercase border-b border-gray-300 pb-1 mb-3 flext items-center">
-                    <i class="fas fa-user section-icon"></i> Profile
-                </h2>
-                <p class="text-sm">
-                    Innovative optimized solution seeker. Excited to be at the deployment phase of my new career as a web developer. 
-                    I am ambitious, adventurous, assiduous, animated, and an alliteration advocate.
-                </p>
-            </section>
-        </div>
-     </div>
-</body>
-            
-</body>
+          <div>
+            <h3 class="font-bold text-sm mb-2">Additional Skills</h3>
+            <div class="space-y-3">
+              <div>
+                <div class="flex justify-between text-xs mb-1">
+                  <span>Project Management</span>
+                  <span>85%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 85%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between text-xs mb-1">
+                  <span>Recruitment</span>
+                  <span>75%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 75%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between text-xs mb-1">
+                  <span>Business Development</span>
+                  <span>80%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 80%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between text-xs mb-1">
+                  <span>Editing</span>
+                  <span>90%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 90%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between text-xs mb-1">
+                  <span>Fundraising</span>
+                  <span>70%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 70%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- First Work Experience (Left Column) -->
+        <section>
+          <h2
+            class="text-xl font-bold uppercase border-b border-gray-300 pb-1 mb-3 flex items-center"
+          >
+            <i class="fas fa-briefcase section-icon"></i> Work experience
+          </h2>
+
+          <div class="mb-4">
+            <div class="flex justify-between items-baseline mb-1">
+              <h3 class="font-bold text-sm">Event Manager</h3>
+              <span class="text-xs">03/2014 – 02/2017</span>
+            </div>
+            <p class="text-xs italic mb-2">C3 Presents, Washington DC</p>
+            <ul class="list-disc list-inside text-sm pl-2 space-y-1">
+              <li>
+                Lead and execute all phases of event planning and production
+                spanning committee recruitment, training, vendor relationships
+                and on-site facilitation.
+              </li>
+              <li>
+                Brought new business to the organization through relentless
+                networking and stewardship which helped the company win the bid
+                for the State Department Summit on the Middle East and, the
+                companies largest civic event to date, the United State of
+                Women.
+              </li>
+              <li>
+                Exercise fiscal control over budget creation, tracking and
+                reporting. Collaborate with employees at all organizational
+                levels to advance cohesive operations.
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+
+      <!-- Right Column -->
+      <div>
+        <!-- Second Work Experience (Right Column) -->
+        <section class="mb-6">
+          <h2
+            class="text-xl font-bold uppercase border-b border-gray-300 pb-1 mb-3 flex items-center invisible"
+          >
+            <i class="fas fa-briefcase section-icon"></i> Work experience
+          </h2>
+
+          <div class="mb-4">
+            <div class="flex justify-between items-baseline mb-1">
+              <h3 class="font-bold text-sm">Community Relations Manager</h3>
+              <span class="text-xs">06/2011 – 01/2014</span>
+            </div>
+            <p class="text-xs italic mb-2">
+              Gay & Lesbian Elder Housing, Los Angeles
+            </p>
+            <ul class="list-disc list-inside text-sm pl-2 space-y-1">
+              <li>Arranging presentations and pitch deck.</li>
+              <li>
+                Designing a PR plan and establishing important focus points.
+              </li>
+              <li>
+                Designing, creating and managing content across multiple
+                communication platforms.
+              </li>
+              <li>Building relationships with key media players.</li>
+            </ul>
+          </div>
+
+          <!-- Divider Line -->
+          <div class="border-t border-gray-300 my-4"></div>
+        </section>
+
+        <!-- Education -->
+        <section>
+          <h2
+            class="text-xl font-bold uppercase border-b border-gray-300 pb-1 mb-3 flex items-center"
+          >
+            <i class="fas fa-graduation-cap section-icon"></i> Education
+          </h2>
+
+          <div class="mb-4">
+            <div class="flex justify-between items-baseline mb-1">
+              <h3 class="font-bold text-sm">Engineering Immersion Program</h3>
+              <span class="text-xs">11/2018 – 06/2018</span>
+            </div>
+            <p class="text-xs italic mb-2">Thinkful, Chicago, IL</p>
+            <p class="text-sm mb-2">
+              Project-focused intensive program with emphasis on Mongo, Express,
+              React, and JavaScript (MERN) technical stack.
+            </p>
+            <ul class="list-disc list-inside text-sm pl-2 space-y-1">
+              <li>
+                Developed a full-stack web application, "RenewU", using React
+                that allows users to explore various aspects of meditation.
+                User's progress is stored on a backend created using Node and
+                MongoDB.
+              </li>
+              <li>
+                Developed a language learning app, "Foodie Phonetics" using
+                spaced repetition and a linked list data structure. React was
+                used to create the front end components while Node and Mongo
+                were used to create a backend that stores user data.
+              </li>
+              <li>
+                Developed a concierge app, "Pley", for individuals looking for
+                curated suggestions when visiting a new place. React was used to
+                develop the front end which includes real-time chat, drag and
+                drop and variety of advanced features. The backend, built using
+                Node, Express, and Mongo, takes advantage of well-developed
+                RESTful API, Geospatial searching, and user authentication with
+                JWT.
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="flex justify-between items-baseline mb-1">
+              <h3 class="font-bold text-sm">BA, English</h3>
+              <span class="text-xs">09/2001 – 09/2005</span>
+            </div>
+            <p class="text-xs italic">University of California, Los Angeles</p>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
 </html>
