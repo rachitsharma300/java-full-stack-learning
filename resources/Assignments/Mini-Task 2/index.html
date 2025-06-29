@@ -35,32 +35,44 @@
       }
     </style>
   </head>
-  <body class="bg-white text-gray-800 max-w-4xl mx-auto p-6 md:p-8">
-    <!-- Centered Profile Photo and Header -->
-    <div class="flex flex-col items-center mb-8 text-center">
-      <div class="w-32 h-32 bg-gray-300 rounded-full mb-4 overflow-hidden">
-        <img src="about.jpg">
+
+  <body class="bg-white text-gray-700 max-w-4xl mx-auto p-6 md:p-8">
+    <!--Header-->
+    <div class="relative mb-8">
+      <!-- Dark grey background bar -->
+      <div class="bg-gray-700 h-24"></div>
+
+      <!-- Profile Image with yellow dotted border -->
+      <div class="absolute top-2 left-1/2 transform -translate-x-1/2">
         <div
-          <div
-          class="w-32 h-32 rounded-full border-4 border-dotted border-yellow-300 flex items-center justify-center"
+          class="rounded-full border-4 border-dotted border-yellow-400 p-0 bg-white"
         >
-          >
-          <i class="fas fa-user text-4xl"></i>
+          <img
+            src="about.jpg"
+            alt="Profile"
+            class="w-24 h-24 rounded-full object-cover"
+          />
         </div>
       </div>
-      <h1 class="text-3xl uppercase bg-yellow-300 px-2">Brian Dudey</h1>
-      <div class="flex flex-wrap border-b justify-center gap-x-2 text-sm mt-2">
-        <span>N. Damen Avenue, Chicago 99999</span>
-        <span>|</span>
-        <span>999-999-9999</span>
-        <span>|</span>
-        <span>hello@kickresume.com</span>
-        <span>|</span>
-        <span>www.kickresume.com</span>
+
+      <!-- Yellow Name Banner -->
+      <div
+        class="absolute top-20 left-1/2 transform -translate-x-1/2 bg-yellow-400 px-4 py-1 rounded"
+      >
+        <h1 class="text-4xl text-gray-700 uppercase">Brian Dudey</h1>
+      </div>
+
+      <!-- White-grey horizontal bar -->
+      <div class="bg-gray-800 h-3 mt-7"></div>
+
+      <!-- Contact Info bar -->
+      <div class="text-center border -b text-sm text-black py-2">
+        N. Damen Avenue, Chicago 99999 | 999-999-9999 | hello@kickresume.com |
+        www.kickresume.com
       </div>
     </div>
 
-    <!-- Two Column Layout with Equal Width -->
+    <!--  Two Column Layout -->
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
       <!-- Left Column -->
       <div>
@@ -69,10 +81,10 @@
           <span
             class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-yellow-400 text-white"
           >
-            <i class="fas fa-graduation-cap"></i>
+            <i class="fas fa-user"></i>
           </span>
           <span class="ml-2">Profile</span>
-          <p class="text-sm">
+          <p class="text-sm mt-2">
             Innovative optimized solution seeker. Excited to be at the
             deployment phase of my new career as a web developer. I am
             ambitious, adventurous, assiduous, animated, and an alliteration
@@ -85,15 +97,17 @@
           <span
             class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-yellow-400 text-white"
           >
-            <i class="fas fa-graduation-cap"></i>
+            <i class="fas fa-cogs"></i>
           </span>
           <span class="ml-2">Skills</span>
 
+          <!-- Technical Skills -->
           <div class="mb-4">
             <h3 class="font-bold text-sm mb-2 flex justify-center">
               Technical Skills
             </h3>
             <div class="space-y-3">
+              <!-- Each skill block -->
               <div>
                 <div class="flex justify-between text-xs mb-1">
                   <span>JavaScript</span>
@@ -103,6 +117,7 @@
                   <div class="progress-fill" style="width: 90%"></div>
                 </div>
               </div>
+              <!-- Repeat for other skills -->
               <div>
                 <div class="flex justify-between text-xs mb-1">
                   <span>CSS</span>
@@ -160,11 +175,13 @@
             </div>
           </div>
 
+          <!-- Additional Skills -->
           <div>
             <h3 class="font-bold text-sm mb-2 flex justify-center">
               Additional Skills
             </h3>
             <div class="space-y-3">
+              <!-- Each additional skill block -->
               <div>
                 <div class="flex justify-between text-xs mb-1">
                   <span>Project Management</span>
@@ -174,6 +191,7 @@
                   <div class="progress-fill" style="width: 85%"></div>
                 </div>
               </div>
+              <!-- Repeat for other additional skills -->
               <div>
                 <div class="flex justify-between text-xs mb-1">
                   <span>Recruitment</span>
@@ -214,16 +232,15 @@
           </div>
         </section>
 
-        <!-- First Work Experience (Left Column) -->
+        <!-- Work Experience (Left) -->
         <section>
           <span
             class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-yellow-400 text-white"
           >
-            <i class="fas fa-graduation-cap"></i>
+            <i class="fas fa-briefcase"></i>
           </span>
-          <span class="ml-2">Work experience</span>
-
-          <div class="mb-4">
+          <span class="ml-2">Work Experience</span>
+          <div class="mb-4 mt-2">
             <div class="flex justify-between items-baseline mb-1">
               <h3 class="font-bold text-sm">Event Manager</h3>
               <span class="text-xs">03/2014 – 02/2017</span>
@@ -254,16 +271,16 @@
 
       <!-- Right Column -->
       <div>
-        <!-- Second Work Experience (Right Column) -->
+        <!-- Work Experience (Right) -->
         <section class="mb-6">
           <span
             class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-yellow-400 text-white"
           >
-            <i class="fas fa-graduation-cap"></i>
+            <i class="fas fa-briefcase"></i>
           </span>
-          <span class="ml-2">Work experience</span>
+          <span class="ml-2">Work Experience</span>
 
-          <div class="mb-4">
+          <div class="mb-4 mt-2">
             <div class="flex justify-between items-baseline mb-1">
               <h3 class="font-bold text-sm">Community Relations Manager</h3>
               <span class="text-xs">06/2011 – 01/2014</span>
@@ -297,7 +314,7 @@
           </span>
           <span class="ml-2">Education</span>
 
-          <div class="mb-4">
+          <div class="mb-4 mt-2">
             <div class="flex justify-between items-baseline mb-1">
               <h3 class="font-bold text-sm">Engineering Immersion Program</h3>
               <span class="text-xs">11/2018 – 06/2018</span>
