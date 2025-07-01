@@ -42,3 +42,88 @@ Edit
 const pi = 3.14;
 console.log(pi);
 ```
+## Data Types
+```
+Type	Example
+String	"Hello"
+Number	42, 3.14
+Boolean	true, false
+Undefined	let x;
+Null	let y = null;
+Object	{name: "Rachit"}
+Array	[1,2,3]
+```
+## Operators
+```
+Arithmetic
++ - * / % **
+
+Assignment
+= += -= *= /=
+
+Comparison
+== != === !== > < >= <=
+
+Logical
+&& || !
+```
+## Example
+```js
+Copy
+Edit
+let a = 10;
+let b = 3;
+console.log(a + b); // 13
+console.log(a ** b); // 1000
+```
+## Functions
+Function Declaration
+```js
+Copy
+Edit
+function greet(name) {
+  console.log("Hello " + name);
+}
+greet("Rachit");
+```
+## Arrow Function (ES6)
+```js
+const greet = (name) => {
+  console.log("Hello " + name);
+}
+greet("Rachit");
+```
+## Conditional Statements
+```js
+let num = 10;
+if (num > 0) {
+  console.log("Positive");
+} else if (num < 0) {
+  console.log("Negative");
+} else {
+  console.log("Zero");
+}
+```
+##Loops
+For Loop
+```js
+for(let i = 1; i <= 5; i++) {
+  console.log(i);
+}
+```
+## While Loop
+```js
+let i = 1;
+while(i <= 5) {
+  console.log(i);
+  i++;
+}
+```
+## Do-While Loop
+```js
+let i = 1;
+do {
+  console.log(i);
+  i++;
+} while(i <= 5);
+```
