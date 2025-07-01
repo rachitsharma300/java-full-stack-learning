@@ -78,10 +78,25 @@ java-full-stack-learning/
 │
 ├── 2-Spring-Boot/
 │
-├── 2-Frontend/
-│   ├── 1-HTML/
-│   ├── 2-CSS/
-│   ├── 3-JavaScript/
+├── 02-frontend/
+│   ├── 1-html/
+│   │   ├── day 01 - html-fundamentals/
+│   │   ├── day 02 - forms-semantic-html/
+│   │   ├── day 03 - html5-features/
+│   │   └── day 04 - html-project/
+│   │
+│   ├── 2-css/
+│   │   ├── day 01 - css-fundamentals/
+│   │   ├── day 02 - flexbox-grid/
+│   │   ├── day 03 - responsive-design/
+│   │   └── day 04 - css-frameworks-animations/
+│   │
+│   └── 3-javascript/
+│       ├── day 01 - js-fundamentals/
+│       ├── day 02 - dom-manipulation/
+│       ├── day 03 - es6-features/
+│       ├── day 04 - async-js/
+│       └── day 05 - js-project/
 │
 ├── 3-Database/
 │
