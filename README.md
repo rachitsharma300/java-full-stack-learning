@@ -80,23 +80,23 @@ java-full-stack-learning/
 │
 ├── 02-frontend/
 │   ├── 1-html/
-│   │   ├── day 01 - html-fundamentals/
-│   │   ├── day 02 - forms-semantic-html/
-│   │   ├── day 03 - html5-features/
-│   │   └── day 04 - html-project/
+│   │   ├── Day 01 - html-fundamentals/
+│   │   ├── Day 02 - forms-semantic-html/
+│   │   ├── Day 03 - html5-features/
+│   │   └── Day 04 - html-project/
 │   │
 │   ├── 2-css/
-│   │   ├── day 01 - css-fundamentals/
-│   │   ├── day 02 - flexbox-grid/
-│   │   ├── day 03 - responsive-design/
-│   │   └── day 04 - css-frameworks-animations/
+│   │   ├── Day 01 - css-fundamentals/
+│   │   ├── Day 02 - flexbox-grid/
+│   │   ├── Day 03 - responsive-design/
+│   │   └── Day 04 - css-frameworks-animations/
 │   │
 │   └── 3-javascript/
-│       ├── day 01 - js-fundamentals/
-│       ├── day 02 - dom-manipulation/
-│       ├── day 03 - es6-features/
-│       ├── day 04 - async-js/
-│       └── day 05 - js-project/
+│       ├── Day 01 - js-fundamentals/
+│       ├── Day 02 - dom-manipulation/
+│       ├── Day 03 - es6-features/
+│       ├── Day 04 - async-js/
+│       └── Day 05 - js-project/
 │
 ├── 3-Database/
 │
