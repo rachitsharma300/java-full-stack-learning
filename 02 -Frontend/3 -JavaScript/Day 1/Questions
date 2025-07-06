@@ -1,0 +1,31 @@
+Basic JavaScript Questions
+1. Print Hello World
+Write a program to print “Hello, World!” in JavaScript.
+
+2. Variables
+Create two variables num1 and num2, assign them values 10 and 20, and print their sum.
+
+3. Even or Odd
+Write a function that checks whether a given number is even or odd.
+
+4. Largest of Two Numbers
+Write a program to find the largest of two given numbers using if-else.
+
+5. Simple Calculator
+Create a function calculator that takes three parameters: num1, num2, and operator (+, -, *, /), and returns the result.
+
+6. Array Sum
+Given an array [1,2,3,4,5], write a function to calculate and return the sum of all elements.
+
+7. Reverse a String
+Write a function to reverse a given string. Example: “hello” → “olleh”
+
+8. Factorial
+Write a function to find the factorial of a number using a for loop.
+
+9. Palindrome Check
+Write a function that checks whether a string is a palindrome or not. (Same forward and backward)
+
+10. FizzBuzz
+Write a program that prints numbers from 1 to 20. But for multiples of 3, print “Fizz”, for multiples of 5 print “Buzz”, and for multiples of both print “FizzBuzz”.
+
