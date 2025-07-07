@@ -29,3 +29,32 @@ Write a function that checks whether a string is a palindrome or not. (Same forw
 10. FizzBuzz
 Write a program that prints numbers from 1 to 20. But for multiples of 3, print “Fizz”, for multiples of 5 print “Buzz”, and for multiples of both print “FizzBuzz”.
 
+11. Swap Two Numbers
+Write a program to swap the values of two variables using a temporary third variable.
+
+12. Count Vowels in a String
+Write a function that takes a string and returns the count of vowels (a, e, i, o, u) in it.
+
+13. Find Minimum in Array
+Write a function to find and return the smallest number in an array of numbers.
+
+14. Convert Celsius to Fahrenheit
+Write a function to convert temperature from Celsius to Fahrenheit. (Formula: F = C * 1.8 + 32)
+
+15. Check for Prime Number
+Write a function to check whether a given number is prime or not.
+
+16. Generate Random Number
+Write a function that generates a random integer between 1 and 100 (inclusive).
+
+17. Capitalize First Letter
+Write a function that takes a string and returns it with the first letter capitalized. Example: “hello” → “Hello”.
+
+18. Sum of Digits
+Write a function to find the sum of all digits in a given number. Example: 123 → 6.
+
+19. Remove Duplicates from Array
+Write a function that removes duplicate elements from an array and returns a new array with unique elements.
+
+20. Merge Two Arrays
+Write a function to merge two arrays and return a single merged array.
