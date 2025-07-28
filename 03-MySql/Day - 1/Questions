@@ -1,0 +1,70 @@
+ONE 1 - Basic DBMS & Table Creation (DDL)
+
+1. Create a database named CompanyDB.
+2. Create a table Employees with id, name, salary, join_date, and dept_id.
+3. Alter the table to add an email column.
+4. Rename the table Employees to Staff.
+5. Drop the table TempData.
+
+TWO 2 -  MySQL Operators + WHERE Clause
+6. Select all employees with salary greater than 50000.
+7. Retrieve employees with names starting with 'A'.
+8. Get all employees who joined between '2023-01-01' and '2024-01-01'.
+9. Fetch records where salary is NOT NULL and less than 1 lakh.
+10. Select employees where department is either ‘HR’, ‘Sales’, or ‘Tech’.
+
+THREE 3 - DML – Insert, Update, Delete
+11. Insert 5 dummy records into the Staff table.
+12. Update the salary of employee with ID = 3 to 75000.
+13. Delete all records where department is null.
+14. Increase salary of all employees by 10%.
+15. Insert multiple rows in a single SQL statement.
+16. Delete employees who joined before '2020-01-01'.
+17. Update email column of employees where email is NULL.
+
+FOUR 4 - DCL – Grant & Revoke
+18. Grant SELECT and INSERT privileges on the Staff table to user devuser.
+19. Revoke DELETE privilege from user intern.
+20. Grant ALL privileges to user admin_user on database CompanyDB.
+
+FIVE 5 - DQL – SELECT
+21. Select all columns from the Staff table.
+22. Select only name and email of all employees.
+23. Use alias to display name as Employee Name.
+24. Get the distinct departments from the Staff table.
+25. Select top 3 highest-paid employees.
+
+SIX 6 - Data Types
+26. Create a Products table with appropriate data types: id, name, price, stock, added_date.
+27. Insert at least 3 products using correct data types.
+28. Change data type of price to DECIMAL(10,2).
+
+SEVEN 7 - TCL – Transactions
+29. Start a transaction, insert a new employee, and rollback it.
+30. Start a transaction, delete an employee, and commit it.
+31. Create a savepoint after inserting one row, insert another, and then rollback to the savepoint.
+32. Set the isolation level to READ COMMITTED before a transaction.
+
+EIGHT 8 - Advanced SELECT + Conditions
+33. Count number of employees in each department.
+34. Get average salary per department.
+35. List employees ordered by salary in descending order.
+36. Fetch names of employees whose names have exactly 5 characters.
+37. Find employees with duplicate department IDs.
+38. Group employees by join year.
+39. Select employees who joined in the last 30 days.
+
+NINE 9 - Real-World Scenarios
+40. Create a table Orders with fields id, customer_name, order_date, total_amount.
+41. Write a query to fetch orders placed in the current month.
+42. Insert 5 sample orders and fetch total revenue generated.
+43. Find the customer who placed the highest value order.
+44. Count how many orders each customer has placed.
+
+TEN 10 - JDBC Simulation Setup (SQL only)
+45. Create a Users table with username and password (for login simulation).
+46. Insert dummy users for testing login from Java.
+47. Write a SELECT query to fetch user by username and password (for JDBC authentication).
+48. Create a LoginLogs table to track user login time.
+49. Insert a log into LoginLogs using current timestamp.
+50. Fetch all logs where login time is within the last 1 hour.
