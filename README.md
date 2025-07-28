@@ -98,7 +98,9 @@ java-full-stack-learning/
 │       ├── Day 4 - async-js/
 │       └── Day 5 - js-project/
 │
-├── 3-Database/
+├── 3-MYSQL/
+│       ├── Day 1 - Overview and JDBC Connectivity
+│       └── Day 2 - Complete MySql
 │
 ├── 4-Cloud/
 │   ├── 1-AWS/
