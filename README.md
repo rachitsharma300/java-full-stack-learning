@@ -17,6 +17,13 @@
 </div>
 --->
 
+
+<!--- ARCI SVG 
+<div align="center">
+  <img src="resources/Architecture.svg" alt="Architecture Diagram" width="1000">
+</div>
+--->
+
 <h2 align="center"> 📖 Introduction </h2>
 </p>
 <p align="center">
