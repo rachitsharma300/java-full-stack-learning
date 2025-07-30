@@ -1,0 +1,55 @@
+EASY
+1. Create a Students table with id, name, course, marks.
+2. Insert 5 student records.
+3. Fetch all students who scored more than 75 marks.
+4. Get all students enrolled in the 'Java' course.
+5. Use LIKE to get all students whose names start with 'R'.
+6. Use IN to fetch students who are enrolled in 'Java', 'Python'.
+7. Use BETWEEN to fetch students with marks between 60 and 90.
+8. Count total number of students.
+9. Get the maximum marks from the table.
+10. Create an Orders table with order_id, customer_name, amount, date.
+11. Insert 5 sample orders.
+12. Fetch all orders greater than ₹1000.
+13. List orders in descending order by amount.
+14. Group orders by customer_name.
+15. Count number of orders per customer.
+16. Create a Users table for login with username, password.
+17. Write a query to fetch user with matching username and password.
+18. Create a LoginLogs table with login timestamp.
+19. Insert current timestamp in LoginLogs for a user.
+20. Fetch all logs from the last 1 hour using NOW() and INTERVAL.
+
+MODERATE
+21. Create Employees table and group them by department ID.
+22. Count number of employees per department using GROUP BY.
+23. Fetch departments with more than 5 employees using HAVING.
+24. Calculate average salary per department.
+25. List employees whose names contain exactly 5 characters.
+26. Use NOT BETWEEN to filter salaries outside the 30k–60k range.
+27. Select employees who joined within the last 30 days using CURDATE() and INTERVAL.
+28. Join Orders and Customers tables to fetch order details with customer info.
+29. Create Products and Categories tables and perform an INNER JOIN.
+30. Perform a LEFT JOIN to list all categories even if they have no products.
+31. Use RIGHT JOIN to get all products even if category is missing.
+32. Create a Books collection in MongoDB with fields title, author, price.
+33. Insert 3 books using MongoDB shell or Compass.
+34. Fetch all books where price > 500 in MongoDB.
+35. Use MongoDB find() with $in to match books from specific authors.
+36. Use $and, $or queries in MongoDB to filter documents.
+37. Use $aggregate in MongoDB to calculate total and average book price.
+38. Explain difference between MongoDB document and MySQL row.
+39. Why would a startup prefer MongoDB over MySQL? (write scenario-based answer)
+40. Write MongoDB query to group orders by customer and count total orders.
+
+HARD Questions
+41. Create a Java JDBC program to fetch a user’s login details from MySQL.
+42. Log each login attempt in LoginLogs table using JDBC.
+43. Create a trigger in MySQL that logs any INSERT into Orders.
+44. Create a stored procedure to fetch order summary for a given customer.
+45. In MongoDB, create an aggregation pipeline to get top 3 customers by spending.
+46. Compare JOIN performance in MySQL vs data embedding in MongoDB with example.
+47. Write a MySQL query using GROUP BY and HAVING to find departments with salary > average.
+48. Fetch all employees who earn more than the average salary of their department.
+49. Perform FULL OUTER JOIN manually using UNION of LEFT and RIGHT JOINs.
+50. Explain with an example how document-oriented design improves scalability in MongoDB.
