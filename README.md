@@ -83,8 +83,6 @@ java-full-stack-learning/
 │   │   ├── Day 15 - Lambdas, Optionals, Futures & Method Refs/
 │   │   └── Day 16 - Java 9–14: Features & Enhancements/
 │
-├── 2-Spring-Boot/
-│
 ├── 02-frontend/
 │   ├── 1-html/
 │   │   ├── Day 1 - html-fundamentals/
@@ -107,15 +105,23 @@ java-full-stack-learning/
 │
 ├── 3-MYSQL/
 │       ├── Day 1 - Overview and JDBC Connectivity
-│       └── Day 2 - Complete MySql
+│       ├── Day 2 - Complete MySql
 │
-├── 4-Cloud/
+├── 04-Spring-Boot/
+│       ├── Day 1 - Web Architecture, REST API & Design Patterns/
+│       ├── Day 2 - Java EE Variants, Spring Basics & IOC/
+│       ├── Day 3 - 
+│       ├── Day 4 - 
+│       ├── Day 5 - 
+│       └── 
+│
+├── 5-Cloud/
 │   ├── 1-AWS/
 │
-├── 5-Design/
+├── 6-Design/
 │   ├── 1-System-Design/
 │
-├── 6-Resources/
+├── 7-Resources/
 │   ├── Projects/
 │       ├── Cab Booking System
 │   ├── Assignments/
@@ -156,3 +162,4 @@ java-full-stack-learning/
  <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&center=true&width=650&color=ffffff&lines=Rachit+Sharma" alt="Typing SVG" />
 </p>
+
