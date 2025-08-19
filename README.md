@@ -105,14 +105,15 @@ java-full-stack-learning/
 │
 ├── 3-MYSQL/
 │       ├── Day 1 - Overview and JDBC Connectivity
-│       ├── Day 2 - Complete MySql
+│       └── Day 2 - Complete MySql
 │
 ├── 04-Spring-Boot/
 │       ├── Day 1 - Web Architecture, REST API & Design Patterns/
 │       ├── Day 2 - Java EE Variants, Spring Basics & IOC/
-│       ├── Day 3 - 
-│       ├── Day 4 - 
-│       ├── Day 5 - 
+│       ├── Day 3 - Maven/Gradle, Spring Bean Scope, Annotations & DI/
+│       ├── Day 4 - Spring Boot Introduction & Simple REST Service/
+│       ├── Day 5 - Spring MVC & JSP/
+│       ├── Day 6 - Spring JDBC & JPA/
 │       └── 
 │
 ├── 5-Cloud/
@@ -162,4 +163,6 @@ java-full-stack-learning/
  <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&center=true&width=650&color=ffffff&lines=Rachit+Sharma" alt="Typing SVG" />
 </p>
+
+
 
