@@ -161,11 +161,11 @@ java-full-stack-learning/
 | 💬 **ByteBuzz Chat App** | Spring Boot • WebSockets • React • Tailwind • MongoDB | A real-time chat application with join/create rooms, sleek animated UI, and optional chatbot integration. |
 
 <p align="center">
-  <a href="https://github.com/your-username/Patna-Metro" target="_blank">🔗 Patna Metro Repo</a> • 
-  <a href="https://github.com/your-username/ByteBuzz-ChatApp" target="_blank">🔗 Chat App Repo</a> • 
-  <a href="https://github.com/your-username/Task-Manager" target="_blank">🔗 Task Manager Repo</a>
+  <a href="https://github.com/rachitsharma300/Patna-Metro" target="_blank">🔗 Patna Metro Repo</a> • 
+  <a href="https://github.com/your-username/ByteBuzz-ChatApp" target="_blank">🔗 Chat App Repo</a>
 </p>
 
 </div>
+
 
 
