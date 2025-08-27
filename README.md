@@ -162,10 +162,11 @@ java-full-stack-learning/
 
 <p align="center">
   <a href="https://github.com/rachitsharma300/Patna-Metro" target="_blank">🔗 Patna Metro Repo</a> • 
-  <a href="https://github.com/your-username/ByteBuzz-ChatApp" target="_blank">🔗 Chat App Repo</a>
+  <a href="https://github.com/rachitsharma300/bytebuzz-chat-app" target="_blank">🔗 Chat App Repo</a>
 </p>
 
 </div>
+
 
 
 
