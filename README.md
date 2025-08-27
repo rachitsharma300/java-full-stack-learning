@@ -157,8 +157,8 @@ java-full-stack-learning/
 
 | Project | Tech Stack | Description |
 |---------|------------|-------------|
-| 🚇 **Patna Metro Assistant** | Spring Boot • React • MongoDB • Tailwind | A voice-enabled chatbot web app to find metro routes, fares, and interchanges in Patna. Supports Hindi speech recognition and Bihar slang. |
-| 💬 **ByteBuzz Chat App** | Spring Boot • WebSockets • React • Tailwind • MongoDB | A real-time chat application with join/create rooms, sleek animated UI, and optional chatbot integration. |
+|  **Patna Metro Assistant** | Spring Boot • React • MongoDB • Tailwind | A voice-enabled chatbot web app to find metro routes, fares, and interchanges in Patna. Supports Hindi speech recognition and Bihar slang. |
+| **ByteBuzz Chat App** | Spring Boot • WebSockets • React • Tailwind • MongoDB | A real-time chat application with join/create rooms, sleek animated UI, and optional chatbot integration. |
 
 <p align="center">
   <a href="https://github.com/rachitsharma300/Patna-Metro" target="_blank">🔗 Patna Metro Repo</a> • 
@@ -170,6 +170,7 @@ java-full-stack-learning/
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&center=true&width=650&color=ffffff&lines=Rachit+Sharma" alt="Typing SVG" />
 </p>
+
 
 
 
