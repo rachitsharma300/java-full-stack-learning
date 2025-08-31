@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f9;
+        }
+        h2 {
+            color: #333;
+        }
+        form {
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+            margin-bottom: 20px;
+        }
+        input {
+            margin: 5px 0;
+            padding: 8px;
+            width: 95%;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            margin-top: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            background: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #007bff;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<h2>Employee Management</h2>
+
+<!-- Employee Form -->
+<form id="employeeForm">
+    <input type="text" id="employeeId" placeholder="Employee ID" required>
+    <input type="text" id="name" placeholder="Name" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <input type="text" id="location" placeholder="Location" required>
+    <button type="button" onclick="addEmployee()">Add Employee</button>
+</form>
+
+<!-- Employee List -->
+<h2>Employee List</h2>
+<div id="employeeList">No employees found</div>
+
+<script>
+    const BASE_URL = "http://localhost:8080/employees"; //  Backend URL to Fetch data
+
+    // Add Employee
+    async function addEmployee() {
+        const employee = {
+            employeeId: document.getElementById("employeeId").value,
+            name: document.getElementById("name").value,
+            email: document.getElementById("email").value,
+            location: document.getElementById("location").value
+        };
+
+        try {
+            const response = await fetch(BASE_URL, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(employee)
+            });
+
+            if (response.ok) {
+                alert(" Employee added successfully!");
+                clearForm();
+                getEmployees();
+            } else {
+                alert(" Error while adding employee");
+            }
+        } catch (error) {
+            alert(" Server not reachable!");
+        }
+    }
+
+    // Fetch Employees
+    async function getEmployees() {
+        try {
+            const response = await fetch(BASE_URL);
+            const employees = await response.json();
+
+            if (employees.length === 0) {
+                document.getElementById("employeeList").innerHTML = "<p>No employees found</p>";
+                return;
+            }
+
+            let table = "<table><tr><th>ID</th><th>Name</th><th>Email</th><th>Location</th></tr>";
+            employees.forEach(emp => {
+                table += `<tr>
+                            <td>${emp.employeeId}</td>
+                            <td>${emp.name}</td>
+                            <td>${emp.email}</td>
+                            <td>${emp.location}</td>
+                          </tr>`;
+            });
+            table += "</table>";
+
+            document.getElementById("employeeList").innerHTML = table;
+        } catch (error) {
+            document.getElementById("employeeList").innerHTML = "<p style='color:red;'> Could not fetch employees (server issue)</p>";
+        }
+    }
+
+    // Clear form
+    function clearForm() {
+        document.getElementById("employeeForm").reset();
+    }
+
+    // Load employees on page load
+    window.onload = getEmployees;
+</script>
+</body>
+</html>
