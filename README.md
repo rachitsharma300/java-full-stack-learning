@@ -114,7 +114,7 @@ java-full-stack-learning/
 │       ├── Day 4 - Spring Boot Introduction & Simple REST Service/
 │       ├── Day 5 - Spring MVC & JSP/
 │       ├── Day 6 - Spring JDBC & JPA/
-│       └── 
+│       └── Day 7
 │
 ├── 5-Cloud/
 │   ├── 1-AWS/
@@ -152,17 +152,29 @@ java-full-stack-learning/
 <h2 align="center">🧪 Project Modules</h2>
 
 <div align="center">
-  <h2>🚧 <strong>Coming Soon...</strong> 🚧</h2>
-  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ24yamJkZWd2N3p5NnYxdDE5MGE0b2pmeXBmbnJmOXptcmR4dWlidyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Z86Jp12uf8ZfZ6s3uk/giphy.gif" alt="Coming Soon" width="500">
-  <p>Projects are currently in progress. Stay tuned for updates!</p>
+
+### 📌 Featured Projects
+
+| Project | Tech Stack | Description |
+|---------|------------|-------------|
+|  **Patna Metro Assistant** | Spring Boot • React • MongoDB • Tailwind | A voice-enabled chatbot web app to find metro routes, fares, and interchanges in Patna. Supports Hindi speech recognition and Bihar slang. |
+| **ByteBuzz Chat App** | Spring Boot • WebSockets • React • Tailwind • MongoDB | A real-time chat application with join/create rooms, sleek animated UI, and optional chatbot integration. |
+
+<p align="center">
+  <a href="https://github.com/rachitsharma300/Patna-Metro" target="_blank">🔗 Patna Metro Repo</a> • 
+  <a href="https://github.com/rachitsharma300/bytebuzz-chat-app" target="_blank">🔗 Chat App Repo</a>
+</p>
+
 </div>
 
 <p align="center">
-  <img src="https://profile-counter.glitch.me/rachitsharma300/count.svg" />
-</p>
- <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&center=true&width=650&color=ffffff&lines=Rachit+Sharma" alt="Typing SVG" />
 </p>
+
+
+
+
+
 
 
 
