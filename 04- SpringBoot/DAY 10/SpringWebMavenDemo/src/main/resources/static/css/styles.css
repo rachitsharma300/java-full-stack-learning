@@ -1,0 +1,156 @@
+/* General Page Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fafafa;
+    color: #333;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header Styling */
+header {
+    background: linear-gradient(90deg, #3498db, #2ecc71);
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 26px;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.3s;
+}
+
+header nav a:hover {
+    opacity: 0.8;
+}
+
+/* Table Styling */
+table {
+    width: 95%;
+    margin: 20px auto;
+    border-collapse: separate;
+    background: #fff;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.08);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table th {
+    background: linear-gradient(90deg, #3498db, #2ecc71) !important;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    font-weight: 600;
+}
+
+table td {
+    padding: 12px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+table tr:hover {
+    background: #f9f9f9;
+}
+
+/* Buttons and Links */
+a, button {
+    display: inline-block;
+    padding: 8px 14px;
+    margin: 4px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+a {
+    background: #3498db;
+    color: white;
+}
+
+a:hover {
+    background: #2980b9;
+}
+
+button {
+    background: #2ecc71;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background: #27ae60;
+}
+
+/* Form Styling */
+form {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+form label {
+    display: block;
+    margin: 12px 0 5px;
+    font-weight: 600;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+form button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+/* Main content should expand to fill space */
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Footer Styling */
+footer {
+    background: #3498db;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    color: #fff;
+    margin-top: auto; /* Push footer down */
+}
+
+.error {
+    color: #e74c3c;
+    font-size: 14px;
+    margin: 4px 0 10px;
+    display: block;
+}
