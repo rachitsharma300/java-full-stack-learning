@@ -484,3 +484,213 @@ To run this application:
 2. Leverage build tools like Maven or Gradle for dependency management
 3. Keep classpath entries minimal to avoid conflicts and improve performance
 4. Use wildcard (*) judiciously to include all JARs in a directory
+
+### Common Issues
+
+- **ClassNotFoundException**: Often due to missing classpath entries
+- **NoClassDefFoundError**: Can occur if a required class is not found at runtime
+- **Version conflicts**: When multiple versions of a class are in the classpath
+
+<br>
+
+## 7. Can you explain the difference between an _int_ and an _Integer_ in _Java_?
+
+In Java, **int** and **Integer** are two distinct data types with unique properties and use cases.
+
+### Key Distinctions
+
+#### int
+- **Primitive data type**
+- Represents whole numbers between $-2^{31}$ and $2^{31} - 1$
+- Memory allocation: Fixed $32$ bits (or $4$ bytes)
+- Instantiation: Direct, no constructor required
+- Default value: $0$
+- Performance: Generally faster due to direct value storage
+- Usage in generics: Not allowed
+
+#### Integer
+- **Wrapper class** for the primitive `int`
+- Provides additional functionality via class methods
+- Memory allocation: Variable, typically more than `int`
+- Instantiation: Through constructor, auto-boxing, or `valueOf()`
+- Default value: `null` (if not assigned)
+- Performance: Slightly slower due to object overhead
+- Usage in generics: Allowed
+
+### Code Example: int and Integer
+
+```java
+public class IntVsInteger {
+    public static void main(String[] args) {
+        int primitiveInt = 10;  // Direct assignment
+        Integer objInt = Integer.valueOf(20);  // Preferred instantiation method
+
+        // Auto-boxing (conversion from primitive to object)
+        Integer autoBoxed = primitiveInt;
+
+        // Unboxing (conversion from object to primitive)
+        int unboxed = objInt;
+
+        System.out.println("Primitive int: " + primitiveInt);
+        System.out.println("Integer object: " + objInt);
+        System.out.println("Auto-boxed Integer: " + autoBoxed);
+        System.out.println("Unboxed int: " + unboxed);
+
+        // Demonstrating default values
+        int defaultInt;
+        Integer defaultInteger;
+        System.out.println("Default int: " + (defaultInt = 0));  // Compile-time error without assignment
+        System.out.println("Default Integer: " + defaultInteger);  // Prints "null"
+
+        // Using Integer methods
+        System.out.println("Max int value: " + Integer.MAX_VALUE);
+        System.out.println("Binary representation of 20: " + Integer.toBinaryString(20));
+    }
+}
+```
+<br>
+
+## 8. What are _wrapper classes_ in _Java_?
+
+**Wrapper classes** in Java allow you to work with primitive data types as objects. They are particularly useful when working with generic collections or when using features that require objects, such as **Java Bean properties**.
+
+Wrapper classes not only provide a way to convert primitives to and from objects but also offer various utility methods specific to each primitive type.
+
+### Core Wrapper Classes
+
+| Primitive | Wrapper Class | Conversion Methods | Primitive Example | Wrapper Example |
+| --- | --- | --- | --- | --- |
+| `boolean` | `Boolean` | `.valueOf()` <br> `.parseBoolean()` <br> `.booleanValue()` | `true` | `Boolean.TRUE` |
+| `byte` | `Byte` | `.valueOf()` <br> `.parseByte()` <br> `.byteValue()` | `123` | `Byte.valueOf((byte)123)` |
+| `char` | `Character` | `.valueOf()` <br> `.charValue()` | `'a'` | `Character.valueOf('a')` |
+| `short` | `Short` | `.valueOf()` <br> `.parseShort()` <br> `.shortValue()` | `123` | `Short.valueOf((short)123)` |
+| `int` | `Integer` | `.valueOf()` <br> `.parseInt()` <br> `.intValue()` | `123` | `Integer.valueOf(123)` |
+| `long` | `Long` | `.valueOf()` <br> `.parseLong()` <br> `.longValue()` | `123L` | `Long.valueOf(123L)` |
+| `float` | `Float` | `.valueOf()` <br> `.parseFloat()` <br> `.floatValue()` | `123.45f` | `Float.valueOf(123.45f)` |
+| `double` | `Double` | `.valueOf()` <br> `.parseDouble()` <br> `.doubleValue()` | `123.45` | `Double.valueOf(123.45)` |
+
+### Use Cases for Wrapper Classes
+
+#### 1. Collections
+
+Generic collections in Java require objects, not primitives. Wrapper classes allow you to use primitives in these collections.
+
+```java
+List<Integer> numbers = new ArrayList<>();
+numbers.add(5);  // Autoboxing: int to Integer
+int num = numbers.get(0);  // Unboxing: Integer to int
+```
+
+#### 2. Nullability
+
+Wrapper classes can represent the absence of a value using `null`, which primitives cannot.
+
+```java
+Integer age = null;  // Valid
+int primitiveAge = null;  // Compilation error
+```
+
+#### 3. Java Beans
+
+In Java Beans, properties are typically represented using wrapper classes to allow for unset values.
+
+```java
+public class Customer {
+    private Integer age;  // Can be null if age is unknown
+    
+    public Integer getAge() {
+        return age;
+    }
+    
+    public void setAge(Integer age) {
+        this.age = age;
+    }
+}
+```
+
+#### 4. Utility Methods
+
+Wrapper classes provide useful utility methods for their respective types.
+
+```java
+String binaryString = Integer.toBinaryString(42);
+int maxValue = Integer.MAX_VALUE;
+boolean isDigit = Character.isDigit('7');
+```
+<br>
+
+## 9. What does it mean that _Java_ is a _statically typed_ language?
+
+Java being a **statically typed language** means that the type of a variable is known at compile time. This characteristic requires explicit declaration of a variable's type before it can be used.
+
+### Key Characteristics of Static Typing in Java
+
+#### Type Safety
+- All data objects have a specific type
+- Types cannot change unless explicitly converted
+- Helps prevent type-related errors at runtime
+
+#### Performance Efficiency
+- Compile-time type determination allows for code optimization
+- Reduces runtime overhead associated with type checking
+
+#### Predictability
+- Known types improve code reliability and maintainability
+- Easier to reason about code behavior
+
+#### Enhanced Development Experience
+- IDEs can provide better auto-completion and error detection
+- Facilitates early identification of type-related issues
+
+#### Code Clarity
+- Explicitly defined types enhance code readability
+- Makes the intended use of variables more apparent
+
+### Example: Static Typing in Java
+
+```java
+public class StaticTypingDemo {
+    public static void main(String[] args) {
+        // Explicit type declarations
+        int number = 10;
+        String text = "Hello, Java!";
+        double decimal = 3.14;
+
+        // Type-safe operations
+        int sum = number + 5;  // Valid: int + int
+        String greeting = text + " Welcome!";  // Valid: String concatenation
+
+        // Compile-time type checking
+        // int result = number + text;  // Compilation error: incompatible types
+
+        // Type conversion (casting)
+        double convertedNumber = (double) number;  // Explicit casting from int to double
+
+        System.out.println("Sum: " + sum);
+        System.out.println("Greeting: " + greeting);
+        System.out.println("Converted number: " + convertedNumber);
+    }
+}
+```
+<br>
+
+## 10. Is _Java_ a pure _object-oriented language_? Why or why not?
+
+Java is **not** a pure object-oriented language. While it incorporates many object-oriented programming (OOP) principles, it retains some elements from procedural programming.
+
+### Object-Oriented Features in Java
+
+Java supports the four main pillars of OOP:
+
+1. **Encapsulation**: Achieved through access modifiers (`public`, `private`, `protected`).
+2. **Abstraction**: Implemented via abstract classes and interfaces.
+3. **Inheritance**: Supported using the `extends` keyword for classes and `implements` for interfaces.
+4. **Polymorphism**: Realized through method overloading and overriding.
+
+### Non-Pure OOP Elements in Java
+
+1. **Primitive Data Types**: Java includes non-object primitives like `int`, `boolean`, `char`, etc.
+
+2. **Static Members**: The `static` keyword allows for class-level fields and methods, not tied to object instances.
+
+3. **Procedural Constructs**: Java supports procedural programming elements such as control flow statements (`if`, `for`, `while`, etc.).
