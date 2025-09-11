@@ -946,3 +946,96 @@ public class GCExample {
     }
 }
 ```
+
+### Key Points
+
+- Garbage collection is **automatic** in Java
+- Objects become eligible for garbage collection when they are no longer reachable
+- The `System.gc()` method suggests running the garbage collector but doesn't guarantee immediate execution
+- Garbage collection can affect performance, especially during "stop-the-world" events
+- Different JVM implementations may use different garbage collection strategies
+<br>
+
+## 15. What is the significance of _'this'_ keyword in _Java_?
+
+The `this` keyword in Java is a reference to the current instance of a class. It serves several important purposes in object-oriented programming.
+
+### Key Uses of 'this' Keyword
+
+#### 1. Distinguishing Instance Variables from Local Variables
+
+When a method or constructor parameter has the same name as an instance variable, `this` helps to differentiate between them:
+
+```java
+public class Person {
+    private String name;
+
+    public Person(String name) {
+        this.name = name; // 'this.name' refers to the instance variable
+    }
+}
+```
+
+#### 2. Invoking Current Class Methods
+
+`this` can be used to call other methods within the same class:
+
+```java
+public class Calculator {
+    public void multiply(int a, int b) {
+        int result = a * b;
+        this.display(result);
+    }
+
+    private void display(int value) {
+        System.out.println("Result: " + value);
+    }
+}
+```
+
+#### 3. Passing Current Object as Parameter
+
+`this` can be passed as an argument in method calls when an object needs to pass a reference to itself:
+
+```java
+public class Employee {
+    public void updateRecord(Database db) {
+        db.update(this); // Passing the current Employee object
+    }
+}
+```
+
+#### 4. Constructor Chaining
+
+`this()` can be used to call another constructor in the same class:
+
+```java
+public class Rectangle {
+    private int width, height;
+
+    public Rectangle() {
+        this(1, 1); // Calls the two-parameter constructor
+    }
+
+    public Rectangle(int width, int height) {
+        this.width = width;
+        this.height = height;
+    }
+}
+```
+
+#### 5. Returning Current Class Instance
+
+`this` can be returned to allow method chaining:
+
+```java
+public class StringBuilder {
+    private String str = "";
+
+    public StringBuilder append(String s) {
+        str += s;
+        return this; // Allows chaining like: new StringBuilder().append("A").append("B")
+    }
+}
+```
+<br>
