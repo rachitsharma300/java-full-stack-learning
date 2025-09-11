@@ -203,3 +203,284 @@ public final class StringUtils {
     }
 }
 ```
+
+### Single Inheritance
+
+Java supports **single inheritance** for classes, which can be seen as a limitation compared to full object-oriented languages that allow multiple inheritance.
+
+```java
+public class Animal {}
+public class Mammal extends Animal {} // Only one superclass allowed
+```
+
+### Procedural Programming Style
+
+Java allows for a more **procedural style** of programming within methods, especially in the `main` method.
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        int x = 5;
+        int y = 10;
+        int sum = x + y;
+        System.out.println("Sum: " + sum);
+    }
+}
+```
+
+### Interfaces
+
+While interfaces are object-oriented, Java's **functional interfaces** and **default methods** provide a way to achieve some functional programming paradigms.
+
+```java
+@FunctionalInterface
+public interface Calculator {
+    int calculate(int a, int b);
+    
+    default void printResult(int result) {
+        System.out.println("Result: " + result);
+    }
+}
+```
+<br>
+
+## 4. Describe the difference between _JDK_, _JRE_, and _JVM_.
+
+The **JVM** (Java Virtual Machine) is the cornerstone of Java's "write once, run anywhere" philosophy. It's an abstract computing machine that provides a runtime environment in which Java bytecode can be executed.
+
+#### Key Functions
+
+- **Bytecode Interpretation**: Translates Java bytecode into machine-specific instructions.
+- **Memory Management**: Handles memory allocation and deallocation, including **garbage collection**.
+- **JIT Compilation**: Compiles frequently executed bytecode to native machine code for improved performance.
+- **Exception Handling**: Manages the execution of `try-catch` blocks and handles runtime exceptions.
+- **Security**: Implements the Java security model to protect against malicious code.
+
+### JRE: Java Runtime Environment
+
+The **JRE** (Java Runtime Environment) is the minimum environment required to execute a Java application. It consists of the JVM, core libraries, and other supporting files.
+
+#### Components
+
+- **JVM**: An implementation of the JVM specification for a particular platform.
+- **Core Libraries**: Essential Java API classes (e.g., `java.lang`, `java.util`).
+- **Supporting Files**: Configuration files and resources needed for Java applications.
+
+### JDK: Java Development Kit
+
+The **JDK** (Java Development Kit) is a superset of the JRE, providing everything needed for Java application development.
+
+#### Key Components
+
+- **JRE**: Includes a complete Java Runtime Environment.
+- **Development Tools**: 
+  - `javac`: The Java compiler
+  - `java`: The Java application launcher
+  - `javadoc`: Documentation generator
+  - `jdb`: Java debugger
+- **Additional Libraries**: Extra APIs for development (e.g., `javax` packages).
+
+### Relationship and Usage
+
+- **Development**: Use the JDK to write, compile, and debug Java code.
+- **Deployment**: Use the JRE to run Java applications on end-user machines.
+- **Execution**: The JVM, part of both JRE and JDK, actually runs the Java program.
+
+### Code Example
+
+Here's a simple demonstration of how these components interact:
+
+```java
+// This file is named HelloWorld.java
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+```
+
+To compile and run this program:
+
+1. Use the JDK's `javac` to compile:
+   ```
+   javac HelloWorld.java
+   ```
+   This creates `HelloWorld.class` containing bytecode.
+
+2. Use the JRE's `java` to run:
+   ```
+   java HelloWorld
+   ```
+   The JVM within the JRE executes the bytecode.
+<br>
+
+## 5. What is the role of the _ClassLoader_?
+
+The **ClassLoader** is a crucial component in Java's runtime environment, responsible for loading class files into memory.
+
+### Key Functions
+
+1. **Loading Classes**: Finds and reads the binary representation of a class or interface.
+
+2. **Linking Classes**:
+   - **Verification**: Ensures the loaded class adheres to Java language and JVM specifications.
+   - **Preparation**: Allocates memory for class variables and initializes them with default values.
+   - **Resolution**: Replaces symbolic references with direct references to other classes.
+
+3. **Initializing Classes**: Executes the static initializers and initializes static fields of the class.
+
+### Types of ClassLoaders
+
+1. **Bootstrap ClassLoader**: 
+   - Written in native code (C++)
+   - Loads core Java API classes from `rt.jar` or modules in Java 9+
+
+2. **Extension ClassLoader** (Platform ClassLoader in Java 9+):
+   - Loads classes from `lib/ext` directory or specified by `java.ext.dirs`
+
+3. **Application ClassLoader**:
+   - Loads user-defined classes from the classpath
+
+4. **Custom ClassLoaders**:
+   - User-defined loaders for specific loading behaviors
+
+### Delegation Hierarchy
+
+ClassLoaders follow the **delegation principle**:
+
+1. When a class is requested, the loader first delegates to its parent.
+2. If the parent can't load the class, the current loader attempts to load it.
+3. This continues up to the Bootstrap ClassLoader.
+
+### Dynamic Class Loading
+
+Java provides methods for runtime class loading:
+
+- `Class.forName(String className)`
+- `ClassLoader.loadClass(String name)`
+
+These methods enable dynamic behaviors like plugin systems.
+
+### Code Example
+
+```java
+public class ClassLoaderDemo {
+    public static void main(String[] args) throws Exception {
+        // Using Class.forName
+        Class<?> stringClass = Class.forName("java.lang.String");
+        System.out.println("Loaded: " + stringClass.getName());
+
+        // Using ClassLoader
+        ClassLoader classLoader = ClassLoaderDemo.class.getClassLoader();
+        Class<?> mathClass = classLoader.loadClass("java.lang.Math");
+        System.out.println("Loaded: " + mathClass.getName());
+
+        // Displaying ClassLoader hierarchy
+        ClassLoader current = ClassLoaderDemo.class.getClassLoader();
+        while (current != null) {
+            System.out.println(current.getClass().getName());
+            current = current.getParent();
+        }
+        System.out.println("Bootstrap ClassLoader");
+    }
+}
+```
+<br>
+
+## 6. What is the difference between a _path_ and a _classpath_ in _Java_?
+
+In Java, the **classpath** and **path** serve different purposes:
+
+### Classpath
+
+The **classpath** is a parameter that tells the Java Virtual Machine (JVM) where to find compiled Java classes (`.class` files) and packages during runtime. It's crucial for the JVM to locate and load classes when executing a Java program.
+
+#### Key aspects of classpath:
+
+- It's specific to Java runtime environment
+- Can include directories, JAR files, and ZIP archives
+- Used by the JVM to resolve class dependencies
+
+#### Setting the classpath:
+
+1. **Command-line**: Using `-cp` or `-classpath` option
+   ```bash
+   java -cp .:/path/to/some.jar MyApp
+   ```
+
+2. **Environment variable**: Setting `CLASSPATH`
+   ```bash
+   export CLASSPATH=.:/path/to/some.jar
+   ```
+
+3. **In IDEs**: Most IDEs provide GUI tools to manage classpath
+
+4. **Build tools**: Maven and Gradle manage classpath automatically
+
+### Path
+
+The **path** is a system environment variable that specifies directories where executable programs are located. It's used by the operating system to find executables when you run commands in the terminal or command prompt.
+
+#### Key aspects of path:
+
+- It's a general operating system concept, not specific to Java
+- Contains directories, not individual files
+- Used by the OS to locate executable files
+
+#### Setting the path:
+
+```bash
+export PATH=$PATH:/new/directory
+```
+
+### Comparison
+
+| Aspect | Classpath | Path |
+|--------|-----------|------|
+| Purpose | Locates Java classes | Locates executable programs |
+| Scope | Java runtime | Operating system |
+| Content | Directories, JAR files, ZIP archives | Directories only |
+| Used by | Java Virtual Machine | Operating system |
+
+### Example
+
+Consider a Java application with the following structure:
+
+```
+/MyProject
+    /src
+        /com/example
+            Main.java
+    /lib
+        external.jar
+```
+
+After compilation:
+
+```
+/MyProject
+    /bin
+        /com/example
+            Main.class
+    /lib
+        external.jar
+```
+
+To run this application:
+
+1. **Path**: Ensure Java executable is in the system path
+   ```bash
+   export PATH=$PATH:/path/to/java/bin
+   ```
+
+2. **Classpath**: Set classpath to include compiled classes and external JAR
+   ```bash
+   java -cp ./bin:./lib/external.jar com.example.Main
+   ```
+
+### Best Practices
+
+1. Use relative paths when possible for portability
+2. Leverage build tools like Maven or Gradle for dependency management
+3. Keep classpath entries minimal to avoid conflicts and improve performance
+4. Use wildcard (*) judiciously to include all JARs in a directory
