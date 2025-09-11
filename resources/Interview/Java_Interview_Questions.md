@@ -90,3 +90,116 @@ try {
     System.out.println("Cannot divide by zero");
 }
 ```
+#### Rich Standard Library
+Java offers a comprehensive set of APIs for common tasks:
+
+```java
+import java.util.ArrayList;
+import java.util.List;
+
+List<String> list = new ArrayList<>();
+list.add("Java");
+list.add("is");
+list.add("powerful");
+```
+
+#### Networking Capabilities
+Java simplifies network programming:
+
+```java
+import java.net.URL;
+import java.net.HttpURLConnection;
+
+URL url = new URL("https://api.example.com/data");
+HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+conn.setRequestMethod("GET");
+// ... handle the connection
+```
+
+#### Integration with Other Languages
+Java leverages the Java Native Interface (JNI) to support native code:
+
+```java
+public class NativeMethodExample {
+    native void nativeMethod();
+
+    static {
+        System.loadLibrary("native");
+    }
+
+    public static void main(String[] args) {
+        new NativeMethodExample().nativeMethod();
+    }
+}
+```
+
+#### Advanced Concurrency Utilities
+Java provides high-level concurrency APIs:
+
+```java
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+ExecutorService executor = Executors.newFixedThreadPool(5);
+executor.submit(() -> {
+    System.out.println("Task executed by " + Thread.currentThread().getName());
+});
+```
+
+<br>
+
+## 3. Can you list some _non-object-oriented_ features of _Java_?
+
+While Java is primarily an **object-oriented** language, it also incorporates several non-object-oriented features, allowing for multi-paradigm development:
+
+### Primitive Data Types
+
+Java supports **primitive data types** such as `int`, `boolean`, `char`, etc., which are not objects and provide simple value storage.
+
+```java
+int number = 42;
+boolean isTrue = true;
+char letter = 'A';
+```
+
+### Static Methods and Variables
+
+**Static members** belong to the class rather than instances, allowing for utility functions and shared data.
+
+```java
+public class MathUtils {
+    public static final double PI = 3.14159;
+    
+    public static int add(int a, int b) {
+        return a + b;
+    }
+}
+```
+
+### Package-Level Access
+
+Java's **default (package-private) access modifier** limits visibility to within the same package, providing a non-OO way to control access.
+
+```java
+package com.example;
+
+class PackagePrivateClass {
+    void packagePrivateMethod() {
+        // Accessible only within the same package
+    }
+}
+```
+
+### Utility Classes
+
+Java allows the creation of **utility classes** with only static methods, which don't require instantiation.
+
+```java
+public final class StringUtils {
+    private StringUtils() {} // Prevent instantiation
+    
+    public static boolean isEmpty(String str) {
+        return str == null || str.trim().isEmpty();
+    }
+}
+```
