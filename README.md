@@ -114,7 +114,14 @@ java-full-stack-learning/
 │       ├── Day 4 - Spring Boot Introduction & Simple REST Service/
 │       ├── Day 5 - Spring MVC & JSP/
 │       ├── Day 6 - Spring JDBC & JPA/
-│       └── Day 7
+│       ├── Day 7 - Spring Data JPA (Contd.) & Spring Data MongoDB/
+│       ├── Day 8 - ResponseEntity, Status Codes & Global Exception Handling/
+│       ├── Day 9 - Thymeleaf: Basics, Integration & Form Handling/
+│       ├── Day 10 - CRUD with Thymeleaf & MySQL/
+│       ├── Day 11 - Spring Security 
+│       ├── Day 12 - Spring Security & JWT Authentication/
+│       ├── Day 13 - Spring WebFlux & Reactive Programming/
+│       └── Day 14 - Spring Batch Processing/
 │
 ├── 5-Cloud/
 │   ├── 1-AWS/
@@ -168,6 +175,7 @@ java-full-stack-learning/
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&center=true&width=650&color=ffffff&lines=Rachit+Sharma" alt="Typing SVG" />
 </p>
+
 
 
 
