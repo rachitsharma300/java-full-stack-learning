@@ -55,4 +55,12 @@ src/
     ```sql
     CREATE DATABASE blogdb;
     ```
+
+    
+3. Update `application.properties` with your MySQL credentials.
+
+4. Run the application:
+    ```bash
+    mvn spring-boot:run
+    ```
     
