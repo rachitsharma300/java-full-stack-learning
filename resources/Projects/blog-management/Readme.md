@@ -68,5 +68,12 @@ src/
     ```bash
     http://localhost:8080/blogs
     ```
+## Usage
+- View all blog posts  
+- Add a new blog post → `/blogs/new`  
+- Edit existing blog post → `/blogs/edit/{id}`  
+- Delete blog post → `/blogs/delete/{id}`
+
+---
 
     
