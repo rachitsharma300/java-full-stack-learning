@@ -76,5 +76,17 @@ src/
 
 ---
 
-## 🎨 Styling
+## Styling
 You can add your custom CSS in:
+
+
+---
+
+## Author
+Developed by Rachit Sharma  
+Inspired for practical learning of Spring Boot and full-stack development.
+
+---
+
+## License
+This project is open-source and free to use.
