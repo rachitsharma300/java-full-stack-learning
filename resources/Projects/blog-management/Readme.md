@@ -76,4 +76,5 @@ src/
 
 ---
 
-    
+## 🎨 Styling
+You can add your custom CSS in:
