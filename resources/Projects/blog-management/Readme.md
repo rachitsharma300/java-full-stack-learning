@@ -64,11 +64,9 @@ src/
     mvn spring-boot:run
     ```
 
-    5. Open in browser:
-    ```
+5. Open in browser:
+    ```bash
     http://localhost:8080/blogs
     ```
-
----
 
     
