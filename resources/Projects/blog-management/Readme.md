@@ -63,4 +63,12 @@ src/
     ```bash
     mvn spring-boot:run
     ```
+
+    5. Open in browser:
+    ```
+    http://localhost:8080/blogs
+    ```
+
+---
+
     
