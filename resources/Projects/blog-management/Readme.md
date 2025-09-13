@@ -51,5 +51,8 @@ src/
     git clone https://github.com/rachitsharma300/blog-management-system.git
     cd blog-management-system
     ```
-
+2. Set up MySQL:
+    ```sql
+    CREATE DATABASE blogdb;
+    ```
     
