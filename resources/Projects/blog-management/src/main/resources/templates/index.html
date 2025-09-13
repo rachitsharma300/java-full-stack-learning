@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog Management System</title>
+    <link rel="stylesheet" href="/styles.css">  <!-- Optional: Your custom CSS -->
+</head>
+<body>
+<h1>All Blog Posts</h1>
+
+<a href="/blogs/new">Add New Blog Post</a>
+<table border="1" cellpadding="10" cellspacing="0">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Title</th>
+        <th>Content</th>
+        <th>Created At</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="blog : ${blogs}">
+        <td th:text="${blog.id}">1</td>
+        <td th:text="${blog.title}">Sample Title</td>
+        <td th:text="${blog.content}">Sample Content</td>
+        <td th:text="${blog.createdAt}">2025-09-13T20:00</td>
+        <td>
+            <a th:href="@{'/blogs/edit/' + ${blog.id}}">Edit</a> |
+            <a th:href="@{'/blogs/delete/' + ${blog.id}}"
+               onclick="return confirm('Are you sure you want to delete this post?');">
+                Delete
+            </a>
+        </td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
