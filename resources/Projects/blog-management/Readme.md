@@ -12,7 +12,7 @@ A simple and realistic Blog Management System built using **Spring Boot**, **Thy
 - Automatically manages database schema using JPA
 
 ---
-## 🛠 Tech Stack
+## Tech Stack
 - **Backend:** Spring Boot, Spring Data JPA
 - **Frontend:** Thymeleaf + HTML + CSS
 - **Database:** MySQL
