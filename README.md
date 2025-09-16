@@ -169,12 +169,12 @@ java-full-stack-learning/
   <a href="https://github.com/rachitsharma300/Patna-Metro" target="_blank">🔗 Patna Metro Repo</a> • 
   <a href="https://github.com/rachitsharma300/bytebuzz-chat-app" target="_blank">🔗 Chat App Repo</a>
 </p>
-
 </div>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&center=true&width=650&color=ffffff&lines=Rachit+Sharma" alt="Typing SVG" />
 </p>
+
 
 
 
