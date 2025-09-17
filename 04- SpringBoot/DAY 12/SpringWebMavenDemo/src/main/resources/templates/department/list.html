@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Department List</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}" />
+</head>
+
+<body>
+<header th:replace="fragments/header :: header"></header>
+
+<main>
+    <h2>Department List</h2>
+    <table>
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>EmailID</th>
+            <th>Address</th>
+            <th>Code</th>
+            <th>Actions</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="department : ${fetchedDepartments}">
+            <td th:text="${department.departmentId}"></td>
+            <td th:text="${department.departmentName}"></td>
+            <td th:text="${department.departmentEmailId}"></td>
+            <td th:text="${department.departmentAddress}"></td>
+            <td th:text="${department.departmentCode}"></td>
+            <td>
+                <a th:href="@{'/departments/edit/' + ${department.departmentId}}">Edit</a>
+                <a th:href="@{'/departments/delete/' + ${department.departmentId}}">Delete</a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</main>
+
+<footer th:replace="fragments/footer :: footer"></footer>
+</body>
+</html>
