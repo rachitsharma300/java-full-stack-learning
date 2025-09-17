@@ -1,0 +1,15 @@
+<!-- Only define a fragment, do not include <html> or <body> -->
+<head th:fragment="common-head">
+    <meta charset="UTF-8"/>
+    <title>Department Management</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}" />
+</head>
+
+<header th:fragment="header">
+    <h1>Department Management System</h1>
+    <nav>
+        <a th:href="@{/departments}">Home</a> |
+        <a th:href="@{/departments/new}">Add Department</a>
+    </nav>
+    <hr/>
+</header>
