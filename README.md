@@ -59,6 +59,10 @@ Welcome to the Java Full Stack Learning repository. This is a structured learnin
         <br>Spring Boot
       </td>
       <td align="center" width="120">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="40" height="40" alt="WebFlux"/>
+        <br>WebFlux
+      </td>
+      <td align="center" width="120">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" height="40" alt="HTML5"/>
         <br>HTML5
       </td>
@@ -77,6 +81,10 @@ Welcome to the Java Full Stack Learning repository. This is a structured learnin
         <br>MySQL
       </td>
       <td align="center" width="120">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="40" height="40" alt="MongoDB"/>
+        <br>MongoDB
+      </td>
+      <td align="center" width="120">
         <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" width="40" height="40" alt="AWS"/>
         <br>AWS
       </td>
@@ -87,6 +95,10 @@ Welcome to the Java Full Stack Learning repository. This is a structured learnin
       <td align="center" width="120">
         <img src="https://cdn-icons-png.flaticon.com/512/1234/1234609.png" width="40" height="40" alt="System Design"/>
         <br>System Design
+      </td>
+      <td align="center" width="120">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/junit/junit-original.svg" width="40" height="40" alt="JUnit"/>
+        <br>JUnit
       </td>
     </tr>
   </table>
@@ -225,6 +237,7 @@ java-full-stack-learning/
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&center=true&width=650&color=ffffff&lines=Rachit+Sharma" alt="Typing SVG" />
 </p>
+
 
 
 
