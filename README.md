@@ -30,7 +30,7 @@
 Welcome to the Java Full Stack Learning repository. This is a structured learning path covering core and advanced topics in full stack development including backend, frontend, database, cloud and system design.
 </p>
 
-```
+<!---
  <h2 align="center"> Tech Stack </h2>
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="40" height="40"/>
@@ -43,7 +43,7 @@ Welcome to the Java Full Stack Learning repository. This is a structured learnin
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" alt="IntelliJ IDEA" width="40" height="40"/>
   <img src="https://cdn-icons-png.flaticon.com/512/1234/1234609.png" alt="System Design" width="40" height="40"/>
 </p>
-```
+--->
 
 <h2 align="center">🚀 Tech Stack</h2>
 
@@ -224,6 +224,7 @@ java-full-stack-learning/
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&center=true&width=650&color=ffffff&lines=Rachit+Sharma" alt="Typing SVG" />
 </p>
+
 
 
 
