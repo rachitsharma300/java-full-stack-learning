@@ -92,18 +92,6 @@ Welcome to the Java Full Stack Learning repository. This is a structured learnin
   </table>
 </div>
 
-
-<div align="center">
-  <ul>
-    <li>🔧 <strong>Backend:</strong> Java Core, OOP, Multithreading, Spring Boot</li>
-    <li>🎨 <strong>Frontend:</strong> HTML, CSS, JavaScript</li>
-    <li>🗄️ <strong>Database:</strong> MySQL, SQL basics</li>
-    <li>🛠️ <strong>Dev Tools:</strong> IntelliJ IDEA, GitHub</li>
-    <li>☁️ <strong>Cloud:</strong> AWS (conceptual and practical)</li>
-    <li>🧠 <strong>System Design:</strong> Concepts and architecture</li>
-  </ul>
-</div>
-
 <div align="center">
   <div style="display: inline-block; text-align: left;">
     <p>🔧 <strong>Backend:</strong> Java Core, OOP, Multithreading, Spring Boot</p>
@@ -237,6 +225,7 @@ java-full-stack-learning/
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&center=true&width=650&color=ffffff&lines=Rachit+Sharma" alt="Typing SVG" />
 </p>
+
 
 
 
