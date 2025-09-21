@@ -202,6 +202,132 @@ java-full-stack-learning/
 └── README.md
 ```
 
+<h2> 📁 Repository Structure </h2>
+
+<details>
+  <summary>01-java-core</summary>
+  
+  <details>
+    <summary>Basics</summary>
+    
+    - Day 1 - Java Overview & Installation  
+    - Day 2 - DataTypes & Operators  
+    - Day 3 - Conditional Statements & Loops  
+    - Day 4 - Loop Practice & Control Statements  
+    - Day 5 - Arrays  
+  </details>
+
+  <details>
+    <summary>OOPs</summary>
+    
+    - Day 6 - Strings & OOP Introduction  
+    - Day 7 - Classes, Objects & Constructors  
+    - Day 8 - Access Modifiers & Inheritance  
+    - Day 9 - Polymorphism & Encapsulation  
+    - Day 10 - Abstraction & Interfaces  
+  </details>
+
+  <details>
+    <summary>Exception Handling & Collections</summary>
+    
+    - Day 11 - Exception Handling & Collection Framework Intro  
+    - Day 12 - Collection Framework Continued (practical working)  
+    - Day 13 - Multithreading, Java Streams API, Introduction to Java 8 Features  
+  </details>
+
+  <details>
+    <summary>Advanced Java</summary>
+    
+    - Day 14 - Java 8: Streams, Functional Prog & Build Tools (Maven, Gradle)  
+    - Day 15 - Lambdas, Optionals, Futures & Method Refs  
+    - Day 16 - Java 9–14: Features & Enhancements  
+  </details>
+</details>
+
+<details>
+  <summary>02-frontend</summary>
+  
+  <details>
+    <summary>1-html</summary>
+    
+    - Day 1 - html-fundamentals  
+    - Day 2 - forms-semantic-html  
+    - Day 3 - html5-features  
+    - Day 4 - html-project  
+  </details>
+  
+  <details>
+    <summary>2-css</summary>
+    
+    - Day 1 - css-fundamentals  
+    - Day 2 - flexbox-grid  
+    - Day 3 - responsive-design  
+    - Day 4 - css-frameworks-animations  
+  </details>
+  
+  <details>
+    <summary>3-javascript</summary>
+    
+    - Day 1 - js-fundamentals  
+    - Day 2 - dom-manipulation  
+    - Day 3 - es6-features  
+    - Day 4 - async-js  
+    - Day 5 - js-project  
+  </details>
+</details>
+
+<details>
+  <summary>03-MySQL</summary>
+  
+  - Day 1 - Overview and JDBC Connectivity  
+  - Day 2 - Complete MySql  
+</details>
+
+<details>
+  <summary>04-Spring-Boot</summary>
+  
+  - Day 1 - Web Architecture, REST API & Design Patterns  
+  - Day 2 - Java EE Variants, Spring Basics & IOC  
+  - Day 3 - Maven/Gradle, Spring Bean Scope, Annotations & DI  
+  - Day 4 - Spring Boot Introduction & Simple REST Service  
+  - Day 5 - Spring MVC & JSP  
+  - Day 6 - Spring JDBC & JPA  
+  - Day 7 - Spring Data JPA (Contd.) & Spring Data MongoDB  
+  - Day 8 - ResponseEntity, Status Codes & Global Exception Handling  
+  - Day 9 - Thymeleaf: Basics, Integration & Form Handling  
+  - Day 10 - CRUD with Thymeleaf & MySQL  
+  - Day 11 - Spring Security  
+  - Day 12 - Spring Security & JWT Authentication  
+  - Day 13 - Spring WebFlux & Reactive Programming  
+  - Day 14 - Spring Batch Processing  
+</details>
+
+<details>
+  <summary>05-Cloud</summary>
+  
+  - AWS  
+</details>
+
+<details>
+  <summary>06-Design</summary>
+  
+  - System Design  
+</details>
+
+<details>
+  <summary>07-Resources</summary>
+  
+  <details>
+    <summary>Projects</summary>
+    
+    - Cab Booking System  
+  </details>
+  
+  - Assignments  
+  - Interview  
+</details>
+
+
 
 <!----    WORK IN PROGRSS 
 ## 📚 Topic-wise READMEs
@@ -237,6 +363,7 @@ java-full-stack-learning/
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&center=true&width=650&color=ffffff&lines=Rachit+Sharma" alt="Typing SVG" />
 </p>
+
 
 
 
