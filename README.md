@@ -116,7 +116,7 @@ Welcome to the Java Full Stack Learning repository. This is a structured learnin
 </div>
 
 
-
+<!---
 <h2> 📁 Repository Structure </h2>
 
 ```bash
@@ -201,6 +201,7 @@ java-full-stack-learning/
 ├── LICENSE
 └── README.md
 ```
+--->
 
 <h2> 📁 Repository Structure </h2>
 
@@ -363,6 +364,7 @@ java-full-stack-learning/
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&center=true&width=650&color=ffffff&lines=Rachit+Sharma" alt="Typing SVG" />
 </p>
+
 
 
 
