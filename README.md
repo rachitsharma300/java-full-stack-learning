@@ -30,6 +30,7 @@
 Welcome to the Java Full Stack Learning repository. This is a structured learning path covering core and advanced topics in full stack development including backend, frontend, database, cloud and system design.
 </p>
 
+```
  <h2 align="center"> Tech Stack </h2>
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="40" height="40"/>
@@ -42,6 +43,55 @@ Welcome to the Java Full Stack Learning repository. This is a structured learnin
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" alt="IntelliJ IDEA" width="40" height="40"/>
   <img src="https://cdn-icons-png.flaticon.com/512/1234/1234609.png" alt="System Design" width="40" height="40"/>
 </p>
+```
+
+<h2 align="center">🚀 Tech Stack</h2>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="120">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" height="40" alt="Java"/>
+        <br>Java
+      </td>
+      <td align="center" width="120">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="40" height="40" alt="Spring Boot"/>
+        <br>Spring Boot
+      </td>
+      <td align="center" width="120">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" height="40" alt="HTML5"/>
+        <br>HTML5
+      </td>
+      <td align="center" width="120">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" height="40" alt="CSS3"/>
+        <br>CSS3
+      </td>
+      <td align="center" width="120">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40" alt="JavaScript"/>
+        <br>JavaScript
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="120">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40" height="40" alt="MySQL"/>
+        <br>MySQL
+      </td>
+      <td align="center" width="120">
+        <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" width="40" height="40" alt="AWS"/>
+        <br>AWS
+      </td>
+      <td align="center" width="120">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" width="40" height="40" alt="IntelliJ IDEA"/>
+        <br>IntelliJ IDEA
+      </td>
+      <td align="center" width="120">
+        <img src="https://cdn-icons-png.flaticon.com/512/1234/1234609.png" width="40" height="40" alt="System Design"/>
+        <br>System Design
+      </td>
+    </tr>
+  </table>
+</div>
+
 
 <div align="center">
   <ul>
@@ -174,6 +224,7 @@ java-full-stack-learning/
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&center=true&width=650&color=ffffff&lines=Rachit+Sharma" alt="Typing SVG" />
 </p>
+
 
 
 
