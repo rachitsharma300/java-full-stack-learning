@@ -304,6 +304,13 @@ java-full-stack-learning/
 </details>
 
 <details>
+  <summary>JUnit</summary>
+  
+  - Day 1 - JUnit Introduction & Configuring unit tests in IDE/Java project
+  - Day 2 - Mockito Framework Briefing
+</details>
+
+<details>
   <summary>05-Cloud</summary>
   
   - AWS  
@@ -364,6 +371,7 @@ java-full-stack-learning/
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&center=true&width=650&color=ffffff&lines=Rachit+Sharma" alt="Typing SVG" />
 </p>
+
 
 
 
