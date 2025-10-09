@@ -368,6 +368,8 @@ java-full-stack-learning/
 </p>
 </div> -->
 
+## 🚀 My Projects
+
 <table align="center">
   <tr>
     <td align="center" width="50%">
@@ -376,9 +378,9 @@ java-full-stack-learning/
         <img src="https://img.shields.io/badge/View%20on-GitHub-black?logo=github" alt="GitHub Badge">
       </a><br/>
       <a href="https://github.com/rachitsharma300/Patna-Metro" target="_blank">
-        <img src="https://github.com/user-attachments/assets/a815c282-29fa-4318-af81-52f6d5ec7c73" width="250" alt="Patna Metro Demo">
+        <img src="https://github.com/user-attachments/assets/a815c282-29fa-4318-af81-52f6d5ec7c73" width="300" alt="Patna Metro Screenshot">
       </a><br/>
-      🎥 <a href="https://github.com/user-attachments/assets/a815c282-29fa-4318-af81-52f6d5ec7c73" target="_blank">Watch Demo</a>
+      🖼️ <a href="https://github.com/rachitsharma300/Patna-Metro" target="_blank">View Project</a>
     </td>
     <td align="center" width="50%">
       <h3>💬 ByteBuzz Chat App</h3>
@@ -386,9 +388,9 @@ java-full-stack-learning/
         <img src="https://img.shields.io/badge/View%20on-GitHub-black?logo=github" alt="GitHub Badge">
       </a><br/>
       <a href="https://github.com/rachitsharma300/bytebuzz-chat-app" target="_blank">
-        <img src="https://img.youtube.com/vi/YYYYYYYYYYY/0.jpg" width="250" alt="Chat App Demo">
+        <img src="https://github.com/user-attachments/assets/EXAMPLE_IMAGE_ID" width="300" alt="Chat App Screenshot">
       </a><br/>
-      🎥 <a href="https://github.com/user-attachments/assets/a815c282-29fa-4318-af81-52f6d5ec7c73" target="_blank">Watch Demo</a>
+      🖼️ <a href="https://github.com/rachitsharma300/bytebuzz-chat-app" target="_blank">View Project</a>
     </td>
   </tr>
 </table>
@@ -417,6 +419,7 @@ java-full-stack-learning/
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&center=true&width=650&color=ffffff&lines=Rachit+Sharma" alt="Typing SVG" />
 </p>
+
 
 
 
