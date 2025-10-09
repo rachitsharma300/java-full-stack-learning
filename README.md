@@ -11,13 +11,6 @@
 
 <img src="https://raw.githubusercontent.com/rachitsharma300/java-full-stack-learning/main/resources/BANNER_JFSD.gif" alt="Java Full Stack Banner" width="100%">
 
- ARCI SVG 
-<div align="center">
-  <img src="resources/Architecture.svg" alt="Architecture Diagram" width="1000">
-</div>
-
-
-
 <!--- ARCI SVG 
 <div align="center">
   <img src="resources/Architecture.svg" alt="Architecture Diagram" width="1000">
@@ -420,6 +413,7 @@ java-full-stack-learning/
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&center=true&width=650&color=ffffff&lines=Rachit+Sharma" alt="Typing SVG" />
 </p>
+
 
 
 
