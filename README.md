@@ -368,7 +368,7 @@ java-full-stack-learning/
 </p>
 </div> -->
 
-## 🚀 My Projects
+##  My Projects
 
 <table align="center">
   <tr>
@@ -420,6 +420,7 @@ java-full-stack-learning/
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&center=true&width=650&color=ffffff&lines=Rachit+Sharma" alt="Typing SVG" />
 </p>
+
 
 
 
