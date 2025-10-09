@@ -353,7 +353,7 @@ java-full-stack-learning/
 
 ---->
 
-<div align="center">
+<!-- <div align="center">
 
 ### 📌 Featured Projects
 
@@ -366,11 +366,38 @@ java-full-stack-learning/
   <a href="https://github.com/rachitsharma300/Patna-Metro" target="_blank">🔗 Patna Metro Repo</a> • 
   <a href="https://github.com/rachitsharma300/bytebuzz-chat-app" target="_blank">🔗 Chat App Repo</a>
 </p>
-</div>
+</div> -->
+
+<table align="center">
+  <tr>
+    <td align="center" width="50%">
+      <h3>🛤️ Patna Metro</h3>
+      <a href="https://github.com/rachitsharma300/Patna-Metro" target="_blank">
+        <img src="https://img.shields.io/badge/View%20on-GitHub-black?logo=github" alt="GitHub Badge">
+      </a><br/>
+      <a href="https://github.com/rachitsharma300/Patna-Metro" target="_blank">
+        <img src="https://img.youtube.com/vi/XXXXXXXXXXX/0.jpg" width="250" alt="Patna Metro Demo">
+      </a><br/>
+      🎥 <a href="https://youtu.be/XXXXXXXXXXX" target="_blank">Watch Demo</a>
+    </td>
+    <td align="center" width="50%">
+      <h3>💬 ByteBuzz Chat App</h3>
+      <a href="https://github.com/rachitsharma300/bytebuzz-chat-app" target="_blank">
+        <img src="https://img.shields.io/badge/View%20on-GitHub-black?logo=github" alt="GitHub Badge">
+      </a><br/>
+      <a href="https://github.com/rachitsharma300/bytebuzz-chat-app" target="_blank">
+        <img src="https://img.youtube.com/vi/YYYYYYYYYYY/0.jpg" width="250" alt="Chat App Demo">
+      </a><br/>
+      🎥 <a href="https://youtu.be/YYYYYYYYYYY" target="_blank">Watch Demo</a>
+    </td>
+  </tr>
+</table>
+
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&center=true&width=650&color=ffffff&lines=Rachit+Sharma" alt="Typing SVG" />
 </p>
+
 
 
 
