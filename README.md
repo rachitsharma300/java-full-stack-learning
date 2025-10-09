@@ -398,20 +398,20 @@ java-full-stack-learning/
 ---
 
 
-## 🧑‍💻 Projects in Progress
+## Projects in Progress
 
 <table align="center">
   <tr>
     <td align="center" width="33%">
-      <h3>🏨 Hotel Booking System</h3>
+      <h3>Hotel Booking System</h3>
       <img src="https://img.shields.io/badge/Status-In%20Progress-orange?style=for-the-badge">
     </td>
     <td align="center" width="33%">
-      <h3>🛒 Ecommerce Application</h3>
+      <h3>Ecommerce Application</h3>
       <img src="https://img.shields.io/badge/Status-In%20Progress-orange?style=for-the-badge">
     </td>
     <td align="center" width="33%">
-      <h3>📚 Learning Management System</h3>
+      <h3>Learning Management System</h3>
       <img src="https://img.shields.io/badge/Status-In%20Progress-orange?style=for-the-badge">
     </td>
   </tr>
@@ -420,6 +420,7 @@ java-full-stack-learning/
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&center=true&width=650&color=ffffff&lines=Rachit+Sharma" alt="Typing SVG" />
 </p>
+
 
 
 
