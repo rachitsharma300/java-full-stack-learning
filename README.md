@@ -388,7 +388,7 @@ java-full-stack-learning/
       <a href="https://github.com/rachitsharma300/bytebuzz-chat-app" target="_blank">
         <img src="https://img.youtube.com/vi/YYYYYYYYYYY/0.jpg" width="250" alt="Chat App Demo">
       </a><br/>
-      🎥 <a href="https://youtu.be/YYYYYYYYYYY" target="_blank">Watch Demo</a>
+      🎥 <a href="https://github.com/user-attachments/assets/a815c282-29fa-4318-af81-52f6d5ec7c73" target="_blank">Watch Demo</a>
     </td>
   </tr>
 </table>
@@ -417,6 +417,7 @@ java-full-stack-learning/
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&center=true&width=650&color=ffffff&lines=Rachit+Sharma" alt="Typing SVG" />
 </p>
+
 
 
 
