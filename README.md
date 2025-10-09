@@ -388,7 +388,7 @@ java-full-stack-learning/
         <img src="https://img.shields.io/badge/View%20on-GitHub-black?logo=github" alt="GitHub Badge">
       </a><br/>
       <a href="https://github.com/rachitsharma300/bytebuzz-chat-app" target="_blank">
-        <img src="https://github.com/user-attachments/assets/EXAMPLE_IMAGE_ID" width="300" alt="Chat App Screenshot">
+        <img src="https://github.com/user-attachments/assets/6cc5d01d-4892-445d-a77c-592d0016bba8" width="300" alt="Chat App Screenshot">
       </a><br/>
       🖼️ <a href="https://github.com/rachitsharma300/bytebuzz-chat-app" target="_blank">View Project</a>
     </td>
@@ -420,6 +420,7 @@ java-full-stack-learning/
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&center=true&width=650&color=ffffff&lines=Rachit+Sharma" alt="Typing SVG" />
 </p>
+
 
 
 
