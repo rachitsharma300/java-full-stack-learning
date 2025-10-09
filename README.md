@@ -376,7 +376,7 @@ java-full-stack-learning/
         <img src="https://img.shields.io/badge/View%20on-GitHub-black?logo=github" alt="GitHub Badge">
       </a><br/>
       <a href="https://github.com/rachitsharma300/Patna-Metro" target="_blank">
-        <img src="https://img.youtube.com/vi/XXXXXXXXXXX/0.jpg" width="250" alt="Patna Metro Demo">
+        <img src="https://github.com/user-attachments/assets/a815c282-29fa-4318-af81-52f6d5ec7c73" width="250" alt="Patna Metro Demo">
       </a><br/>
       🎥 <a href="https://youtu.be/XXXXXXXXXXX" target="_blank">Watch Demo</a>
     </td>
@@ -417,6 +417,7 @@ java-full-stack-learning/
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&center=true&width=650&color=ffffff&lines=Rachit+Sharma" alt="Typing SVG" />
 </p>
+
 
 
 
