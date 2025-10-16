@@ -375,7 +375,7 @@ java-full-stack-learning/
       </a><br/>
       <a href="https://github.com/rachitsharma300/Patna-Metro" target="_blank">View Repo.. 📁</a>
       <br>
-      <a href="https:www.patnametromap.in" target="_blank">Patna Metro Live 🚇></a>
+      <a href="https:www.patnametromap.in" target="_blank">Patna Metro Live 🚇</a>
     </td>
     <td align="center" width="50%">
       <h3>ByteBuzz Chat App</h3>
@@ -417,6 +417,7 @@ java-full-stack-learning/
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&center=true&width=650&color=ffffff&lines=Rachit+Sharma" alt="Typing SVG" />
 </p>
+
 
 
 
