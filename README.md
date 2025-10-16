@@ -373,9 +373,9 @@ java-full-stack-learning/
       <a href="https://github.com/rachitsharma300/Patna-Metro" target="_blank">
         <img src="https://github.com/user-attachments/assets/484a8deb-5ae4-4b27-b830-98b3cfdf92c9" width="300" alt="Patna Metro Screenshot">
       </a><br/>
-      <a href="https://github.com/rachitsharma300/Patna-Metro" target="_blank">View Repo📁</a>
+      <a href="https://github.com/rachitsharma300/Patna-Metro" target="_blank">View Repo.. 📁</a>
       <br>
-      <a href="https:www.patnametromap.in" target="_blank">Patna Metro Live>🚇</a>
+      <a href="https:www.patnametromap.in" target="_blank">Patna Metro Live 🚇></a>
     </td>
     <td align="center" width="50%">
       <h3>ByteBuzz Chat App</h3>
@@ -385,7 +385,9 @@ java-full-stack-learning/
       <a href="https://github.com/rachitsharma300/bytebuzz-chat-app" target="_blank">
         <img src="https://github.com/user-attachments/assets/6cc5d01d-4892-445d-a77c-592d0016bba8" width="300" alt="Chat App Screenshot">
       </a><br/>
-       <a href="https://github.com/rachitsharma300/bytebuzz-chat-app" target="_blank">View Project</a>
+       <a href="https://github.com/rachitsharma300/bytebuzz-chat-app" target="_blank">View Repo..</a>
+      <br>
+      <a href="https://byte-buzz-chat-app.netlify.app/" target="_blank">ByteByzz Chat App 💬></a>
     </td>
   </tr>
 </table>
@@ -415,6 +417,7 @@ java-full-stack-learning/
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&center=true&width=650&color=ffffff&lines=Rachit+Sharma" alt="Typing SVG" />
 </p>
+
 
 
 
