@@ -373,7 +373,8 @@ java-full-stack-learning/
       <a href="https://github.com/rachitsharma300/Patna-Metro" target="_blank">
         <img src="https://github.com/user-attachments/assets/484a8deb-5ae4-4b27-b830-98b3cfdf92c9" width="300" alt="Patna Metro Screenshot">
       </a><br/>
-      <a href="https://github.com/rachitsharma300/Patna-Metro" target="_blank">Repository</a>
+      <a href="https://github.com/rachitsharma300/Patna-Metro" target="_blank">Project Repository</a>
+      <br>
       <a href="https:www.patnametromap.in" target="_blank">Patna Metro Live</a>
     </td>
     <td align="center" width="50%">
@@ -414,4 +415,5 @@ java-full-stack-learning/
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&center=true&width=650&color=ffffff&lines=Rachit+Sharma" alt="Typing SVG" />
 </p>
+
 
