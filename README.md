@@ -38,7 +38,7 @@ Welcome to the Java Full Stack Learning repository. This is a structured learnin
 </p>
 --->
 
-<h2 align="center">🚀 Tech Stack</h2>
+<h2 align="center"> Tech Stack </h2>
 
 <div align="center">
   <table>
@@ -417,6 +417,7 @@ java-full-stack-learning/
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&center=true&width=650&color=ffffff&lines=Rachit+Sharma" alt="Typing SVG" />
 </p>
+
 
 
 
