@@ -407,6 +407,7 @@ java-full-stack-learning/
     <td align="center" width="33%">
       <h3>Ecommerce Application</h3>
       <img src="https://img.shields.io/badge/Status-In%20Progress-orange?style=for-the-badge">
+      <p>Deadlin - 30 Oct 2025</p>
     </td>
     <td align="center" width="33%">
       <h3>Learning Management System</h3>
@@ -419,6 +420,7 @@ java-full-stack-learning/
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&center=true&width=650&color=ffffff&lines=Rachit+Sharma" alt="Typing SVG" />
 </p>
+
 
 
 
