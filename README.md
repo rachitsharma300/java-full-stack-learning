@@ -4,10 +4,10 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-Full%20Stack-blue" alt="Java Full Stack Badge">
-  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License Badge">
-  <img src="https://img.shields.io/badge/Maintained-Yes-brightgreen" alt="Maintained">
   <img src="https://img.shields.io/badge/Status-Active-brightgreen" alt="Project Status">
 </p>
+
+
 
 <img src="https://raw.githubusercontent.com/rachitsharma300/java-full-stack-learning/main/resources/BANNER_JFSD.gif" alt="Java Full Stack Banner" width="100%">
 
@@ -420,6 +420,7 @@ java-full-stack-learning/
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&center=true&width=650&color=ffffff&lines=Rachit+Sharma" alt="Typing SVG" />
 </p>
+
 
 
 
