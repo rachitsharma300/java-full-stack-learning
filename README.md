@@ -423,12 +423,6 @@ java-full-stack-learning/
 <table align="center">
   <tr>
     <td align="center" width="33%">
-      <h3>StayEase - Hotel Booking System</h3>
-      https://github.com/user-attachments/assets/6748bef8-d791-4b2d-99fa-ac3488b0c1b1
-      <img src="https://img.shields.io/badge/Status-In%20Progress-orange?style=for-the-badge">
-      <p>Deadline - 25 Oct 2025</p>
-    </td>
-    <td align="center" width="33%">
       <h3>Ecommerce Application</h3>
       <img src="https://img.shields.io/badge/Status-In%20Progress-orange?style=for-the-badge">
       <p>Deadlin - 30 Oct 2025</p>
@@ -444,6 +438,7 @@ java-full-stack-learning/
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&center=true&width=650&color=ffffff&lines=Rachit+Sharma" alt="Typing SVG" />
 </p>
+
 
 
 
