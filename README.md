@@ -395,6 +395,25 @@ java-full-stack-learning/
   </tr>
 </table>
 
+<td align="center" width="50%">
+  <h3>StayEase - Hotel Booking System</h3>
+  <a href="https://github.com/rachitsharma300/StayEase-Hotel-Booking-System" target="_blank">
+    <img src="https://img.shields.io/badge/View%20on-GitHub-black?logo=github" alt="GitHub Badge">
+  </a><br/>
+
+  <!-- Demo Video Thumbnail / Clickable -->
+  <a href="https://github.com/user-attachments/assets/6748bef8-d791-4b2d-99fa-ac3488b0c1b1" target="_blank">
+    <img src="https://github.com/user-attachments/assets/6748bef8-d791-4b2d-99fa-ac3488b0c1b1" 
+         width="300" alt="StayEase Demo">
+  </a><br/>
+
+  <a href="https://github.com/rachitsharma300/StayEase-Hotel-Booking-System" target="_blank">
+    View Repo.. 📁
+  </a>
+  <br>
+  <a href="#" target="_blank">StayEase Live 🏨</a>
+</td>
+
 ---
 
 
@@ -403,7 +422,8 @@ java-full-stack-learning/
 <table align="center">
   <tr>
     <td align="center" width="33%">
-      <h3>Hotel Booking System</h3>
+      <h3>StayEase - Hotel Booking System</h3>
+      https://github.com/user-attachments/assets/6748bef8-d791-4b2d-99fa-ac3488b0c1b1
       <img src="https://img.shields.io/badge/Status-In%20Progress-orange?style=for-the-badge">
       <p>Deadline - 25 Oct 2025</p>
     </td>
@@ -423,6 +443,7 @@ java-full-stack-learning/
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&center=true&width=650&color=ffffff&lines=Rachit+Sharma" alt="Typing SVG" />
 </p>
+
 
 
 
