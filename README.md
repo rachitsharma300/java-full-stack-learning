@@ -392,10 +392,7 @@ java-full-stack-learning/
       <br>
       <a href="https://byte-buzz-chat-app.netlify.app/" target="_blank">ByteByzz Chat App Live 💬</a>
     </td>
-  </tr>
-</table>
-
-<td align="center" width="50%">
+    <td align="center" width="50%">
   <h3>StayEase - Hotel Booking System</h3>
   <a href="https://github.com/rachitsharma300/StayEase-Hotel-Booking-System" target="_blank">
     <img src="https://img.shields.io/badge/View%20on-GitHub-black?logo=github" alt="GitHub Badge">
@@ -413,6 +410,10 @@ java-full-stack-learning/
   <br>
   <a href="#" target="_blank">StayEase Live 🏨</a>
 </td>
+  </tr>
+</table>
+
+
 
 ---
 
@@ -443,6 +444,7 @@ java-full-stack-learning/
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&center=true&width=650&color=ffffff&lines=Rachit+Sharma" alt="Typing SVG" />
 </p>
+
 
 
 
