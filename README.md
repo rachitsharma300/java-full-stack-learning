@@ -404,7 +404,7 @@ java-full-stack-learning/
     <img src="https://img.shields.io/badge/View%20on-GitHub-black?logo=github" alt="GitHub Badge">
   </a><br/>
   <a href="https://github.com/user-attachments/assets/6748bef8-d791-4b2d-99fa-ac3488b0c1b1" target="_blank">
-    <img src="https://github.com/user-attachments/assets/6748bef8-d791-4b2d-99fa-ac3488b0c1b1" 
+    <img src="https://github.com/user-attachments/assets/93fbf419-7d20-4e25-a561-9055953d01a8" 
          width="300" alt="StayEase Demo">
   </a><br/>
   <a href="https://github.com/rachitsharma300/StayEase-Hotel-Booking-System" target="_blank">
@@ -438,6 +438,7 @@ java-full-stack-learning/
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&center=true&width=650&color=ffffff&lines=Rachit+Sharma" alt="Typing SVG" />
 </p>
+
 
 
 
