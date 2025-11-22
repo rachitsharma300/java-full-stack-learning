@@ -395,7 +395,6 @@ java-full-stack-learning/
   </tr>
 </table>
 
-
 <table align="center">
   <tr>  
     <td align="center" width="50%">
@@ -422,10 +421,6 @@ java-full-stack-learning/
   <a href="https://github.com/user-attachments/assets/6748bef8-d791-4b2d-99fa-ac3488b0c1b1" target="_blank">
     <img src="https://github.com/user-attachments/assets/306cd1f3-1d37-4c57-880b-ca371a58c871" 
          width="300" alt="StayEase Demo">
-
-
-
-    
   </a><br/>
   <a href="https://github.com/rachitsharma300/DOS" target="_blank">
     View Repo.. 📁
@@ -433,10 +428,26 @@ java-full-stack-learning/
   <br>
   <a href="https://dynamic-online-shopping.netlify.app/" target="_blank">StayEase Live 🏨</a>
 </td>
-
-    
   </tr>
 </table>
+
+<table align="center">
+  <tr>
+    <td align="center" width="50%">
+      <h3>LearnPro - Learning Managment System</h3>
+      <a href="https://github.com/rachitsharma300/LMS" target="_blank">
+        <img src="https://img.shields.io/badge/View%20on-GitHub-black?logo=github" alt="GitHub Badge">
+      </a><br/>
+      <a href="https://github.com/rachitsharma300/LMS" target="_blank">
+        <img src="https://github.com/user-attachments/assets/d7f30794-3875-429e-8f4e-0b8e1b1766fb" width="300" alt="Patna Metro Screenshot">
+      </a><br/>
+      <a href="https://github.com/rachitsharma300/LMS" target="_blank">View Repo.. 📁</a>
+      <br>
+      <a href="https:www.patnametromap.in" target="_blank">LearnPro 🚇</a>
+    </td>
+  </tr>
+</table>
+
 
 
 ## Projects in Progress
@@ -459,6 +470,7 @@ java-full-stack-learning/
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&center=true&width=650&color=ffffff&lines=Rachit+Sharma" alt="Typing SVG" />
 </p>
+
 
 
 
