@@ -248,36 +248,7 @@ Welcome to the Java Full Stack Learning repository. This is a structured learnin
 
 
 
-<!----    WORK IN PROGRSS 
-## 📚 Topic-wise READMEs
 
-- [Java Core](01-java-core/README.md)
-- [OOPs Concepts](01-java-core/OOPs/README.md)
-- [Exception Handling & Collections](01-java-core/Exception%20Handling%20%26%20Collections/README.md)
-- [Advanced Java](01-java-core/Advanced%20Java/README.md)
-- [Spring Boot](2-Spring-Boot/README.md)
-- [Frontend (HTML, CSS, JS)](2-Frontend/README.md)
-- [Database (MySQL)](3-Database/README.md)
-- [Cloud (AWS)](4-Cloud/1-AWS/README.md)
-- [System Design](5-Design/1-System-Design/README.md)
-- [Resources](6-Resources/README.md)
-
----->
-
-<!-- <div align="center">
-
-### 📌 Featured Projects
-
-| Project | Tech Stack | Description |
-|---------|------------|-------------|
-|  **Patna Metro Assistant** | Spring Boot • React • MongoDB • Tailwind | A voice-enabled chatbot web app to find metro routes, fares, and interchanges in Patna. Supports Hindi speech recognition and Bihar slang. |
-| **ByteBuzz Chat App** | Spring Boot • WebSockets • React • Tailwind • MongoDB | A real-time chat application with join/create rooms, sleek animated UI, and optional chatbot integration. |
-
-<p align="center">
-  <a href="https://github.com/rachitsharma300/Patna-Metro" target="_blank">🔗 Patna Metro Repo</a> • 
-  <a href="https://github.com/rachitsharma300/bytebuzz-chat-app" target="_blank">🔗 Chat App Repo</a>
-</p>
-</div> -->
 
 ##  My Projects
 
@@ -296,7 +267,7 @@ Welcome to the Java Full Stack Learning repository. This is a structured learnin
       <a href="https:www.patnametromap.in" target="_blank">Patna Metro Live 🚇</a>
     </td>
     <td align="center" width="50%">
-      <h3>LearnPro - Learning Managment System</h3>
+      <h3>Learning Managment System</h3>
       <a href="https://github.com/rachitsharma300/LMS" target="_blank">
         <img src="https://img.shields.io/badge/View%20on-GitHub-black?logo=github" alt="GitHub Badge">
       </a><br/>
@@ -313,7 +284,7 @@ Welcome to the Java Full Stack Learning repository. This is a structured learnin
 <table align="center">
   <tr>  
     <td align="center" width="50%">
-  <h3>StayEase - Hotel Booking System</h3>
+  <h3>Hotel Booking System</h3>
   <a href="https://github.com/rachitsharma300/StayEase-Hotel-Booking-System" target="_blank">
     <img src="https://img.shields.io/badge/View%20on-GitHub-black?logo=github" alt="GitHub Badge">
   </a><br/>
@@ -367,6 +338,15 @@ Welcome to the Java Full Stack Learning repository. This is a structured learnin
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&center=true&width=650&color=ffffff&lines=Rachit+Sharma" alt="Typing SVG" />
 </p>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -470,6 +450,36 @@ java-full-stack-learning/
 ```
 --->
 
+<!----    WORK IN PROGRSS 
+## 📚 Topic-wise READMEs
+
+- [Java Core](01-java-core/README.md)
+- [OOPs Concepts](01-java-core/OOPs/README.md)
+- [Exception Handling & Collections](01-java-core/Exception%20Handling%20%26%20Collections/README.md)
+- [Advanced Java](01-java-core/Advanced%20Java/README.md)
+- [Spring Boot](2-Spring-Boot/README.md)
+- [Frontend (HTML, CSS, JS)](2-Frontend/README.md)
+- [Database (MySQL)](3-Database/README.md)
+- [Cloud (AWS)](4-Cloud/1-AWS/README.md)
+- [System Design](5-Design/1-System-Design/README.md)
+- [Resources](6-Resources/README.md)
+
+---->
+
+<!-- <div align="center">
+
+### 📌 Featured Projects
+
+| Project | Tech Stack | Description |
+|---------|------------|-------------|
+|  **Patna Metro Assistant** | Spring Boot • React • MongoDB • Tailwind | A voice-enabled chatbot web app to find metro routes, fares, and interchanges in Patna. Supports Hindi speech recognition and Bihar slang. |
+| **ByteBuzz Chat App** | Spring Boot • WebSockets • React • Tailwind • MongoDB | A real-time chat application with join/create rooms, sleek animated UI, and optional chatbot integration. |
+
+<p align="center">
+  <a href="https://github.com/rachitsharma300/Patna-Metro" target="_blank">🔗 Patna Metro Repo</a> • 
+  <a href="https://github.com/rachitsharma300/bytebuzz-chat-app" target="_blank">🔗 Chat App Repo</a>
+</p>
+</div> -->
 
 
 
