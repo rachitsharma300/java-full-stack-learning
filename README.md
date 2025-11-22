@@ -112,92 +112,7 @@ Welcome to the Java Full Stack Learning repository. This is a structured learnin
 </div>
 
 
-<!---
-<h2> 📁 Repository Structure </h2>
 
-```bash
-java-full-stack-learning/
-├── 01-java-core/
-│   ├── Basics/
-│   │   ├── Day 1 - Java Overview & Installation/
-│   │   ├── Day 2 - DataTypes & Operators/
-│   │   ├── Day 3 - Conditional Statements & Loops/
-│   │   ├── Day 4 - Loop Practice & Control Statements/
-│   │   └── Day 5 - Arrays/
-│
-│   ├── OOPs/
-│   │   ├── Day 6 - Strings & OOP Introduction/
-│   │   ├── Day 7 - Classes, Objects & Constructors/
-│   │   ├── Day 8 - Access Modifiers & Inheritance/
-│   │   ├── Day 9 - Polymorphism & Encapsulation/
-│   │   └── Day 10 - Abstraction & Interfaces/
-│
-│   ├── Exception Handling & Collections/
-│   │   ├── Day 11 - Exception Handling & Collection Framework Intro/
-│   │   ├── Day 12 - Collection Framework Continued (practical working)/
-│   │   └── Day 13 - Multithreading, Java Streams API, Introduction to Java 8 Features/
-│
-│   ├── Advanced Java/
-│   │   ├── Day 14 - Java 8: Streams, Functional Prog & Build Tools (Maven, Gradle)./
-│   │   ├── Day 15 - Lambdas, Optionals, Futures & Method Refs/
-│   │   └── Day 16 - Java 9–14: Features & Enhancements/
-│
-├── 02-frontend/
-│   ├── 1-html/
-│   │   ├── Day 1 - html-fundamentals/
-│   │   ├── Day 2 - forms-semantic-html/
-│   │   ├── Day 3 - html5-features/
-│   │   └── Day 4 - html-project/
-│   │
-│   ├── 2-css/
-│   │   ├── Day 1 - css-fundamentals/
-│   │   ├── Day 2 - flexbox-grid/
-│   │   ├── Day 3 - responsive-design/
-│   │   └── Day 4 - css-frameworks-animations/
-│   │
-│   └── 3-javascript/
-│       ├── Day 1 - js-fundamentals/
-│       ├── Day 2 - dom-manipulation/
-│       ├── Day 3 - es6-features/
-│       ├── Day 4 - async-js/
-│       └── Day 5 - js-project/
-│
-├── 3-MYSQL/
-│       ├── Day 1 - Overview and JDBC Connectivity
-│       └── Day 2 - Complete MySql
-│
-├── 04-Spring-Boot/
-│       ├── Day 1 - Web Architecture, REST API & Design Patterns/
-│       ├── Day 2 - Java EE Variants, Spring Basics & IOC/
-│       ├── Day 3 - Maven/Gradle, Spring Bean Scope, Annotations & DI/
-│       ├── Day 4 - Spring Boot Introduction & Simple REST Service/
-│       ├── Day 5 - Spring MVC & JSP/
-│       ├── Day 6 - Spring JDBC & JPA/
-│       ├── Day 7 - Spring Data JPA (Contd.) & Spring Data MongoDB/
-│       ├── Day 8 - ResponseEntity, Status Codes & Global Exception Handling/
-│       ├── Day 9 - Thymeleaf: Basics, Integration & Form Handling/
-│       ├── Day 10 - CRUD with Thymeleaf & MySQL/
-│       ├── Day 11 - Spring Security 
-│       ├── Day 12 - Spring Security & JWT Authentication/
-│       ├── Day 13 - Spring WebFlux & Reactive Programming/
-│       └── Day 14 - Spring Batch Processing/
-│
-├── 5-Cloud/
-│   ├── 1-AWS/
-│
-├── 6-Design/
-│   ├── 1-System-Design/
-│
-├── 7-Resources/
-│   ├── Projects/
-│       ├── Cab Booking System
-│   ├── Assignments/
-│   ├── Interview/
-│
-├── LICENSE
-└── README.md
-```
---->
 
 <h2> 📁 Repository Structure </h2>
 
@@ -381,16 +296,16 @@ java-full-stack-learning/
       <a href="https:www.patnametromap.in" target="_blank">Patna Metro Live 🚇</a>
     </td>
     <td align="center" width="50%">
-      <h3>ByteBuzz Chat App</h3>
-      <a href="https://github.com/rachitsharma300/bytebuzz-chat-app" target="_blank">
+      <h3>LearnPro - Learning Managment System</h3>
+      <a href="https://github.com/rachitsharma300/LMS" target="_blank">
         <img src="https://img.shields.io/badge/View%20on-GitHub-black?logo=github" alt="GitHub Badge">
       </a><br/>
-      <a href="https://github.com/rachitsharma300/bytebuzz-chat-app" target="_blank">
-        <img src="https://github.com/user-attachments/assets/6cc5d01d-4892-445d-a77c-592d0016bba8" width="300" alt="Chat App Screenshot">
+      <a href="https://github.com/rachitsharma300/LMS" target="_blank">
+        <img src="https://github.com/user-attachments/assets/d7f30794-3875-429e-8f4e-0b8e1b1766fb" width="300" alt="Patna Metro Screenshot">
       </a><br/>
-       <a href="https://github.com/rachitsharma300/bytebuzz-chat-app" target="_blank">View Repo.. 📁</a>
+      <a href="https://github.com/rachitsharma300/LMS" target="_blank">View Repo.. 📁</a>
       <br>
-      <a href="https://byte-buzz-chat-app.netlify.app/" target="_blank">ByteByzz Chat App Live 💬</a>
+      <a href="https:www.patnametromap.in" target="_blank">LearnPro 🚇</a>
     </td>
   </tr>
 </table>
@@ -434,20 +349,19 @@ java-full-stack-learning/
 <table align="center">
   <tr>
     <td align="center" width="50%">
-      <h3>LearnPro - Learning Managment System</h3>
-      <a href="https://github.com/rachitsharma300/LMS" target="_blank">
+      <h3>ByteBuzz Chat App</h3>
+      <a href="https://github.com/rachitsharma300/bytebuzz-chat-app" target="_blank">
         <img src="https://img.shields.io/badge/View%20on-GitHub-black?logo=github" alt="GitHub Badge">
       </a><br/>
-      <a href="https://github.com/rachitsharma300/LMS" target="_blank">
-        <img src="https://github.com/user-attachments/assets/d7f30794-3875-429e-8f4e-0b8e1b1766fb" width="300" alt="Patna Metro Screenshot">
+      <a href="https://github.com/rachitsharma300/bytebuzz-chat-app" target="_blank">
+        <img src="https://github.com/user-attachments/assets/6cc5d01d-4892-445d-a77c-592d0016bba8" width="300" alt="Chat App Screenshot">
       </a><br/>
-      <a href="https://github.com/rachitsharma300/LMS" target="_blank">View Repo.. 📁</a>
+       <a href="https://github.com/rachitsharma300/bytebuzz-chat-app" target="_blank">View Repo.. 📁</a>
       <br>
-      <a href="https:www.patnametromap.in" target="_blank">LearnPro 🚇</a>
+      <a href="https://byte-buzz-chat-app.netlify.app/" target="_blank">ByteByzz Chat App Live 💬</a>
     </td>
   </tr>
 </table>
-
 
 
 <p align="center">
@@ -468,6 +382,93 @@ java-full-stack-learning/
 
 
 
+<!--
+RECYCLE 
+<h2> 📁 Repository Structure </h2>
+
+```bash
+java-full-stack-learning/
+├── 01-java-core/
+│   ├── Basics/
+│   │   ├── Day 1 - Java Overview & Installation/
+│   │   ├── Day 2 - DataTypes & Operators/
+│   │   ├── Day 3 - Conditional Statements & Loops/
+│   │   ├── Day 4 - Loop Practice & Control Statements/
+│   │   └── Day 5 - Arrays/
+│
+│   ├── OOPs/
+│   │   ├── Day 6 - Strings & OOP Introduction/
+│   │   ├── Day 7 - Classes, Objects & Constructors/
+│   │   ├── Day 8 - Access Modifiers & Inheritance/
+│   │   ├── Day 9 - Polymorphism & Encapsulation/
+│   │   └── Day 10 - Abstraction & Interfaces/
+│
+│   ├── Exception Handling & Collections/
+│   │   ├── Day 11 - Exception Handling & Collection Framework Intro/
+│   │   ├── Day 12 - Collection Framework Continued (practical working)/
+│   │   └── Day 13 - Multithreading, Java Streams API, Introduction to Java 8 Features/
+│
+│   ├── Advanced Java/
+│   │   ├── Day 14 - Java 8: Streams, Functional Prog & Build Tools (Maven, Gradle)./
+│   │   ├── Day 15 - Lambdas, Optionals, Futures & Method Refs/
+│   │   └── Day 16 - Java 9–14: Features & Enhancements/
+│
+├── 02-frontend/
+│   ├── 1-html/
+│   │   ├── Day 1 - html-fundamentals/
+│   │   ├── Day 2 - forms-semantic-html/
+│   │   ├── Day 3 - html5-features/
+│   │   └── Day 4 - html-project/
+│   │
+│   ├── 2-css/
+│   │   ├── Day 1 - css-fundamentals/
+│   │   ├── Day 2 - flexbox-grid/
+│   │   ├── Day 3 - responsive-design/
+│   │   └── Day 4 - css-frameworks-animations/
+│   │
+│   └── 3-javascript/
+│       ├── Day 1 - js-fundamentals/
+│       ├── Day 2 - dom-manipulation/
+│       ├── Day 3 - es6-features/
+│       ├── Day 4 - async-js/
+│       └── Day 5 - js-project/
+│
+├── 3-MYSQL/
+│       ├── Day 1 - Overview and JDBC Connectivity
+│       └── Day 2 - Complete MySql
+│
+├── 04-Spring-Boot/
+│       ├── Day 1 - Web Architecture, REST API & Design Patterns/
+│       ├── Day 2 - Java EE Variants, Spring Basics & IOC/
+│       ├── Day 3 - Maven/Gradle, Spring Bean Scope, Annotations & DI/
+│       ├── Day 4 - Spring Boot Introduction & Simple REST Service/
+│       ├── Day 5 - Spring MVC & JSP/
+│       ├── Day 6 - Spring JDBC & JPA/
+│       ├── Day 7 - Spring Data JPA (Contd.) & Spring Data MongoDB/
+│       ├── Day 8 - ResponseEntity, Status Codes & Global Exception Handling/
+│       ├── Day 9 - Thymeleaf: Basics, Integration & Form Handling/
+│       ├── Day 10 - CRUD with Thymeleaf & MySQL/
+│       ├── Day 11 - Spring Security 
+│       ├── Day 12 - Spring Security & JWT Authentication/
+│       ├── Day 13 - Spring WebFlux & Reactive Programming/
+│       └── Day 14 - Spring Batch Processing/
+│
+├── 5-Cloud/
+│   ├── 1-AWS/
+│
+├── 6-Design/
+│   ├── 1-System-Design/
+│
+├── 7-Resources/
+│   ├── Projects/
+│       ├── Cab Booking System
+│   ├── Assignments/
+│   ├── Interview/
+│
+├── LICENSE
+└── README.md
+```
+--->
 
 
 
