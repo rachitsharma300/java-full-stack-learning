@@ -407,11 +407,11 @@ java-full-stack-learning/
     <img src="https://github.com/user-attachments/assets/93fbf419-7d20-4e25-a561-9055953d01a8" 
          width="300" alt="StayEase Demo">
   </a><br/>
-  <a href="https://github.com/rachitsharma300/StayEase-Hotel-Booking-System" target="_blank">
+  <a href="https://github.com/rachitsharma300/StayEase" target="_blank">
     View Repo.. 📁
   </a>
   <br>
-  <a href="#" target="_blank">StayEase Live 🏨</a>
+  <a href="https://stay-ease-hms.netlify.app/" target="_blank">StayEase Live 🏨</a>
 </td>
   </tr>
 </table>
@@ -438,6 +438,7 @@ java-full-stack-learning/
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&center=true&width=650&color=ffffff&lines=Rachit+Sharma" alt="Typing SVG" />
 </p>
+
 
 
 
