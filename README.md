@@ -300,7 +300,7 @@ Welcome to the Java Full Stack Learning repository. This is a structured learnin
         <img src="https://img.shields.io/badge/View%20on-GitHub-black?logo=github" alt="GitHub Badge">
       </a><br/>
       <a href="https://github.com/rachitsharma300/bytebuzz-chat-app" target="_blank">
-        <img src="https://github.com/user-attachments/assets/6cc5d01d-4892-445d-a77c-592d0016bba8" width="300" alt="Chat App Screenshot">
+        <img src="https://github.com/user-attachments/assets/6cc5d01d-4892-445d-a77c-592d0016bba8" width="600" alt="Chat App Screenshot">
       </a><br/>
        <a href="https://github.com/rachitsharma300/bytebuzz-chat-app" target="_blank">View Repo.. 📁</a>
       <br>
@@ -486,6 +486,7 @@ java-full-stack-learning/
   <img src="https://img.shields.io/badge/Maintained-Yes-brightgreen" alt="Maintained"> -->
 
   
+
 
 
 
