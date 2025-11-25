@@ -75,6 +75,7 @@ Welcome to the Java Full Stack Learning repository. This is a structured learnin
   </table>
 </div>
 
+<!--
 <div align="left">
   <div style="display: inline-block; text-align: left;">
     <p>🔧 <strong>Backend:</strong> Java Core, OOP, Multithreading, Spring Boot</p>
@@ -84,6 +85,7 @@ Welcome to the Java Full Stack Learning repository. This is a structured learnin
     <p>☁️ <strong>Cloud:</strong> AWS (conceptual and practical)</p>
     <p>🧠 <strong>System Design:</strong> Concepts and architecture</p>
   </div>
+  -->
 </div>
 
 
@@ -486,6 +488,7 @@ java-full-stack-learning/
   <img src="https://img.shields.io/badge/Maintained-Yes-brightgreen" alt="Maintained"> -->
 
   
+
 
 
 
