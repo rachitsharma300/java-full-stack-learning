@@ -198,12 +198,6 @@ Welcome to the Java Full Stack Learning repository. This is a structured learnin
   - Day 2 - Mockito Framework Briefing
 </details>
 <details>
-  <summary>06-Design</summary>
-  
-  - System Design  
-</details>
-
-<details>
   <summary>07-Resources</summary>
   
   <details>
@@ -481,6 +475,7 @@ java-full-stack-learning/
   <img src="https://img.shields.io/badge/Maintained-Yes-brightgreen" alt="Maintained"> -->
 
   
+
 
 
 
