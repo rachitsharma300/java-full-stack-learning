@@ -197,13 +197,6 @@ Welcome to the Java Full Stack Learning repository. This is a structured learnin
   - Day 1 - JUnit Introduction & Configuring unit tests in IDE/Java project
   - Day 2 - Mockito Framework Briefing
 </details>
-
-<details>
-  <summary>05-Cloud</summary>
-  
-  - AWS  
-</details>
-
 <details>
   <summary>06-Design</summary>
   
@@ -488,6 +481,7 @@ java-full-stack-learning/
   <img src="https://img.shields.io/badge/Maintained-Yes-brightgreen" alt="Maintained"> -->
 
   
+
 
 
 
