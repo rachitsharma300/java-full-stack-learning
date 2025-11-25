@@ -30,9 +30,9 @@ Welcome to the Java Full Stack Learning repository. This is a structured learnin
         <br>Spring Boot
       </td>
       <td align="center" width="120">
-        <img src="https://i.postimg.cc/28YqpTTD/webflux.webp" width="40" height="40" alt="WebFlux"/>
+        <img src="https://github.com/user-attachments/assets/61fd25a4-e38d-4dc2-b7ea-f021b904cd4a" width="40" height="40" alt="WebFlux"/>
         <br>WebFlux
-      </td>
+  </td>
       <td align="center" width="120">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" height="40" alt="HTML5"/>
         <br>HTML5
@@ -488,6 +488,7 @@ java-full-stack-learning/
   <img src="https://img.shields.io/badge/Maintained-Yes-brightgreen" alt="Maintained"> -->
 
   
+
 
 
 
