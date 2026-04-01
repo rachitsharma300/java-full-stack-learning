@@ -88,9 +88,6 @@ Welcome to the Java Full Stack Learning repository. This is a structured learnin
   -->
 </div>
 
-
-
-
 <h2> 📁 Repository Structure </h2>
 
 <details>
@@ -298,11 +295,10 @@ Welcome to the Java Full Stack Learning repository. This is a structured learnin
   </tr>
 </table>
 
-
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&center=true&width=650&color=ffffff&lines=Rachit+Sharma" alt="Typing SVG" />
+  <img src="
+https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&center=true&width=650&color=00BFFF&lines=Java+Full+Stack+Development;This+repo+is+for+Java+Full+Stack+learners" />
 </p>
-
 
 
 
@@ -473,6 +469,7 @@ java-full-stack-learning/
 
 <!-- <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License Badge">
   <img src="https://img.shields.io/badge/Maintained-Yes-brightgreen" alt="Maintained"> -->
+
 
 
 
